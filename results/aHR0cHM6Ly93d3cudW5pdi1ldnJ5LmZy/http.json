@@ -9,15 +9,15 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Tue, 02 Dec 2025 10:53:52 GMT",
+      "date": "Sun, 07 Dec 2025 01:21:16 GMT",
       "server": "Apache",
       "content-language": "fr-FR",
       "cache-control": "private, no-store, max-age=0",
       "vary": "User-Agent,Accept-Encoding",
-      "expires": "Tue, 02 Dec 2025 10:53:52 GMT",
+      "expires": "Sun, 07 Dec 2025 01:21:16 GMT",
       "x-ua-compatible": "IE=edge",
       "x-content-type-options": "nosniff",
-      "content-length": "31080",
+      "content-length": "30976",
       "connection": "close",
       "content-type": "text/html;charset=utf-8"
     }
@@ -52,12 +52,16 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-not-needed-no-http",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
-      "destination": "http://www.univ-evry.fr/",
+      "destination": "https://www.univ-evry.fr/accueil.html",
       "redirects": true,
-      "route": [],
-      "statusCode": null
+      "route": [
+        "http://www.univ-evry.fr/",
+        "https://www.univ-evry.fr/",
+        "https://www.univ-evry.fr/accueil.html"
+      ],
+      "statusCode": 200
     },
     "referrer-policy": {
       "expectation": "referrer-policy-private",
