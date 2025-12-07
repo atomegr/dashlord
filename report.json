@@ -16,15 +16,15 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Tue, 02 Dec 2025 10:53:52 GMT",
+          "date": "Sun, 07 Dec 2025 01:21:16 GMT",
           "server": "Apache",
           "content-language": "fr-FR",
           "cache-control": "private, no-store, max-age=0",
           "vary": "User-Agent,Accept-Encoding",
-          "expires": "Tue, 02 Dec 2025 10:53:52 GMT",
+          "expires": "Sun, 07 Dec 2025 01:21:16 GMT",
           "x-ua-compatible": "IE=edge",
           "x-content-type-options": "nosniff",
-          "content-length": "31080",
+          "content-length": "30976",
           "connection": "close",
           "content-type": "text/html;charset=utf-8"
         }
@@ -59,12 +59,16 @@
         "redirection": {
           "expectation": "redirection-to-https",
           "pass": true,
-          "result": "redirection-not-needed-no-http",
+          "result": "redirection-to-https",
           "scoreModifier": 0,
-          "destination": "http://www.univ-evry.fr/",
+          "destination": "https://www.univ-evry.fr/accueil.html",
           "redirects": true,
-          "route": [],
-          "statusCode": null
+          "route": [
+            "http://www.univ-evry.fr/",
+            "https://www.univ-evry.fr/",
+            "https://www.univ-evry.fr/accueil.html"
+          ],
+          "statusCode": 200
         },
         "referrer-policy": {
           "expectation": "referrer-policy-private",
@@ -162,8 +166,8 @@
         "id": "SSLv2",
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
-        "severity": "WARN",
-        "finding": "couldn't be tested, socket problem"
+        "severity": "OK",
+        "finding": "not offered"
       },
       {
         "id": "SSLv3",
@@ -180,21 +184,1807 @@
         "finding": "not offered"
       },
       {
-        "id": "scanProblem",
+        "id": "TLS1_1",
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
-        "severity": "FATAL",
-        "finding": "repeated TCP connect problems, giving up"
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1_2",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "TLS1_3",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered with final"
+      },
+      {
+        "id": "ALPN",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http/1.1"
+      },
+      {
+        "id": "cipherlist_NULL",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_aNULL",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_EXPORT",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_LOW",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_3DES_IDEA",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-310",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_OBSOLETED",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-310",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_STRONG_NOFS",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_STRONG_FS",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "cipher_order-tls1_2",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "server"
+      },
+      {
+        "id": "cipherorder_TLSv1_2",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "cipher_order",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "server"
+      },
+      {
+        "id": "FS",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "FS_ciphers",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "FS_ECDHE_curves",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "prime256v1 secp384r1 secp521r1"
+      },
+      {
+        "id": "TLS_extensions",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "'server name/#0' 'max fragment length/#1' 'supported_groups/#10' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+      },
+      {
+        "id": "TLS_session_ticket",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "valid for 300 seconds only (<daily)"
+      },
+      {
+        "id": "SSL_sessionID_support",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "yes"
+      },
+      {
+        "id": "sessionresumption_ticket",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "supported"
+      },
+      {
+        "id": "sessionresumption_ID",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "supported"
+      },
+      {
+        "id": "TLS_timestamp",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "random"
+      },
+      {
+        "id": "certificate_compression",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "none"
+      },
+      {
+        "id": "clientAuth",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "none"
+      },
+      {
+        "id": "cert_numbers",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1"
+      },
+      {
+        "id": "cert_signatureAlgorithm",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "SHA256 with RSA"
+      },
+      {
+        "id": "cert_keySize",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "RSA 2048 bits (exponent is 65537)"
+      },
+      {
+        "id": "cert_keyUsage",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Digital Signature, Key Encipherment"
+      },
+      {
+        "id": "cert_extKeyUsage",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLS Web Client Authentication, TLS Web Server Authentication"
+      },
+      {
+        "id": "cert_serialNumber",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "462D18B8898C674970066AD10B5B2295"
+      },
+      {
+        "id": "cert_serialNumberLen",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "16"
+      },
+      {
+        "id": "cert_fingerprintSHA1",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "268A6EC8D2ED8A2421A401BCA021230275695F77"
+      },
+      {
+        "id": "cert_fingerprintSHA256",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "5FE333FA65AB788B0A810EF7E1C9C5BFCD38AE750F4602CCB171BC8D46018098"
+      },
+      {
+        "id": "cert",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIJlTCCB/2gAwIBAgIQRi0YuImMZ0lwBmrRC1silTANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJHUjE3MDUGA1UECgwuSGVsbGVuaWMgQWNhZGVtaWMgYW5kIFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDQTEYMBYGA1UEAwwPR0VBTlQgVExTIFJTQSAxMB4XDTI1MDYxNzEwMTIyM1oXDTI2MDYxNzEwMTIyM1owGzEZMBcGA1UEAwwQd3d3LnVuaXYtZXZyeS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMddRzu+EO5jUE/lPzORbFCmVS24zlDSD+gOqYcOUsYMl21Jjmet9u+/85CIZbb1kjVgYJZRi2+qTxb6onS0ix3QW0MGw8b9Th428Y/v7MvWgdktjCbNrXU06szAOVub+CzcrLI4hLo1Us/xSo9X6ZILsvv5Z6f0mwh+SSjo4QulpvA9ublLhbApmIPqUJ/mB1dycAm4+ef7VsKM0nrub8SYJv/L9saoiKeEkFzC8bVgOX8t2zM++0pVhlXepTBQkA3zf7ZMgJEYW3/sggs6lwXg3nEjaQOtXeZqafN5j+xeYRshFUh32ruOoz6auHYrTGw/5fVxGUqDX2kPRt/awgcCAwEAAaOCBg4wggYKMB8GA1UdIwQYMBaAFIYBcj+MqXDiMQZTFs4BX1t5yDw7MG8GCCsGAQUFBwEBBGMwYTA4BggrBgEFBQcwAoYsaHR0cDovL2NydC5oYXJpY2EuZ3IvSEFSSUNBLUdFQU5ULVRMUy1SMS5jZXIwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLXRscy5oYXJpY2EuZ3IwggM1BgNVHREEggMsMIIDKIIQd3d3LnVuaXYtZXZyeS5mcoIVd3d3LnNhdDEudW5pdi1ldnJ5LmZyghZ3d3cubGFtYmUudW5pdi1ldnJ5LmZyghRtdXNpcXVlLnVuaXYtZXZyeS5mcoIWZm9uZGF0aW9uLnVuaXYtZXZyeS5mcoIVd3d3LnNhdDMudW5pdi1ldnJ5LmZyghV3d3cuc2F0Ny51bml2LWV2cnkuZnKCEXJhc20udW5pdi1ldnJ5LmZyghVpbnRyYW5ldC51bml2LWV2cnkuZnKCEmNtcWFzLnVuaXYtZXZyeS5mcoIbc2NpZW5jZW91dmVydGUudW5pdi1ldnJ5LmZygh5kZXB0LWluZm9ybWF0aXF1ZS51bml2LWV2cnkuZnKCIHNlcnZpY2VzLW51bWVyaXF1ZXMudW5pdi1ldnJ5LmZyghpjYW1wdXMtbWFya2V0LnVuaXYtZXZyeS5mcoIWbnVtZXJpcXVlLnVuaXYtZXZyeS5mcoIdd3d3LmVjb3V0ZWVuamV1eC51bml2LWV2cnkuZnKCGHRlbXBldGUxOTMwLnVuaXYtZXZyeS5mcoIYd3d3LnVmci1zaHMudW5pdi1ldnJ5LmZygh93d3cuc2NpZW5jZW91dmVydGUudW5pdi1ldnJ5LmZyghppbnRlcm5hdGlvbmFsLnVuaXYtZXZyeS5mcoIRc2xhbS51bml2LWV2cnkuZnKCFXd3dy5sbWVlLnVuaXYtZXZyeS5mcoIQbGVhLnVuaXYtZXZyeS5mcoIWZXR1ZGlhbnRzLnVuaXYtZXZyeS5mcoIVd3d3LnNhdDQudW5pdi1ldnJ5LmZygil3d3cubWFzdGVyLWNvbnRyb2xlLXBpbG90YWdlLnVuaXYtZXZyeS5mcoIZbHBwYXRyaW1vaW5lLnVuaXYtZXZyeS5mcoIZd3d3LmdlbmhvdGVsLnVuaXYtZXZyeS5mcoIVYmlvbG9naWUudW5pdi1ldnJ5LmZyghZ3d3cubGl0ZW0udW5pdi1ldnJ5LmZyghZldnJ5Y29sb3IudW5pdi1ldnJ5LmZyghV0ZXBwMjAyMC51bml2LWV2cnkuZnIwLQYDVR0gBCYwJDAIBgZngQwBAgEwCAYGBACPegEGMA4GDCsGAQQBgc8RAQEBATAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwPQYDVR0fBDYwNDAyoDCgLoYsaHR0cDovL2NybC5oYXJpY2EuZ3IvSEFSSUNBLUdFQU5ULVRMUy1SMS5jcmwwHQYDVR0OBBYEFIUxfkklDw/MQQxyqNv/97gITQXVMA4GA1UdDwEB/wQEAwIFoDCCAX8GCisGAQQB1nkCBAIEggFvBIIBawFpAHYAGYbUxyiqb/66A294Kk0BkarOLXIxD67OXXBBLSVMx9QAAAGXfWlXvQAABAMARzBFAiEAtAAuaPeZCSOqZXW6abijJV6j5NEydlEPLTdJE03jde8CIF0gFaeKXAGPlxLK2ygUGcrqn29lm4Sa8BgiT26vY/X/AHYASZybad4dfOz8Nt7Nh2SmuFuvCoeAGdFVUvvp6ynd+MMAAAGXfWlXvgAABAMARzBFAiEA90FgHyvVXUqoE35kB7Iq0pscvhEFLqRaT6mdjR5OlusCIBm1ZGHGfbpMiOghlr3nUMjTrYC7J5ifTVAyDUmcn0nRAHcAlpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcYAAAGXfWlX4QAABAMASDBGAiEAs4yvf0JI0xp5PS1U3MCP8EgJ+TDvhCzQrJorJmqMg1UCIQDGIMhQzRjGZYkH4MDCnqMwcSaqV3EFwBUpiudXy+C/XTANBgkqhkiG9w0BAQsFAAOCAYEAQXEjUXViXit75aLsbmGk35+G6Fvv0SNet2iHQvW8nci/814CkVJuZHCbQ6UiU1RjNaCcyHW+LrKxfVrL+V5O/pRHwetqhQTYXmSI51/BkRsKIeLR7C4QMCMW7EW8/uIF3B2I9kasSogiveo3x1ZlyuLO0dB1RHED7D9R9+fJ+cmW9vcUYCHPPjvWpUeKTPbjwSvM6EpWzBFbLjKbKWp8qunbgpIAjjrg74cGSz8F0aJoJC7PCsoWUgewxYJsrRVEOPi2cnanz+8SKMLKRPE/dcXF9JvfxtoAx62u6m73WIixzcMpH1QjVyYS/t23H7MVTY//wz03siG6aJyO5BYxX4E5xledkpZcMs73t2sWBm5gx9HhhHlVfsFbFLx3NrCVZFHSmyTxSzVoYG9GPmqbDpro4OOg6bz2PN3SEWWp3F1P6P02rXySpJ+7QR96pI+aqeZjGuX6Vzg+mbHNw6Qh3Gqr7/34IcaJ6IZ1gkdl1BtKBu2cnneAfI3+E+2qgPrQ\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "cert_commonName",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "www.univ-evry.fr"
+      },
+      {
+        "id": "cert_commonName_wo_SNI",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "infra-typo3-12"
+      },
+      {
+        "id": "cert_subjectAltName",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "www.univ-evry.fr www.sat1.univ-evry.fr www.lambe.univ-evry.fr musique.univ-evry.fr fondation.univ-evry.fr www.sat3.univ-evry.fr www.sat7.univ-evry.fr rasm.univ-evry.fr intranet.univ-evry.fr cmqas.univ-evry.fr scienceouverte.univ-evry.fr dept-informatique.univ-evry.fr services-numeriques.univ-evry.fr campus-market.univ-evry.fr numerique.univ-evry.fr www.ecouteenjeux.univ-evry.fr tempete1930.univ-evry.fr www.ufr-shs.univ-evry.fr www.scienceouverte.univ-evry.fr international.univ-evry.fr slam.univ-evry.fr www.lmee.univ-evry.fr lea.univ-evry.fr etudiants.univ-evry.fr www.sat4.univ-evry.fr www.master-controle-pilotage.univ-evry.fr lppatrimoine.univ-evry.fr www.genhotel.univ-evry.fr biologie.univ-evry.fr www.litem.univ-evry.fr evrycolor.univ-evry.fr tepp2020.univ-evry.fr"
+      },
+      {
+        "id": "cert_trust",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "Ok via SAN and CN (SNI mandatory)"
+      },
+      {
+        "id": "cert_chain_of_trust",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "passed."
+      },
+      {
+        "id": "cert_certificatePolicies_EV",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no"
+      },
+      {
+        "id": "cert_expirationStatus",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "192 >= 60 days"
+      },
+      {
+        "id": "cert_notBefore",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2025-06-17 10:12"
+      },
+      {
+        "id": "cert_notAfter",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2026-06-17 10:12"
+      },
+      {
+        "id": "cert_extlifeSpan",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "certificate has no extended life time according to browser forum"
+      },
+      {
+        "id": "cert_eTLS",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not present"
+      },
+      {
+        "id": "cert_crlDistributionPoints",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http://crl.harica.gr/HARICA-GEANT-TLS-R1.crl"
+      },
+      {
+        "id": "cert_ocspURL",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http://ocsp-tls.harica.gr"
+      },
+      {
+        "id": "OCSP_stapling",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "not offered"
+      },
+      {
+        "id": "cert_mustStapleExtension",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "--"
+      },
+      {
+        "id": "DNS_CAArecord",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "issue=harica.gr, issue=letsencrypt.org, issuewild=harica.gr, issuewild=letsencrypt.org"
+      },
+      {
+        "id": "certificate_transparency",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "yes (certificate extension)"
+      },
+      {
+        "id": "certs_countServer",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "3"
+      },
+      {
+        "id": "certs_list_ordering_problem",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no"
+      },
+      {
+        "id": "cert_caIssuers",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "GEANT TLS RSA 1 (Hellenic Academic and Research Institutions CA from GR)"
+      },
+      {
+        "id": "intermediate_cert <#1>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "intermediate_cert_fingerprintSHA256 <#1>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "5B678DC44095A52895B63B31F27227F4B36C3E347491BF2BFA691837A5FB8C79"
+      },
+      {
+        "id": "intermediate_cert_notBefore <#1>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2025-01-03 11:15"
+      },
+      {
+        "id": "intermediate_cert_notAfter <#1>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2039-12-31 11:14"
+      },
+      {
+        "id": "intermediate_cert_expiration <#1>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "ok > 40 days"
+      },
+      {
+        "id": "intermediate_cert_chain <#1>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "GEANT TLS RSA 1 <-- HARICA TLS RSA Root CA 2021"
+      },
+      {
+        "id": "intermediate_cert <#2>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "intermediate_cert_fingerprintSHA256 <#2>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "4ACD8DC6020A545A858943A553B5E0F3FC5B859AEA1746650D69CF1210F956D8"
+      },
+      {
+        "id": "intermediate_cert_notBefore <#2>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2021-09-02 07:41"
+      },
+      {
+        "id": "intermediate_cert_notAfter <#2>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2029-08-31 07:41"
+      },
+      {
+        "id": "intermediate_cert_expiration <#2>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "ok > 40 days"
+      },
+      {
+        "id": "intermediate_cert_chain <#2>",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "HARICA TLS RSA Root CA 2021 <-- Hellenic Academic and Research Institutions RootCA 2015"
+      },
+      {
+        "id": "intermediate_cert_badOCSP",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "intermediate certificate(s) is/are ok"
+      },
+      {
+        "id": "HTTP_status_code",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "307 Temporary Redirect ('/')"
+      },
+      {
+        "id": "HTTP_clock_skew",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0 seconds from localtime"
+      },
+      {
+        "id": "HTTP_headerTime",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1765070543"
+      },
+      {
+        "id": "HSTS",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "not offered"
+      },
+      {
+        "id": "HPKP",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No support for HTTP Public Key Pinning"
+      },
+      {
+        "id": "banner_server",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Apache"
+      },
+      {
+        "id": "banner_application",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No application banner found"
+      },
+      {
+        "id": "cookie_count",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0 at '/' (maybe missed the application)"
+      },
+      {
+        "id": "X-Content-Type-Options",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "nosniff"
+      },
+      {
+        "id": "X-UA-Compatible",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "IE=edge"
+      },
+      {
+        "id": "Cache-Control",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "max-age=0"
+      },
+      {
+        "id": "banner_reverseproxy",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-200",
+        "finding": "--"
+      },
+      {
+        "id": "heartbleed",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-0160",
+        "cwe": "CWE-119",
+        "finding": "not vulnerable, no heartbeat extension"
+      },
+      {
+        "id": "CCS",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-0224",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "ticketbleed",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-9244",
+        "cwe": "CWE-200",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "ROBOT",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+        "cwe": "CWE-203",
+        "finding": "not vulnerable, no RSA key transport cipher"
+      },
+      {
+        "id": "secure_renego",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-310",
+        "finding": "supported"
+      },
+      {
+        "id": "secure_client_renego",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2011-1473",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "CRIME_TLS",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2012-4929",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "BREACH",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2013-3587",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+      },
+      {
+        "id": "POODLE_SSL",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-3566",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no SSLv3"
+      },
+      {
+        "id": "fallback_SCSV",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "no protocol below TLS 1.2 offered"
+      },
+      {
+        "id": "SWEET32",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-2183 CVE-2016-6329",
+        "cwe": "CWE-327",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "FREAK",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-0204",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "DROWN",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-0800 CVE-2016-0703",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable on this host and port"
+      },
+      {
+        "id": "DROWN_hint",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "cve": "CVE-2016-0800 CVE-2016-0703",
+        "cwe": "CWE-310",
+        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=5FE333FA65AB788B0A810EF7E1C9C5BFCD38AE750F4602CCB171BC8D46018098"
+      },
+      {
+        "id": "LOGJAM",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no DH EXPORT ciphers,"
+      },
+      {
+        "id": "LOGJAM-common_primes",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "no DH key with <= TLS 1.2"
+      },
+      {
+        "id": "BEAST",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2011-3389",
+        "cwe": "CWE-20",
+        "finding": "not vulnerable, no SSL3 or TLS1"
+      },
+      {
+        "id": "LUCKY13",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2013-0169",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "winshock",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-6321",
+        "cwe": "CWE-94",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "RC4",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2013-2566 CVE-2015-2808",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "clientsimulation-android_70",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-android_81",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-android_90",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_X",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_11_12",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_13_14",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_15",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-chrome_101_win10",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-chromium_137_win11",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-firefox_100_win10",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-firefox_137_win11",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-ie_8_win7",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_11_win7",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_11_win81",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_11_winphone81",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_11_win10",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-edge_15_win10",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-edge_101_win10_21h2",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-edge_133_win11_23h2",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-safari_184_ios_184",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-safari_154_osx_1231",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-safari_184_osx_154",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_7u25",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-java_80442",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_1102",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_1703",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_2106",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-go_1178",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-libressl_336",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-openssl_102e",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-openssl_111d",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-openssl_315",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-openssl_350",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-apple_mail_16_0",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-thunderbird_91_9",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "rating_spec",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
+      },
+      {
+        "id": "rating_doc",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+      },
+      {
+        "id": "protocol_support_score",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "100"
+      },
+      {
+        "id": "protocol_support_score_weighted",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "30"
+      },
+      {
+        "id": "key_exchange_score",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "90"
+      },
+      {
+        "id": "key_exchange_score_weighted",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "27"
+      },
+      {
+        "id": "cipher_strength_score",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "60"
+      },
+      {
+        "id": "cipher_strength_score_weighted",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "24"
+      },
+      {
+        "id": "final_score",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "81"
+      },
+      {
+        "id": "overall_grade",
+        "ip": "www.univ-evry.fr/194.199.84.39",
+        "port": "443",
+        "severity": "OK",
+        "finding": "A+"
       },
       {
         "id": "scanTime",
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
-        "severity": "WARN",
-        "finding": "Scan interrupted"
+        "severity": "INFO",
+        "finding": "101"
       }
     ],
-    "thirdparties": null,
+    "thirdparties": {
+      "trackers": [
+        {
+          "type": "cloudflare",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css",
+          "details": {
+            "id": "cloudflare",
+            "message": "Host files locally"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.googleapis.com/css?family=Raleway:700",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.googleapis.com/css?family=Oswald:300,400",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.googleapis.com/css?family=PT+Serif:700",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "cloudflare",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/tarteaucitronjs/1.11.0/tarteaucitron.min.js",
+          "details": {
+            "id": "cloudflare",
+            "message": "Host files locally"
+          }
+        },
+        {
+          "type": "jQuery",
+          "url": "https://code.jquery.com/jquery-3.1.0.min.js",
+          "details": {
+            "id": "jQuery",
+            "message": "Hosts files directly"
+          }
+        },
+        {
+          "type": "jQuery",
+          "url": "https://code.jquery.com/jquery-migrate-1.4.1.min.js",
+          "details": {
+            "id": "jQuery",
+            "message": "Hosts files directly"
+          }
+        },
+        {
+          "type": "google",
+          "url": "https://www.google.com/recaptcha/api.js?hl=",
+          "details": {
+            "id": "google",
+            "message": "Use hosted Matomo instance"
+          }
+        },
+        {
+          "type": "jQuery",
+          "url": "https://code.jquery.com/ui/1.12.0/jquery-ui.js",
+          "details": {
+            "id": "jQuery",
+            "message": "Hosts files directly"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/exo2/v26/7cHmv4okm5zmbtYoK-4.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs13Fv40pKlN4NNSeSASwcEWlWHYg.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/exo2/v26/7cHmv4okm5zmbtYoK-4.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs13Fv40pKlN4NNSeSASwcEWlWHYg.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google",
+          "url": "https://www.gstatic.com/recaptcha/releases/jdMmXeCQEkPbnFDy9T04NbgJ/recaptcha__en.js",
+          "details": {
+            "id": "google",
+            "message": "Use hosted Matomo instance"
+          }
+        },
+        {
+          "type": "cloudflare",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/tarteaucitronjs/1.11.0/css/tarteaucitron.css?v=20230203",
+          "details": {
+            "id": "cloudflare",
+            "message": "Host files locally"
+          }
+        },
+        {
+          "type": "cloudflare",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/tarteaucitronjs/1.11.0/lang/tarteaucitron.fr.js?v=20230203",
+          "details": {
+            "id": "cloudflare",
+            "message": "Host files locally"
+          }
+        },
+        {
+          "type": "unknown",
+          "url": "https://a.tile.openstreetmap.fr/osmfr/15/16604/11305.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://b.tile.openstreetmap.fr/osmfr/15/16605/11305.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://c.tile.openstreetmap.fr/osmfr/15/16604/11304.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://a.tile.openstreetmap.fr/osmfr/15/16605/11304.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://b.tile.openstreetmap.fr/osmfr/15/16604/11306.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://c.tile.openstreetmap.fr/osmfr/15/16605/11306.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://c.tile.openstreetmap.fr/osmfr/15/16603/11305.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://c.tile.openstreetmap.fr/osmfr/15/16606/11305.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://b.tile.openstreetmap.fr/osmfr/15/16603/11304.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://b.tile.openstreetmap.fr/osmfr/15/16606/11304.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://a.tile.openstreetmap.fr/osmfr/15/16603/11306.png"
+        },
+        {
+          "type": "unknown",
+          "url": "https://a.tile.openstreetmap.fr/osmfr/15/16606/11306.png"
+        },
+        {
+          "type": "cloudflare",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/tarteaucitronjs/1.11.0/tarteaucitron.services.js?v=20230203",
+          "details": {
+            "id": "cloudflare",
+            "message": "Host files locally"
+          }
+        }
+      ],
+      "cookies": [],
+      "headers": {
+        "cache-control": "private, no-store\nmax-age=0",
+        "connection": "Keep-Alive",
+        "content-encoding": "gzip",
+        "content-language": "fr-FR",
+        "content-length": "30976",
+        "content-type": "text/html;charset=utf-8",
+        "date": "Sun, 07 Dec 2025 01:16:43 GMT",
+        "expires": "Sun, 07 Dec 2025 01:16:43 GMT",
+        "keep-alive": "timeout=5, max=99",
+        "server": "Apache",
+        "vary": "User-Agent,Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-ua-compatible": "IE=edge"
+      },
+      "endpoints": [
+        {
+          "hostname": "www.univ-evry.fr",
+          "ip": "194.199.84.39",
+          "geoip": {
+            "continent": {
+              "code": "EU",
+              "geoname_id": 6255148,
+              "names": {
+                "de": "Europa",
+                "en": "Europe",
+                "es": "Europa",
+                "fr": "Europe",
+                "ja": "ヨーロッパ",
+                "pt-BR": "Europa",
+                "ru": "Европа",
+                "zh-CN": "欧洲"
+              }
+            },
+            "country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 500,
+              "latitude": 48.8582,
+              "longitude": 2.3387,
+              "time_zone": "Europe/Paris"
+            },
+            "registered_country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "cdnjs.cloudflare.com",
+          "ip": "104.17.24.14",
+          "geoip": {
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "fonts.googleapis.com",
+          "ip": "142.250.176.10",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "code.jquery.com",
+          "ip": "151.101.66.137",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "www.google.com",
+          "ip": "142.250.189.4",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "fonts.gstatic.com",
+          "ip": "142.250.72.131",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "www.gstatic.com",
+          "ip": "142.250.72.163",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "a.tile.openstreetmap.fr",
+          "ip": "193.200.42.123",
+          "geoip": {
+            "continent": {
+              "code": "EU",
+              "geoname_id": 6255148,
+              "names": {
+                "de": "Europa",
+                "en": "Europe",
+                "es": "Europa",
+                "fr": "Europe",
+                "ja": "ヨーロッパ",
+                "pt-BR": "Europa",
+                "ru": "Европа",
+                "zh-CN": "欧洲"
+              }
+            },
+            "country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 500,
+              "latitude": 48.8582,
+              "longitude": 2.3387,
+              "time_zone": "Europe/Paris"
+            },
+            "registered_country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "b.tile.openstreetmap.fr",
+          "ip": "193.200.42.123",
+          "geoip": {
+            "continent": {
+              "code": "EU",
+              "geoname_id": 6255148,
+              "names": {
+                "de": "Europa",
+                "en": "Europe",
+                "es": "Europa",
+                "fr": "Europe",
+                "ja": "ヨーロッパ",
+                "pt-BR": "Europa",
+                "ru": "Европа",
+                "zh-CN": "欧洲"
+              }
+            },
+            "country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 500,
+              "latitude": 48.8582,
+              "longitude": 2.3387,
+              "time_zone": "Europe/Paris"
+            },
+            "registered_country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "c.tile.openstreetmap.fr",
+          "ip": "193.200.42.123",
+          "geoip": {
+            "continent": {
+              "code": "EU",
+              "geoname_id": 6255148,
+              "names": {
+                "de": "Europa",
+                "en": "Europe",
+                "es": "Europa",
+                "fr": "Europe",
+                "ja": "ヨーロッパ",
+                "pt-BR": "Europa",
+                "ru": "Европа",
+                "zh-CN": "欧洲"
+              }
+            },
+            "country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 500,
+              "latitude": 48.8582,
+              "longitude": 2.3387,
+              "time_zone": "Europe/Paris"
+            },
+            "registered_country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
+            }
+          }
+        }
+      ]
+    },
     "wappalyzer": {
       "urls": {
         "https://www.univ-evry.fr/": {
@@ -506,13 +2296,190 @@
         }
       ]
     },
-    "zap": null,
+    "zap": {
+      "@programName": "ZAP",
+      "@version": "2.16.1",
+      "@generated": "Sun, 7 Dec 2025 01:20:26",
+      "created": "2025-12-07T01:20:26.444123899Z",
+      "site": [
+        {
+          "@name": "https://www.univ-evry.fr",
+          "@host": "www.univ-evry.fr",
+          "@port": "443",
+          "@ssl": "true",
+          "alerts": [
+            {
+              "name": "Absence of Anti-CSRF Tokens",
+              "riskcode": "2",
+              "confidence": "1",
+              "riskdesc": "Medium (Low)",
+              "desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>"
+            },
+            {
+              "name": "Content Security Policy (CSP) Header Not Set",
+              "riskcode": "2",
+              "confidence": "3",
+              "riskdesc": "Medium (High)",
+              "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>"
+            },
+            {
+              "name": "Missing Anti-clickjacking Header",
+              "riskcode": "2",
+              "confidence": "2",
+              "riskdesc": "Medium (Medium)",
+              "desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>"
+            },
+            {
+              "name": "Sub Resource Integrity Attribute Missing",
+              "riskcode": "2",
+              "confidence": "3",
+              "riskdesc": "Medium (High)",
+              "desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>"
+            },
+            {
+              "name": "Vulnerable JS Library",
+              "riskcode": "2",
+              "confidence": "2",
+              "riskdesc": "Medium (Medium)",
+              "desc": "<p>The identified library appears to be vulnerable.</p>"
+            },
+            {
+              "name": "Cross-Domain JavaScript Source File Inclusion",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>The page includes one or more script files from a third-party domain.</p>"
+            },
+            {
+              "name": "Insufficient Site Isolation Against Spectre Vulnerability",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>"
+            },
+            {
+              "name": "Permissions Policy Header Not Set",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>"
+            },
+            {
+              "name": "Strict-Transport-Security Header Not Set",
+              "riskcode": "1",
+              "confidence": "3",
+              "riskdesc": "Low (High)",
+              "desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>"
+            },
+            {
+              "name": "Timestamp Disclosure - Unix",
+              "riskcode": "1",
+              "confidence": "1",
+              "riskdesc": "Low (Low)",
+              "desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>"
+            },
+            {
+              "name": "Base64 Disclosure",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>"
+            },
+            {
+              "name": "Information Disclosure - Suspicious Comments",
+              "riskcode": "0",
+              "confidence": "1",
+              "riskdesc": "Informational (Low)",
+              "desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>"
+            },
+            {
+              "name": "Modern Web Application",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
+            },
+            {
+              "name": "Non-Storable Content",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>"
+            },
+            {
+              "name": "Re-examine Cache-control Directives",
+              "riskcode": "0",
+              "confidence": "1",
+              "riskdesc": "Informational (Low)",
+              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>"
+            },
+            {
+              "name": "Sec-Fetch-Dest Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>"
+            },
+            {
+              "name": "Sec-Fetch-Mode Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>"
+            },
+            {
+              "name": "Sec-Fetch-Site Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>"
+            },
+            {
+              "name": "Sec-Fetch-User Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Specifies if a navigation request was initiated by a user.</p>"
+            },
+            {
+              "name": "Session Management Response Identified",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>"
+            },
+            {
+              "name": "Storable and Cacheable Content",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>"
+            },
+            {
+              "name": "Storable but Non-Cacheable Content",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users.</p>"
+            },
+            {
+              "name": "User Controllable HTML Element Attribute (Potential XSS)",
+              "riskcode": "0",
+              "confidence": "1",
+              "riskdesc": "Informational (Low)",
+              "desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>"
+            }
+          ]
+        }
+      ],
+      "sequences": []
+    },
     "nuclei": [],
     "lhr": [
       {
         "requestedUrl": "https://www.univ-evry.fr/",
         "finalUrl": "https://www.univ-evry.fr/accueil.html",
-        "fetchTime": "2025-12-02T10:53:19.855Z",
+        "fetchTime": "2025-12-07T01:20:41.985Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.univ-evry.fr/) was redirected to https://www.univ-evry.fr/accueil.html. Try testing the second URL directly."
         ],
@@ -525,7 +2492,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.44
+            "score": 0.31
           },
           "accessibility": {
             "title": "Accessibility",
@@ -577,53 +2544,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 22248,
+            "numericValue": 33455,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4600,
-                  "firstMeaningfulPaint": 6875,
-                  "largestContentfulPaint": 9530,
-                  "interactive": 22248,
-                  "speedIndex": 15698,
-                  "totalBlockingTime": 118,
-                  "maxPotentialFID": 140,
-                  "cumulativeLayoutShift": 0.10822679307725694,
-                  "cumulativeLayoutShiftMainFrame": 0.10822679307725694,
-                  "totalCumulativeLayoutShift": 0.10822679307725694,
+                  "firstContentfulPaint": 4714,
+                  "firstMeaningfulPaint": 7561,
+                  "largestContentfulPaint": 29220,
+                  "interactive": 33455,
+                  "speedIndex": 17664,
+                  "totalBlockingTime": 60,
+                  "maxPotentialFID": 121,
+                  "cumulativeLayoutShift": 1.8006759101019965,
+                  "cumulativeLayoutShiftMainFrame": 1.8006759101019965,
+                  "totalCumulativeLayoutShift": 1.8006759101019965,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 134531876,
+                  "observedTimeOriginTs": 342533453,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 134531876,
-                  "observedFirstPaint": 1320,
-                  "observedFirstPaintTs": 135851852,
-                  "observedFirstContentfulPaint": 1320,
-                  "observedFirstContentfulPaintTs": 135851852,
-                  "observedFirstContentfulPaintAllFrames": 1320,
-                  "observedFirstContentfulPaintAllFramesTs": 135851852,
-                  "observedFirstMeaningfulPaint": 1653,
-                  "observedFirstMeaningfulPaintTs": 136184827,
-                  "observedLargestContentfulPaint": 1749,
-                  "observedLargestContentfulPaintTs": 136281245,
-                  "observedLargestContentfulPaintAllFrames": 1749,
-                  "observedLargestContentfulPaintAllFramesTs": 136281245,
-                  "observedTraceEnd": 5926,
-                  "observedTraceEndTs": 140458023,
-                  "observedLoad": 3084,
-                  "observedLoadTs": 137615629,
-                  "observedDomContentLoaded": 7,
-                  "observedDomContentLoadedTs": 134538448,
-                  "observedCumulativeLayoutShift": 0.10822679307725694,
-                  "observedCumulativeLayoutShiftMainFrame": 0.10822679307725694,
-                  "observedTotalCumulativeLayoutShift": 0.10822679307725694,
-                  "observedFirstVisualChange": 1320,
-                  "observedFirstVisualChangeTs": 135851876,
-                  "observedLastVisualChange": 3198,
-                  "observedLastVisualChangeTs": 137729876,
-                  "observedSpeedIndex": 1829,
-                  "observedSpeedIndexTs": 136360702
+                  "observedNavigationStartTs": 342533453,
+                  "observedFirstPaint": 1455,
+                  "observedFirstPaintTs": 343988538,
+                  "observedFirstContentfulPaint": 1455,
+                  "observedFirstContentfulPaintTs": 343988538,
+                  "observedFirstContentfulPaintAllFrames": 1455,
+                  "observedFirstContentfulPaintAllFramesTs": 343988538,
+                  "observedFirstMeaningfulPaint": 1941,
+                  "observedFirstMeaningfulPaintTs": 344474274,
+                  "observedLargestContentfulPaint": 2765,
+                  "observedLargestContentfulPaintTs": 345298569,
+                  "observedLargestContentfulPaintAllFrames": 2765,
+                  "observedLargestContentfulPaintAllFramesTs": 345298569,
+                  "observedTraceEnd": 6458,
+                  "observedTraceEndTs": 348991467,
+                  "observedLoad": 3459,
+                  "observedLoadTs": 345992422,
+                  "observedDomContentLoaded": 4,
+                  "observedDomContentLoadedTs": 342537708,
+                  "observedCumulativeLayoutShift": 1.8006759101019965,
+                  "observedCumulativeLayoutShiftMainFrame": 1.8006759101019965,
+                  "observedTotalCumulativeLayoutShift": 1.8006759101019965,
+                  "observedFirstVisualChange": 1455,
+                  "observedFirstVisualChangeTs": 343988453,
+                  "observedLastVisualChange": 3571,
+                  "observedLastVisualChangeTs": 346104453,
+                  "observedSpeedIndex": 2577,
+                  "observedSpeedIndexTs": 345110507
                 },
                 {
                   "lcpInvalidated": false
@@ -641,23 +2608,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 108,
+                  "numRequests": 107,
                   "numScripts": 35,
                   "numStylesheets": 13,
                   "numFonts": 9,
-                  "numTasks": 2019,
+                  "numTasks": 2038,
                   "numTasksOver10ms": 13,
                   "numTasksOver25ms": 6,
-                  "numTasksOver50ms": 2,
+                  "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 40463363.0276976,
-                  "maxRtt": 105.14699999999999,
-                  "maxServerLatency": 105.39200000000002,
-                  "totalByteWeight": 8493989,
-                  "totalTaskTime": 599.2149999999963,
-                  "mainDocumentTransferSize": 31511
+                  "throughput": 29137061.70435253,
+                  "maxRtt": 136.369,
+                  "maxServerLatency": 135.94,
+                  "totalByteWeight": 7500713,
+                  "totalTaskTime": 559.0969999999962,
+                  "mainDocumentTransferSize": 31407
                 }
               ]
             }
@@ -669,7 +2636,9 @@
     "stats": null,
     "github_repository": null,
     "budget_page": null,
-    "declaration-a11y": null,
+    "declaration-a11y": {
+      "mention": null
+    },
     "declaration-rgpd": null,
     "betagouv": null,
     "ecoindex": [
@@ -677,24 +2646,35 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.univ-evry.fr",
-        "size": 9098.469,
-        "nodes": 2574,
-        "requests": 111,
+        "size": 8101.639,
+        "nodes": 2551,
+        "requests": 110,
         "grade": "F",
         "score": 14,
         "ges": 2.72,
         "water": 4.08,
         "ecoindex_version": "5.4.2",
-        "date": "2025-12-02 10:52:29.166807",
+        "date": "2025-12-07 01:17:48.801185",
         "page_type": null
       }
     ],
     "sonarcloud": null,
-    "dsfr": null,
+    "dsfr": {
+      "detected": false
+    },
     "summary": {
       "httpGrade": "D",
-      "lighthouse_performance": 0.44,
-      "lighthouse_performanceGrade": "D",
+      "testsslExpireSoon": false,
+      "testsslExpireDate": "2026-06-17T10:12:00.000Z",
+      "testsslGrade": "A+",
+      "cookiesGrade": "A",
+      "cookiesCount": 0,
+      "trackersGrade": "F",
+      "trackersCount": 30,
+      "zapCount": 10,
+      "zapGrade": "D",
+      "lighthouse_performance": 0.31,
+      "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.84,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
@@ -703,7 +2683,9 @@
       "lighthouse_seoGrade": "A",
       "lighthouse_pwa": 0.3,
       "lighthouse_pwaGrade": "E",
-      "ecoindexGrade": "F"
+      "declaration-a11y": "F",
+      "ecoindexGrade": "F",
+      "dsfrGrade": "F"
     }
   }
 ]
