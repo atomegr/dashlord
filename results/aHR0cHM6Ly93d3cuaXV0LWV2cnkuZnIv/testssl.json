@@ -1,0 +1,1061 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'max fragment length/#1' 'supported_groups/#10' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no -- no lifetime advertised"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ECDSA with SHA384"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "EC 256 bits (curve P-256)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "06B1958DB0CC599EBBDA5779910F2F73C237"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "18"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "B115BC00D13E627C34DD55F71ABC0056535295F6"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "B83F7498EC7E4F785E6B123ADC77C6E2C0853759EDCF3EF4554A1C2600E5CD8E"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDizCCAxGgAwIBAgISBrGVjbDMWZ672ld5kQ8vc8I3MAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNzAeFw0yNTEwMDIwMTIzMTFaFw0yNTEyMzEwMTIzMTBaMBoxGDAWBgNVBAMTD3d3dy5pdXQtZXZyeS5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOh9E2sn190LjQPZYjvG9cMlSlhvgAk9Q7h4bwMQ5dkODEYFdK7lbeWldYk/T+nvaN16p8IJ5MDFl63tmUZJjxqjggIdMIICGTAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFMw/T3S82TtkJ+paTXZl8uTdf5SfMB8GA1UdIwQYMBaAFK5IntyHHUSgb9qi5WB0BHjCnACAMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL2U3LmkubGVuY3Iub3JnLzAaBgNVHREEEzARgg93d3cuaXV0LWV2cnkuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwLQYDVR0fBCYwJDAioCCgHoYcaHR0cDovL2U3LmMubGVuY3Iub3JnLzU2LmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2AO08S9boBsKkogBX28sk4jgB31Ev7cSGxXAPIN23Pj/gAAABmaK5rW4AAAQDAEcwRQIhAJIHY3fS5+67SEv37KnmeGKtwCceYx3bcjyL3sV6DpNRAiBDLl5ilCvzV2Hw6J41N9kXxhdVFRh9/2Z87MiAaENXwwB2AN3cyjSV1+EWBeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABmaK5rZsAAAQDAEcwRQIgH7e5LB2UJ7KAQoe4WLgEJJRaLpsecz84MOlYVyfUMV8CIQCnBVri0FfU47LJYBjLDYw+KLUsTIg4JK9FI2R931h5EDAKBggqhkjOPQQDAwNoADBlAjEAvy8a9Y+wov/RlaJRbtsqHeHDxDIS4QKK90LpbcR/6IhzoL4894Oc7FoACV1I2Iw3AjABKO7UGBqS6/Ca6sKloMVq/hTwly3v/ZaELF/Y50g4e8XNuxYooe8o7TUOO0PCJcQ=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "www.iut-evry.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "cluster113.hosting.ovh.net"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "www.iut-evry.fr"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN and CN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (22)"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-10-02 01:23"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "2025-12-31 01:23"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://e7.c.lencr.org/56.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E7 (Let's Encrypt from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEVzCCAj+gAwIBAgIRAKp18eYrjwoiCWbTi7/UuqEwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCRTcwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAARB6ASTCFh/vjcwDMCgQer+VtqEkz7JANurZxLP+U9TCeioL6sp5Z8VRvRbYk4P1INBmbefQHJFHCxcSjKmwtvGBWpl/9ra8HW0QDsUaJW2qOJqceJ0ZVFT3hbUHifBM/2jgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSuSJ7chx1EoG/aouVgdAR4wpwAgDAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAjx66fDdLk5ywFn3CzA1w1qfylHUDaEf0QZpXcJseddJGSfbUUOvbNR9N/QQ16K1lXl4VFyhmGXDT5Kdfcr0RvIIVrNxFh4lqHtRRCP6RBRstqbZ2zURgqakn/Xip0iaQL0IdfHBZr396FgknniRYFckKORPGyM3QKnd66gtMst8I5nkRQlAg/Jb+Gc3egIvuGKWboE1G89NTsN9LTDD3PLj0dUMrOIuqVjLB8pEC6yk9enrlrqjXQgkLEYhXzq7dLafv5Vkig6Gl0nuuqjqfp0Q1bi1oyVNAlXe6aUXw92CcghC9bNsKEO1+M52YY5+ofIXlS/SEQbvVYYBLZ5yeiglV6t3SM6H+vTG0aP9YHzLn/KVOHzGQfXDP7qM5tkf+7diZe7o2fw6O7IvN6fsQXEQQj8TJUXJxv2/uJhcuy/tSDgXwHM8Uk34WNbRT7zGTGkQRX0gsbjAea/jYAoWv0ZvQRwpqPe79D/i7Cep8qWnA+7AE/3B3S/3dEEYmc0lpe1366A/6GEgk3ktr9PEoQrLChs6Itu3wnNLB2euC8IKGLQFpGtOO/2/hiAKjyajaBP25w1jF0Wl8Bbqne3uZ2q1GyPFJYRmT7/OXpmOH/FVLtwS+8ng1cAmpCujPwteJZNcDG0sF2n/sc0+SQf49fdyUK0ty+VUwFj9tmWxyR/M=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "AEB1FD7410E83BC96F5DA3C6A7C2C1BB836D1FA5CB86E708515890E428A8770B"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2024-03-13 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2027-03-12 23:59"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E7 <-- ISRG Root X1"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "200 OK ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-1 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1765184259"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "OVHcloud"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/'"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "max-age=0, no-cache, no-store, must-revalidate"
+          }
+,         {
+              "id"           : "Pragma",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no-cache"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "no session ticket extension"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "no RSA certificate, can't be used with SSLv2 elsewhere"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses obsolete TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11_12",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_13_14",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_15",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chromium_137_win11",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_137_win11",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_133_win11_23h2",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_ios_184",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_osx_154",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_80442",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1102",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1703",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_2106",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_336",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_315",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_350",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "60"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "24"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "84"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A+"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "www.iut-evry.fr/213.186.33.24",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "102"
+          }
+]
