@@ -28,3 +28,6 @@ urls:
   - url: https://www.univ-evry.fr
     tags:
       - prod
+  - url: https://www.iut-evry.fr/
+    tags:
+      - prod
