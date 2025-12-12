@@ -42,7 +42,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.gstatic.com/maps-api-v3/embed/js/63/4a/intl/fr_ALL/init_embed.js",
+      "url": "https://maps.gstatic.com/maps-api-v3/embed/js/63/5d/intl/fr_ALL/init_embed.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -58,7 +58,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/4a/intl/fr_ALL/search.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/search.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -66,7 +66,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/4a/intl/fr_ALL/geometry.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/geometry.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -74,7 +74,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/4a/intl/fr_ALL/main.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/main.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -90,7 +90,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/4a/intl/fr_ALL/common.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/common.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -98,7 +98,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/4a/intl/fr_ALL/util.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/util.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -106,7 +106,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/4a/intl/fr_ALL/map.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/map.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -114,7 +114,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/4a/intl/fr_ALL/overlay.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/overlay.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -122,7 +122,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i531093&2i361474&2e1&3u12&4m2&1u528&2u600&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&8e1&client=google-maps-embed&token=10590",
+      "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i531093&2i361474&2e1&3u12&4m2&1u528&2u600&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&8e1&client=google-maps-embed&token=104692",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -130,7 +130,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/4a/intl/fr_ALL/onion.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/onion.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -138,7 +138,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/4a/intl/fr_ALL/search_impl.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/search_impl.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -150,9 +150,9 @@
     "accept-ranges": "bytes",
     "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
     "content-encoding": "gzip",
-    "content-length": "36333",
+    "content-length": "36335",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Mon, 08 Dec 2025 08:52:09 GMT",
+    "date": "Fri, 12 Dec 2025 11:42:09 GMT",
     "expires": "Mon, 29 Oct 1923 20:30:00 GMT",
     "pragma": "no-cache",
     "server": "OVHcloud",
@@ -217,7 +217,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.32.42",
+      "ip": "142.251.214.138",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -271,7 +271,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.250.191.68",
+      "ip": "172.217.12.100",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -379,7 +379,7 @@
     },
     {
       "hostname": "maps.gstatic.com",
-      "ip": "142.251.46.227",
+      "ip": "142.250.191.67",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -433,7 +433,7 @@
     },
     {
       "hostname": "maps.googleapis.com",
-      "ip": "142.251.46.170",
+      "ip": "142.251.32.42",
       "geoip": {
         "continent": {
           "code": "NA",

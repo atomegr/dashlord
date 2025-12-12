@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.1",
-	"@generated": "Mon, 8 Dec 2025 08:54:25",
-	"created": "2025-12-08T08:54:25.406032685Z",
+	"@generated": "Fri, 12 Dec 2025 11:44:30",
+	"created": "2025-12-12T11:44:30.120862464Z",
 	"site":[ 
 		{
 			"@name": "https://www.iut-evry.fr",
@@ -31,7 +31,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "20",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": null,
 							"method": "GET",
@@ -41,7 +41,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "22",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -191,7 +191,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "40",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": null,
 							"method": "GET",
@@ -201,7 +201,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "43",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -251,7 +251,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "24",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -451,7 +451,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "37",
 							"uri": "https://www.iut-evry.fr/",
 							"nodeName": null,
 							"method": "GET",
@@ -471,7 +471,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "38",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": null,
 							"method": "GET",
@@ -481,7 +481,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "42",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -498,7 +498,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -521,7 +521,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "30",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": null,
 							"method": "GET",
@@ -531,7 +531,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "36",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -571,7 +571,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "28",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": null,
 							"method": "GET",
@@ -581,7 +581,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "35",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -671,7 +671,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "32",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": null,
 							"method": "GET",
@@ -681,7 +681,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "39",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",

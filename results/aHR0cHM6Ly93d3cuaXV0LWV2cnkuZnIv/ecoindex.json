@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.iut-evry.fr/",
-        "size": 3118.144,
+        "size": 3118.259,
         "nodes": 1047,
         "requests": 30,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 2.12,
         "water": 3.18,
         "ecoindex_version": "5.4.2",
-        "date": "2025-12-08 08:53:05.349348",
+        "date": "2025-12-12 11:43:07.041950",
         "page_type": "website"
     }
 ]
