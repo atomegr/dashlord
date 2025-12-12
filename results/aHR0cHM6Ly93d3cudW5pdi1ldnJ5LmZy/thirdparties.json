@@ -114,7 +114,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.gstatic.com/recaptcha/releases/jdMmXeCQEkPbnFDy9T04NbgJ/recaptcha__en.js",
+      "url": "https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -199,10 +199,10 @@
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
     "content-language": "fr-FR",
-    "content-length": "30976",
+    "content-length": "31013",
     "content-type": "text/html;charset=utf-8",
-    "date": "Sun, 07 Dec 2025 01:16:43 GMT",
-    "expires": "Sun, 07 Dec 2025 01:16:43 GMT",
+    "date": "Fri, 12 Dec 2025 11:42:08 GMT",
+    "expires": "Fri, 12 Dec 2025 11:42:08 GMT",
     "keep-alive": "timeout=5, max=99",
     "server": "Apache",
     "vary": "User-Agent,Accept-Encoding",
@@ -214,6 +214,15 @@
       "hostname": "www.univ-evry.fr",
       "ip": "194.199.84.39",
       "geoip": {
+        "city": {
+          "geoname_id": 2992536,
+          "names": {
+            "en": "Montgeron",
+            "ja": "モンジュロン",
+            "ru": "Монжероне",
+            "zh-CN": "蒙特热龙"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -244,10 +253,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "accuracy_radius": 20,
+          "latitude": 48.7078,
+          "longitude": 2.4496,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "91230"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -263,12 +275,42 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
+            "names": {
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 3019599,
+            "iso_code": "91",
+            "names": {
+              "de": "Essonne",
+              "en": "Essonne",
+              "es": "Essonne",
+              "fr": "Essonne",
+              "ja": "エソンヌ県",
+              "pt-BR": "Essonne",
+              "ru": "Эсон",
+              "zh-CN": "埃松省"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -288,7 +330,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.176.10",
+      "ip": "142.251.121.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -396,7 +438,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.250.189.4",
+      "ip": "142.251.108.106",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -450,7 +492,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.72.131",
+      "ip": "192.178.142.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -504,7 +546,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.250.72.163",
+      "ip": "142.251.108.94",
       "geoip": {
         "continent": {
           "code": "NA",
