@@ -206,7 +206,7 @@
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -346,7 +346,7 @@
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "75 >= 30 days"
+              "finding"      : "68 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,14 +500,14 @@
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1766885110"
+              "finding"      : "1767490009"
           }
 ,         {
               "id"           : "HSTS",
@@ -1056,6 +1056,6 @@
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "105"
           }
 ]
