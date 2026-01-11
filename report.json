@@ -16,15 +16,15 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 04 Jan 2026 01:25:19 GMT",
+          "date": "Sun, 11 Jan 2026 01:25:29 GMT",
           "server": "Apache",
           "content-language": "fr-FR",
           "cache-control": "private, no-store, max-age=0",
           "vary": "User-Agent,Accept-Encoding",
-          "expires": "Sun, 04 Jan 2026 01:25:19 GMT",
+          "expires": "Sun, 11 Jan 2026 01:25:29 GMT",
           "x-ua-compatible": "IE=edge",
           "x-content-type-options": "nosniff",
-          "content-length": "30641",
+          "content-length": "31009",
           "connection": "close",
           "content-type": "text/html;charset=utf-8"
         }
@@ -414,7 +414,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "73D9D72BB9C60D015EF7C9A715AEB80D"
+        "finding": "1D640D390E7C95DB31A3BCE10DFA13B1"
       },
       {
         "id": "cert_serialNumberLen",
@@ -428,21 +428,21 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "ADADBAA7792D307E462B3201662984768F6EF313"
+        "finding": "8E4B9ED14B1FBAE2A55FBB2B7A0F2167B4BE836F"
       },
       {
         "id": "cert_fingerprintSHA256",
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "1632CAF859418894D8FFC96DADD91CDA935267B4D9CE2453CA592B4C379FDD91"
+        "finding": "63AF308EC839E9291F7C143D1F443F2C8BFE9083483A39F0EE354AA820D2CFC4"
       },
       {
         "id": "cert",
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIIRzCCB82gAwIBAgIQc9nXK7nGDQFe98mnFa64DTAKBggqhkjOPQQDAzBgMQswCQYDVQQGEwJHUjE3MDUGA1UECgwuSGVsbGVuaWMgQWNhZGVtaWMgYW5kIFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDQTEYMBYGA1UEAwwPR0VBTlQgVExTIEVDQyAxMB4XDTI1MTIxMTE2MjcyNVoXDTI2MTIxMTE2MjcyNVowgYkxCzAJBgNVBAYTAkZSMRcwFQYDVQQIDA7DjmxlLWRlLUZyYW5jZTEcMBoGA1UEBwwTw4l2cnktQ291cmNvdXJvbm5lczEoMCYGA1UECgwfVU5JVkVSU0lURSBEJ0VWUlkgVkFMIEQnRVNTT05ORTEZMBcGA1UEAwwQd3d3LnVuaXYtZXZyeS5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOcTfIFFzdKLuGIoyh67TklnPJLAiAIfxBugsaurJSjZWsrfUZMxQwJkhPtO/URCN2JubgSrqNogERaJKVR7igajggY9MIIGOTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFOmZBo0XH6v7lhpayFteXV7s2pyPMG8GCCsGAQUFBwEBBGMwYTA4BggrBgEFBQcwAoYsaHR0cDovL2NydC5oYXJpY2EuZ3IvSEFSSUNBLUdFQU5ULVRMUy1FMS5jZXIwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLXRscy5oYXJpY2EuZ3IwggNWBgNVHREEggNNMIIDSYIQd3d3LnVuaXYtZXZyeS5mcoIWbnVtZXJpcXVlLnVuaXYtZXZyeS5mcoIVd3d3LnNhdDEudW5pdi1ldnJ5LmZyghFyYXNtLnVuaXYtZXZyeS5mcoIWd3d3LmxhbWJlLnVuaXYtZXZyeS5mcoIRc2xhbS51bml2LWV2cnkuZnKCFXd3dy5sbWVlLnVuaXYtZXZyeS5mcoIaaW50ZXJuYXRpb25hbC51bml2LWV2cnkuZnKCFG11c2lxdWUudW5pdi1ldnJ5LmZygil3d3cubWFzdGVyLWNvbnRyb2xlLXBpbG90YWdlLnVuaXYtZXZyeS5mcoIaY2FtcHVzLW1hcmtldC51bml2LWV2cnkuZnKCG3NjaWVuY2VvdXZlcnRlLnVuaXYtZXZyeS5mcoIeY2VudHJlLWlubm92YXRpb24udW5pdi1ldnJ5LmZyghJjbXFhcy51bml2LWV2cnkuZnKCGHd3dy51ZnItc2hzLnVuaXYtZXZyeS5mcoIWd3d3LmxpdGVtLnVuaXYtZXZyeS5mcoIdd3d3LmVjb3V0ZWVuamV1eC51bml2LWV2cnkuZnKCFWludHJhbmV0LnVuaXYtZXZyeS5mcoIWZXR1ZGlhbnRzLnVuaXYtZXZyeS5mcoIWd3d3dy5zYXQ3LnVuaXYtZXZyeS5mcoIYdGVtcGV0ZTE5MzAudW5pdi1ldnJ5LmZyghZmb25kYXRpb24udW5pdi1ldnJ5LmZyghViaW9sb2dpZS51bml2LWV2cnkuZnKCFXRlcHAyMDIwLnVuaXYtZXZyeS5mcoIfd3d3LnNjaWVuY2VvdXZlcnRlLnVuaXYtZXZyeS5mcoIVd3d3LnNhdDQudW5pdi1ldnJ5LmZyghV3d3cuc2F0My51bml2LWV2cnkuZnKCGXd3dy5nZW5ob3RlbC51bml2LWV2cnkuZnKCEGxlYS51bml2LWV2cnkuZnKCHmRlcHQtaW5mb3JtYXRpcXVlLnVuaXYtZXZyeS5mcoIgc2VydmljZXMtbnVtZXJpcXVlcy51bml2LWV2cnkuZnKCGWxwcGF0cmltb2luZS51bml2LWV2cnkuZnKCFmV2cnljb2xvci51bml2LWV2cnkuZnIwLQYDVR0gBCYwJDAIBgZngQwBAgIwCAYGBACPegEHMA4GDCsGAQQBgc8RAQEBAjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwPQYDVR0fBDYwNDAyoDCgLoYsaHR0cDovL2NybC5oYXJpY2EuZ3IvSEFSSUNBLUdFQU5ULVRMUy1FMS5jcmwwHQYDVR0OBBYEFEKnBA5nlXeSH6jtiG2oCEiaa4k8MA4GA1UdDwEB/wQEAwIHgDCCAX8GCisGAQQB1nkCBAIEggFvBIIBawFpAHUAwjF+V0UZo0XufzjespBB68fCIVoiv3/Vta12mtkOUs0AAAGbDkZNeQAABAMARjBEAiBkLcd8oSKNFVIq/bqCqlP0gn4Frn1UbzqtkvI/8gZRjAIgYtGtFsL6vdVdz+g80ndLLQi7RR+gkd+YGcb56igUAJUAdwCUTkOH+uzB74HzGSQmqBhlAcfTXzgCAT9yZ31VNy4Z2AAAAZsORk1kAAAEAwBIMEYCIQDYdbU/O7BB3Qgpgrt6bEeJ46LiliT5iCG4yTmmtPydowIhAMvhBupd5OUnIoJkxeiC4NWga7tQx2FraNmAqCJ95hZ6AHcA2AlVO5RPev/IFhlvlE+Fq7D4/F6HVSYPFdEucrtFSxQAAAGbDkZNMQAABAMASDBGAiEAsAJHCR5+qxBPDcX4/EbkzWM1h+t8LwQc7+iKmE8ijk0CIQCVi7PXBGyjr/5oIOsZjhtIjfvF3toSSgD1P7NX/LlcdDAKBggqhkjOPQQDAwNoADBlAjAk+q57fKa4AWe49laqmmvE6JxgFELl5mwStc2RmHvAGZa/D+l03ytkTi9KHgwpxvgCMQCwuOMQMgdk5O/tsXhPRyaGK3PWiMBF2jvGy2G8J1jBHwpokYBLEqVLfmW1l/HY2kI=\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIIXjCCB+SgAwIBAgIQHWQNOQ58ldsxo7zhDfoTsTAKBggqhkjOPQQDAzBgMQswCQYDVQQGEwJHUjE3MDUGA1UECgwuSGVsbGVuaWMgQWNhZGVtaWMgYW5kIFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDQTEYMBYGA1UEAwwPR0VBTlQgVExTIEVDQyAxMB4XDTI2MDEwNzExNDc1NVoXDTI3MDEwNzExNDc1NVowgYkxCzAJBgNVBAYTAkZSMRcwFQYDVQQIDA7DjmxlLWRlLUZyYW5jZTEcMBoGA1UEBwwTw4l2cnktQ291cmNvdXJvbm5lczEoMCYGA1UECgwfVU5JVkVSU0lURSBEJ0VWUlkgVkFMIEQnRVNTT05ORTEZMBcGA1UEAwwQd3d3LnVuaXYtZXZyeS5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPPb+i+CvggwtKgJbv1BqvCbDyIOxlJCIiCWTZJ3vyUmAuxgl+kX5BQcEpewq/HrtISBGcInTT/CpnkzmgQ5t9WjggZUMIIGUDAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFOmZBo0XH6v7lhpayFteXV7s2pyPMG8GCCsGAQUFBwEBBGMwYTA4BggrBgEFBQcwAoYsaHR0cDovL2NydC5oYXJpY2EuZ3IvSEFSSUNBLUdFQU5ULVRMUy1FMS5jZXIwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLXRscy5oYXJpY2EuZ3IwggNtBgNVHREEggNkMIIDYIIQd3d3LnVuaXYtZXZyeS5mcoIYd3d3LnVmci1zaHMudW5pdi1ldnJ5LmZyghJjbXFhcy51bml2LWV2cnkuZnKCFm51bWVyaXF1ZS51bml2LWV2cnkuZnKCGHRlbXBldGUxOTMwLnVuaXYtZXZyeS5mcoIVd3d3LnNhdDQudW5pdi1ldnJ5LmZyghRtdXNpcXVlLnVuaXYtZXZyeS5mcoIVYmlvbG9naWUudW5pdi1ldnJ5LmZyghVpbnRyYW5ldC51bml2LWV2cnkuZnKCGmNhbXB1cy1tYXJrZXQudW5pdi1ldnJ5LmZyghZ3d3d3LnNhdDcudW5pdi1ldnJ5LmZyghBsZWEudW5pdi1ldnJ5LmZyghtzY2llbmNlb3V2ZXJ0ZS51bml2LWV2cnkuZnKCFXRlcHAyMDIwLnVuaXYtZXZyeS5mcoIZd3d3LmdlbmhvdGVsLnVuaXYtZXZyeS5mcoIRcmFzbS51bml2LWV2cnkuZnKCFXd3dy5zYXQzLnVuaXYtZXZyeS5mcoIVd3d3LmVjdHUudW5pdi1ldnJ5LmZyghZ3d3cubGl0ZW0udW5pdi1ldnJ5LmZyghppbnRlcm5hdGlvbmFsLnVuaXYtZXZyeS5mcoIpd3d3Lm1hc3Rlci1jb250cm9sZS1waWxvdGFnZS51bml2LWV2cnkuZnKCGWxwcGF0cmltb2luZS51bml2LWV2cnkuZnKCIHNlcnZpY2VzLW51bWVyaXF1ZXMudW5pdi1ldnJ5LmZyghV3d3cubG1lZS51bml2LWV2cnkuZnKCHmRlcHQtaW5mb3JtYXRpcXVlLnVuaXYtZXZyeS5mcoIeY2VudHJlLWlubm92YXRpb24udW5pdi1ldnJ5LmZyghFzbGFtLnVuaXYtZXZyeS5mcoIWZXR1ZGlhbnRzLnVuaXYtZXZyeS5mcoIdd3d3LmVjb3V0ZWVuamV1eC51bml2LWV2cnkuZnKCH3d3dy5zY2llbmNlb3V2ZXJ0ZS51bml2LWV2cnkuZnKCFXd3dy5zYXQxLnVuaXYtZXZyeS5mcoIWZXZyeWNvbG9yLnVuaXYtZXZyeS5mcoIWZm9uZGF0aW9uLnVuaXYtZXZyeS5mcoIWd3d3LmxhbWJlLnVuaXYtZXZyeS5mcjAtBgNVHSAEJjAkMAgGBmeBDAECAjAIBgYEAI96AQcwDgYMKwYBBAGBzxEBAQECMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATA9BgNVHR8ENjA0MDKgMKAuhixodHRwOi8vY3JsLmhhcmljYS5nci9IQVJJQ0EtR0VBTlQtVExTLUUxLmNybDAdBgNVHQ4EFgQUUs1NSFqHchFO0znxXmW8cSNMQT0wDgYDVR0PAQH/BAQDAgeAMIIBfwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwBgTJqven93XwHUBvySDciZ6wscffjJUhv6+hd3O5eLyQAAAZuYUiAnAAAEAwBIMEYCIQDxN/qHTMvZoDb6uHSAHjcR/L3dohqYbAZLNBRqexfT4AIhAJBxAmto+LzDlAwVuooa7jg0sPwd7+I1H+k4bnUD0K09AHYA1tWNqdAXU/NqSqDHV0kCr+vH3CzTjNn3ZMgMiRkenwIAAAGbmFIgJwAABAMARzBFAiEAkjM7ZRerDQ782mWNAZY5GlENL85YWkO+gzZYDWz1LlgCIGtfHJbAKAxlytk/1ccFpEh74spEjhSYz27YM0dgNgIuAHYARMK9DOkUDmSlyUoBkwpaobs1lw4A7hEWiWgqHETXtWYAAAGbmFIf7wAABAMARzBFAiAL6DHSkZ4gTL2LPLQvv+AZsSRxb46qDWAkbrA9pn7CJAIhAKTxNNvrXwvKuzVg//hiJlTFVuZ3GBOdOehoaE3dhldoMAoGCCqGSM49BAMDA2gAMGUCMQCg683YjYcOTyi0g1itE9Qq1ucW4/psJ7XH2Yf8BjhPb/cpe8Y5Qq2S0tJz7xDtLbMCMBUDiYlpwnHa//sJyMOAcnVgDqI8fwkHnGKKX9o8yjSONTgOSNI+wMht6fr0yURV2w==\n-----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
@@ -463,7 +463,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "www.univ-evry.fr numerique.univ-evry.fr www.sat1.univ-evry.fr rasm.univ-evry.fr www.lambe.univ-evry.fr slam.univ-evry.fr www.lmee.univ-evry.fr international.univ-evry.fr musique.univ-evry.fr www.master-controle-pilotage.univ-evry.fr campus-market.univ-evry.fr scienceouverte.univ-evry.fr centre-innovation.univ-evry.fr cmqas.univ-evry.fr www.ufr-shs.univ-evry.fr www.litem.univ-evry.fr www.ecouteenjeux.univ-evry.fr intranet.univ-evry.fr etudiants.univ-evry.fr wwww.sat7.univ-evry.fr tempete1930.univ-evry.fr fondation.univ-evry.fr biologie.univ-evry.fr tepp2020.univ-evry.fr www.scienceouverte.univ-evry.fr www.sat4.univ-evry.fr www.sat3.univ-evry.fr www.genhotel.univ-evry.fr lea.univ-evry.fr dept-informatique.univ-evry.fr services-numeriques.univ-evry.fr lppatrimoine.univ-evry.fr evrycolor.univ-evry.fr"
+        "finding": "www.univ-evry.fr www.ufr-shs.univ-evry.fr cmqas.univ-evry.fr numerique.univ-evry.fr tempete1930.univ-evry.fr www.sat4.univ-evry.fr musique.univ-evry.fr biologie.univ-evry.fr intranet.univ-evry.fr campus-market.univ-evry.fr wwww.sat7.univ-evry.fr lea.univ-evry.fr scienceouverte.univ-evry.fr tepp2020.univ-evry.fr www.genhotel.univ-evry.fr rasm.univ-evry.fr www.sat3.univ-evry.fr www.ectu.univ-evry.fr www.litem.univ-evry.fr international.univ-evry.fr www.master-controle-pilotage.univ-evry.fr lppatrimoine.univ-evry.fr services-numeriques.univ-evry.fr www.lmee.univ-evry.fr dept-informatique.univ-evry.fr centre-innovation.univ-evry.fr slam.univ-evry.fr etudiants.univ-evry.fr www.ecouteenjeux.univ-evry.fr www.scienceouverte.univ-evry.fr www.sat1.univ-evry.fr evrycolor.univ-evry.fr fondation.univ-evry.fr www.lambe.univ-evry.fr"
       },
       {
         "id": "cert_trust",
@@ -491,21 +491,21 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "OK",
-        "finding": "341 >= 60 days"
+        "finding": "361 >= 60 days"
       },
       {
         "id": "cert_notBefore",
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "2025-12-11 16:27"
+        "finding": "2026-01-07 11:47"
       },
       {
         "id": "cert_notAfter",
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "OK",
-        "finding": "2026-12-11 16:27"
+        "finding": "2027-01-07 11:47"
       },
       {
         "id": "cert_extlifeSpan",
@@ -694,7 +694,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "1767489960"
+        "finding": "1768094792"
       },
       {
         "id": "HSTS",
@@ -1257,7 +1257,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "71"
+        "finding": "98"
       }
     ],
     "thirdparties": {
@@ -1327,6 +1327,10 @@
           }
         },
         {
+          "type": "unknown",
+          "url": "https://web-analytics.univ-evry.fr/matomo.js"
+        },
+        {
           "type": "jQuery",
           "url": "https://code.jquery.com/ui/1.12.0/jquery-ui.js",
           "details": {
@@ -1365,6 +1369,10 @@
             "id": "google fonts",
             "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
           }
+        },
+        {
+          "type": "unknown",
+          "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=486381&h=1&m=21&s=6&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=kI6R5I&pf_net=0&pf_srv=328&pf_tfr=128&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143.0.7499.169%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
         },
         {
           "type": "cloudflare",
@@ -1437,14 +1445,6 @@
             "id": "cloudflare",
             "message": "Host files locally"
           }
-        },
-        {
-          "type": "unknown",
-          "url": "https://web-analytics.univ-evry.fr/matomo.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=785042&h=1&m=21&s=10&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=vbqXJs&pf_net=0&pf_srv=269&pf_tfr=108&pf_dm1=1397&pf_dm2=770&pf_onl=22&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143.0.7499.169%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
         }
       ],
       "cookies": [],
@@ -1453,10 +1453,10 @@
         "connection": "Keep-Alive",
         "content-encoding": "gzip",
         "content-language": "fr-FR",
-        "content-length": "30641",
+        "content-length": "31009",
         "content-type": "text/html;charset=utf-8",
-        "date": "Sun, 04 Jan 2026 01:21:07 GMT",
-        "expires": "Sun, 04 Jan 2026 01:21:07 GMT",
+        "date": "Sun, 11 Jan 2026 01:21:05 GMT",
+        "expires": "Sun, 11 Jan 2026 01:21:05 GMT",
         "keep-alive": "timeout=5, max=99",
         "server": "Apache",
         "vary": "User-Agent,Accept-Encoding",
@@ -1564,7 +1564,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.24.14",
+          "ip": "104.17.25.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -1584,7 +1584,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "172.217.5.10",
+          "ip": "142.251.108.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1638,7 +1638,7 @@
         },
         {
           "hostname": "code.jquery.com",
-          "ip": "151.101.130.137",
+          "ip": "151.101.66.137",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1691,8 +1691,106 @@
           }
         },
         {
+          "hostname": "web-analytics.univ-evry.fr",
+          "ip": "194.199.84.119",
+          "geoip": {
+            "city": {
+              "geoname_id": 2992536,
+              "names": {
+                "en": "Montgeron",
+                "ja": "モンジュロン",
+                "ru": "Монжероне",
+                "zh-CN": "蒙特热龙"
+              }
+            },
+            "continent": {
+              "code": "EU",
+              "geoname_id": 6255148,
+              "names": {
+                "de": "Europa",
+                "en": "Europe",
+                "es": "Europa",
+                "fr": "Europe",
+                "ja": "ヨーロッパ",
+                "pt-BR": "Europa",
+                "ru": "Европа",
+                "zh-CN": "欧洲"
+              }
+            },
+            "country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 20,
+              "latitude": 48.7078,
+              "longitude": 2.4496,
+              "time_zone": "Europe/Paris"
+            },
+            "postal": {
+              "code": "91230"
+            },
+            "registered_country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
+            },
+            "subdivisions": [
+              {
+                "geoname_id": 3012874,
+                "iso_code": "IDF",
+                "names": {
+                  "de": "Île-de-France",
+                  "en": "Île-de-France",
+                  "es": "Isla de Francia",
+                  "fr": "Île-de-France",
+                  "ja": "イル・ド・フランス",
+                  "pt-BR": "Ilha de França",
+                  "ru": "Иль-де-Франс",
+                  "zh-CN": "法兰西岛"
+                }
+              },
+              {
+                "geoname_id": 3019599,
+                "iso_code": "91",
+                "names": {
+                  "de": "Essonne",
+                  "en": "Essonne",
+                  "es": "Essonne",
+                  "fr": "Essonne",
+                  "ja": "エソンヌ県",
+                  "pt-BR": "Essonne",
+                  "ru": "Эсон",
+                  "zh-CN": "埃松省"
+                }
+              }
+            ]
+          }
+        },
+        {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.190.67",
+          "ip": "192.178.142.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1910,104 +2008,6 @@
                 "zh-CN": "法国"
               }
             }
-          }
-        },
-        {
-          "hostname": "web-analytics.univ-evry.fr",
-          "ip": "194.199.84.119",
-          "geoip": {
-            "city": {
-              "geoname_id": 2992536,
-              "names": {
-                "en": "Montgeron",
-                "ja": "モンジュロン",
-                "ru": "Монжероне",
-                "zh-CN": "蒙特热龙"
-              }
-            },
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 20,
-              "latitude": 48.7078,
-              "longitude": 2.4496,
-              "time_zone": "Europe/Paris"
-            },
-            "postal": {
-              "code": "91230"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 3012874,
-                "iso_code": "IDF",
-                "names": {
-                  "de": "Île-de-France",
-                  "en": "Île-de-France",
-                  "es": "Isla de Francia",
-                  "fr": "Île-de-France",
-                  "ja": "イル・ド・フランス",
-                  "pt-BR": "Ilha de França",
-                  "ru": "Иль-де-Франс",
-                  "zh-CN": "法兰西岛"
-                }
-              },
-              {
-                "geoname_id": 3019599,
-                "iso_code": "91",
-                "names": {
-                  "de": "Essonne",
-                  "en": "Essonne",
-                  "es": "Essonne",
-                  "fr": "Essonne",
-                  "ja": "エソンヌ県",
-                  "pt-BR": "Essonne",
-                  "ru": "Эсон",
-                  "zh-CN": "埃松省"
-                }
-              }
-            ]
           }
         }
       ]
@@ -2343,8 +2343,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 4 Jan 2026 01:24:31",
-      "created": "2026-01-04T01:24:31.794433434Z",
+      "@generated": "Sun, 11 Jan 2026 01:24:38",
+      "created": "2026-01-11T01:24:38.135309536Z",
       "insights": [
         {
           "level": "Low",
@@ -2352,7 +2352,7 @@
           "site": "",
           "key": "insight.log.warn",
           "description": "ZAP warnings logged - see the zap.log file for details",
-          "statistic": "8"
+          "statistic": "5"
         },
         {
           "level": "Info",
@@ -2408,7 +2408,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.ctype.image/png",
           "description": "Percentage of endpoints with content type image/png",
-          "statistic": "4"
+          "statistic": "5"
         },
         {
           "level": "Info",
@@ -2424,7 +2424,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.ctype.text/html",
           "description": "Percentage of endpoints with content type text/html",
-          "statistic": "81"
+          "statistic": "80"
         },
         {
           "level": "Info",
@@ -2448,7 +2448,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.total",
           "description": "Count of total endpoints",
-          "statistic": "487"
+          "statistic": "455"
         },
         {
           "level": "Info",
@@ -2456,7 +2456,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.response.slow",
           "description": "Percentage of slow responses",
-          "statistic": "89"
+          "statistic": "100"
         }
       ],
       "site": [
@@ -2637,7 +2637,7 @@
       {
         "requestedUrl": "https://www.univ-evry.fr/",
         "finalUrl": "https://www.univ-evry.fr/accueil.html",
-        "fetchTime": "2026-01-04T01:24:46.342Z",
+        "fetchTime": "2026-01-11T01:24:53.180Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.univ-evry.fr/) was redirected to https://www.univ-evry.fr/accueil.html. Try testing the second URL directly."
         ],
@@ -2702,53 +2702,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 22671,
+            "numericValue": 21792,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4701,
-                  "firstMeaningfulPaint": 6921,
-                  "largestContentfulPaint": 14926,
-                  "interactive": 22671,
-                  "speedIndex": 13126,
-                  "totalBlockingTime": 51,
-                  "maxPotentialFID": 80,
-                  "cumulativeLayoutShift": 0.09398060735066732,
-                  "cumulativeLayoutShiftMainFrame": 0.09398060735066732,
-                  "totalCumulativeLayoutShift": 0.09398060735066732,
+                  "firstContentfulPaint": 4668,
+                  "firstMeaningfulPaint": 7618,
+                  "largestContentfulPaint": 10450,
+                  "interactive": 21792,
+                  "speedIndex": 13446,
+                  "totalBlockingTime": 24,
+                  "maxPotentialFID": 73,
+                  "cumulativeLayoutShift": 0.108349609375,
+                  "cumulativeLayoutShiftMainFrame": 0.108349609375,
+                  "totalCumulativeLayoutShift": 0.108349609375,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 614913491,
+                  "observedTimeOriginTs": 690294564,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 614913491,
-                  "observedFirstPaint": 1288,
-                  "observedFirstPaintTs": 616201919,
-                  "observedFirstContentfulPaint": 1288,
-                  "observedFirstContentfulPaintTs": 616201919,
-                  "observedFirstContentfulPaintAllFrames": 1288,
-                  "observedFirstContentfulPaintAllFramesTs": 616201919,
-                  "observedFirstMeaningfulPaint": 1731,
-                  "observedFirstMeaningfulPaintTs": 616644622,
-                  "observedLargestContentfulPaint": 1822,
-                  "observedLargestContentfulPaintTs": 616735597,
-                  "observedLargestContentfulPaintAllFrames": 1822,
-                  "observedLargestContentfulPaintAllFramesTs": 616735597,
-                  "observedTraceEnd": 5612,
-                  "observedTraceEndTs": 620525542,
-                  "observedLoad": 2782,
-                  "observedLoadTs": 617695176,
-                  "observedDomContentLoaded": 2733,
-                  "observedDomContentLoadedTs": 617646916,
-                  "observedCumulativeLayoutShift": 0.09398060735066732,
-                  "observedCumulativeLayoutShiftMainFrame": 0.09398060735066732,
-                  "observedTotalCumulativeLayoutShift": 0.09398060735066732,
-                  "observedFirstVisualChange": 1288,
-                  "observedFirstVisualChangeTs": 616201491,
-                  "observedLastVisualChange": 2865,
-                  "observedLastVisualChangeTs": 617778491,
-                  "observedSpeedIndex": 2007,
-                  "observedSpeedIndexTs": 616920242
+                  "observedNavigationStartTs": 690294564,
+                  "observedFirstPaint": 1525,
+                  "observedFirstPaintTs": 691819708,
+                  "observedFirstContentfulPaint": 1525,
+                  "observedFirstContentfulPaintTs": 691819708,
+                  "observedFirstContentfulPaintAllFrames": 1525,
+                  "observedFirstContentfulPaintAllFramesTs": 691819708,
+                  "observedFirstMeaningfulPaint": 1913,
+                  "observedFirstMeaningfulPaintTs": 692208034,
+                  "observedLargestContentfulPaint": 2047,
+                  "observedLargestContentfulPaintTs": 692341277,
+                  "observedLargestContentfulPaintAllFrames": 2047,
+                  "observedLargestContentfulPaintAllFramesTs": 692341277,
+                  "observedTraceEnd": 6372,
+                  "observedTraceEndTs": 696667027,
+                  "observedLoad": 3445,
+                  "observedLoadTs": 693739499,
+                  "observedDomContentLoaded": 3413,
+                  "observedDomContentLoadedTs": 693707443,
+                  "observedCumulativeLayoutShift": 0.108349609375,
+                  "observedCumulativeLayoutShiftMainFrame": 0.108349609375,
+                  "observedTotalCumulativeLayoutShift": 0.108349609375,
+                  "observedFirstVisualChange": 1525,
+                  "observedFirstVisualChangeTs": 691819564,
+                  "observedLastVisualChange": 3555,
+                  "observedLastVisualChangeTs": 693849564,
+                  "observedSpeedIndex": 2592,
+                  "observedSpeedIndexTs": 692886496
                 },
                 {
                   "lcpInvalidated": false
@@ -2766,23 +2766,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 107,
+                  "numRequests": 108,
                   "numScripts": 34,
                   "numStylesheets": 13,
                   "numFonts": 9,
-                  "numTasks": 2005,
-                  "numTasksOver10ms": 15,
-                  "numTasksOver25ms": 5,
+                  "numTasks": 1954,
+                  "numTasksOver10ms": 13,
+                  "numTasksOver25ms": 4,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 36788757.90752087,
-                  "maxRtt": 107.153,
-                  "maxServerLatency": 101.78999999999999,
-                  "totalByteWeight": 7880601,
-                  "totalTaskTime": 564.3379999999992,
-                  "mainDocumentTransferSize": 31072
+                  "throughput": 28860226.0472673,
+                  "maxRtt": 139.719,
+                  "maxServerLatency": 122.756,
+                  "totalByteWeight": 7664549,
+                  "totalTaskTime": 505.7219999999974,
+                  "mainDocumentTransferSize": 31440
                 }
               ]
             }
@@ -2805,15 +2805,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.univ-evry.fr",
-        "size": 8484.648,
-        "nodes": 2586,
-        "requests": 110,
+        "size": 8270.341,
+        "nodes": 2603,
+        "requests": 111,
         "grade": "F",
         "score": 14,
         "ges": 2.72,
         "water": 4.08,
         "ecoindex_version": "5.4.2",
-        "date": "2026-01-04 01:22:04.313297",
+        "date": "2026-01-11 01:22:07.988941",
         "page_type": null
       }
     ],
@@ -2824,7 +2824,7 @@
     "summary": {
       "httpGrade": "D",
       "testsslExpireSoon": false,
-      "testsslExpireDate": "2026-12-11T16:27:00.000Z",
+      "testsslExpireDate": "2027-01-07T11:47:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "A",
       "cookiesCount": 0,
@@ -2864,7 +2864,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 04 Jan 2026 01:25:43 GMT",
+          "date": "Sun, 11 Jan 2026 01:25:38 GMT",
           "content-type": "text/html; charset=UTF-8",
           "transfer-encoding": "chunked",
           "connection": "close",
@@ -3178,7 +3178,7 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "not supported"
+        "finding": "supported"
       },
       {
         "id": "TLS_timestamp",
@@ -3318,7 +3318,7 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "OK",
-        "finding": "68 >= 30 days"
+        "finding": "61 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3479,7 +3479,7 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "1767490009"
+        "finding": "1768094805"
       },
       {
         "id": "HSTS",
@@ -4058,14 +4058,6 @@
           }
         },
         {
-          "type": "google",
-          "url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sIUT+d%27Evry+Val+d%27Essonne!6i12!3m1!1sfr-FR!5m1!1sfr-FR",
-          "details": {
-            "id": "google",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
           "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2",
           "details": {
@@ -4074,8 +4066,16 @@
           }
         },
         {
+          "type": "google",
+          "url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sIUT+d%27Evry+Val+d%27Essonne!6i12!3m1!1sfr-FR!5m1!1sfr-FR",
+          "details": {
+            "id": "google",
+            "message": "Use hosted Matomo instance"
+          }
+        },
+        {
           "type": "google maps",
-          "url": "https://maps.gstatic.com/maps-api-v3/embed/js/63/5d/intl/fr_ALL/init_embed.js",
+          "url": "https://maps.gstatic.com/maps-api-v3/embed/js/63/9d/intl/fr_ALL/init_embed.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4091,7 +4091,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/search.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/9d/intl/fr_ALL/geometry.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4099,7 +4099,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/geometry.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/9d/intl/fr_ALL/search.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4107,7 +4107,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/main.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/9d/intl/fr_ALL/main.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4123,7 +4123,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/common.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/9d/intl/fr_ALL/common.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4131,7 +4131,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/util.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/9d/intl/fr_ALL/util.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4139,7 +4139,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/map.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/9d/intl/fr_ALL/map.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4147,7 +4147,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/overlay.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/9d/intl/fr_ALL/overlay.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4155,7 +4155,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i531093&2i361474&2e1&3u12&4m2&1u528&2u600&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&8e1&client=google-maps-embed&token=90518",
+          "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i531093&2i361474&2e1&3u12&4m2&1u528&2u600&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&8e1&client=google-maps-embed&token=87413",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4163,7 +4163,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/onion.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/9d/intl/fr_ALL/onion.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4171,7 +4171,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/5d/intl/fr_ALL/search_impl.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/9d/intl/fr_ALL/search_impl.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4182,7 +4182,7 @@
       "headers": {
         "content-encoding": "gzip",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 04 Jan 2026 01:21:12 GMT",
+        "date": "Sun, 11 Jan 2026 01:21:01 GMT",
         "link": "<https://www.iut-evry.fr/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.iut-evry.fr/wp-json/wp/v2/pages/2775>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://www.iut-evry.fr/>; rel=shortlink",
         "server": "OVHcloud",
         "vary": "Accept-Encoding",
@@ -4247,7 +4247,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.251.46.170",
+          "ip": "142.251.214.138",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4301,7 +4301,7 @@
         },
         {
           "hostname": "www.google.com",
-          "ip": "142.251.32.36",
+          "ip": "142.250.191.36",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4409,7 +4409,7 @@
         },
         {
           "hostname": "maps.gstatic.com",
-          "ip": "142.250.191.67",
+          "ip": "172.217.12.99",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4463,7 +4463,7 @@
         },
         {
           "hostname": "maps.googleapis.com",
-          "ip": "142.250.189.234",
+          "ip": "142.251.46.170",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4682,7 +4682,7 @@
           "name": "Yoast SEO",
           "description": "Yoast SEO is a search engine optimisation plugin for WordPress and other platforms.",
           "confidence": 100,
-          "version": "26.6",
+          "version": "26.7",
           "icon": "Yoast SEO.png",
           "website": "https://yoast.com/wordpress/plugins/seo/",
           "cpe": null,
@@ -4859,8 +4859,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 4 Jan 2026 01:23:31",
-      "created": "2026-01-04T01:23:31.636408240Z",
+      "@generated": "Sun, 11 Jan 2026 01:23:26",
+      "created": "2026-01-11T01:23:26.734998638Z",
       "insights": [
         {
           "level": "Info",
@@ -5061,7 +5061,7 @@
       {
         "requestedUrl": "https://www.iut-evry.fr/",
         "finalUrl": "https://www.iut-evry.fr/",
-        "fetchTime": "2026-01-04T01:23:46.976Z",
+        "fetchTime": "2026-01-11T01:23:42.430Z",
         "runWarnings": [
           "The page loaded too slowly to finish within the time limit. Results may be incomplete."
         ],
@@ -5126,53 +5126,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 3388,
+            "numericValue": 3427,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 3378,
-                  "firstMeaningfulPaint": 3388,
-                  "largestContentfulPaint": 6428,
-                  "interactive": 3388,
-                  "speedIndex": 19642,
+                  "firstContentfulPaint": 3427,
+                  "firstMeaningfulPaint": 3427,
+                  "largestContentfulPaint": 6318,
+                  "interactive": 3427,
+                  "speedIndex": 19998,
                   "totalBlockingTime": 0,
-                  "maxPotentialFID": 24,
+                  "maxPotentialFID": 35,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 553975646,
+                  "observedTimeOriginTs": 257753773,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 553975646,
-                  "observedFirstPaint": 2344,
-                  "observedFirstPaintTs": 556319188,
-                  "observedFirstContentfulPaint": 2344,
-                  "observedFirstContentfulPaintTs": 556319188,
-                  "observedFirstContentfulPaintAllFrames": 2344,
-                  "observedFirstContentfulPaintAllFramesTs": 556319188,
-                  "observedFirstMeaningfulPaint": 2344,
-                  "observedFirstMeaningfulPaintTs": 556319188,
-                  "observedLargestContentfulPaint": 2905,
-                  "observedLargestContentfulPaintTs": 556880906,
-                  "observedLargestContentfulPaintAllFrames": 2905,
-                  "observedLargestContentfulPaintAllFramesTs": 556880906,
+                  "observedNavigationStartTs": 257753773,
+                  "observedFirstPaint": 2472,
+                  "observedFirstPaintTs": 260225517,
+                  "observedFirstContentfulPaint": 2472,
+                  "observedFirstContentfulPaintTs": 260225517,
+                  "observedFirstContentfulPaintAllFrames": 2472,
+                  "observedFirstContentfulPaintAllFramesTs": 260225517,
+                  "observedFirstMeaningfulPaint": 2472,
+                  "observedFirstMeaningfulPaintTs": 260225517,
+                  "observedLargestContentfulPaint": 2889,
+                  "observedLargestContentfulPaintTs": 260643090,
+                  "observedLargestContentfulPaintAllFrames": 2889,
+                  "observedLargestContentfulPaintAllFramesTs": 260643090,
                   "observedTraceEnd": 45008,
-                  "observedTraceEndTs": 598983840,
-                  "observedLoad": 2682,
-                  "observedLoadTs": 556657429,
-                  "observedDomContentLoaded": 2458,
-                  "observedDomContentLoadedTs": 556433518,
+                  "observedTraceEndTs": 302761700,
+                  "observedLoad": 2846,
+                  "observedLoadTs": 260600047,
+                  "observedDomContentLoaded": 2582,
+                  "observedDomContentLoadedTs": 260335273,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 2344,
-                  "observedFirstVisualChangeTs": 556319646,
-                  "observedLastVisualChange": 14287,
-                  "observedLastVisualChangeTs": 568262646,
-                  "observedSpeedIndex": 10885,
-                  "observedSpeedIndexTs": 564860415
+                  "observedFirstVisualChange": 2472,
+                  "observedFirstVisualChangeTs": 260225773,
+                  "observedLastVisualChange": 14422,
+                  "observedLastVisualChangeTs": 272175773,
+                  "observedSpeedIndex": 11014,
+                  "observedSpeedIndexTs": 268768039
                 },
                 {
                   "lcpInvalidated": false
@@ -5194,19 +5194,19 @@
                   "numScripts": 28,
                   "numStylesheets": 24,
                   "numFonts": 2,
-                  "numTasks": 6840,
-                  "numTasksOver10ms": 7,
-                  "numTasksOver25ms": 2,
-                  "numTasksOver50ms": 0,
+                  "numTasks": 6720,
+                  "numTasksOver10ms": 8,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 37534576.30711868,
-                  "maxRtt": 145.675,
-                  "maxServerLatency": 97.22899999999998,
-                  "totalByteWeight": 3018715,
-                  "totalTaskTime": 951.058999999979,
-                  "mainDocumentTransferSize": 36748
+                  "throughput": 31205082.665803038,
+                  "maxRtt": 147.114,
+                  "maxServerLatency": 132.31699999999998,
+                  "totalByteWeight": 3019291,
+                  "totalTaskTime": 1466.2900000000227,
+                  "mainDocumentTransferSize": 36743
                 }
               ]
             }
@@ -5228,7 +5228,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.iut-evry.fr/",
-        "size": 3171.546,
+        "size": 3171.541,
         "nodes": 1068,
         "requests": 51,
         "grade": "E",
@@ -5236,7 +5236,7 @@
         "ges": 2.22,
         "water": 3.33,
         "ecoindex_version": "5.4.2",
-        "date": "2026-01-04 01:22:11.761993",
+        "date": "2026-01-11 01:21:59.701827",
         "page_type": "website"
       }
     ],
