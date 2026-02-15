@@ -1,16 +1,24 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 8 Feb 2026 02:05:08",
-	"created": "2026-02-08T02:05:08.805028997Z",
+	"@generated": "Sun, 15 Feb 2026 01:49:57",
+	"created": "2026-02-15T01:49:57.073418039Z",
 	"insights":[
+		{
+			"level": "Low",
+			"reason": "Warning",
+			"site": "",
+			"key": "insight.log.warn",
+			"description": "ZAP warnings logged - see the zap.log file for details",
+			"statistic": "6"
+		},
 		{
 			"level": "Info",
 			"reason": "Informational",
 			"site": "https://www.univ-evry.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "87"
+			"statistic": "98"
 		},
 		{
 			"level": "Info",
@@ -26,7 +34,7 @@
 			"site": "https://www.univ-evry.fr",
 			"key": "insight.code.4xx",
 			"description": "Percentage of responses with status code 4xx",
-			"statistic": "10"
+			"statistic": "1"
 		},
 		{
 			"level": "Info",
@@ -106,7 +114,7 @@
 			"site": "https://www.univ-evry.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "331"
+			"statistic": "395"
 		},
 		{
 			"level": "Info",
@@ -114,7 +122,7 @@
 			"site": "https://www.univ-evry.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "98"
+			"statistic": "99"
 		}
 	],
 	"site":[ 
@@ -135,27 +143,27 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "197",
-							"uri": "https://www.univ-evry.fr/toute-lactualite/actualites-vie-de-campus/rentree-2022/guide-de-letudiante-2022-23.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/toute-lactualite\/actualites-vie-de-campus\/rentree-2022\/guide-de-letudiante-2022-23.html",
+							"id": "211",
+							"uri": "https://www.univ-evry.fr/contacter-luniversite.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/contacter-luniversite.html",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form id=\"answerForm47690-16\" class=\"comment__answer-form comment-form comment-form--hidden\" method=\"post\"  data-url=\"https://www.univ-evry.fr/toute-lactualite/actualites-vie-de-campus/rentree-2022/guide-de-letudiante-2022-23?tx_arclikecomment_comments%5Baction%5D=ajaxComments&amp;tx_arclikecomment_comments%5Bcontroller%5D=Comments&amp;type=1122334488&amp;cHash=427af8c00a58354f5b4798ed77260fb2\" data-id=\"47690\" data-parent-id=\"16\" >",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 4: \"pseudo\" ]."
+							"evidence": "<form data-validate=\"html5\" enctype=\"multipart/form-data\" method=\"post\" name=\"field\" class=\"powermail_form powermail_form_1  form-horizontal \" action=\"/contacter-luniversite.html?tx_powermail_pi1%5Baction%5D=checkCreate&amp;tx_powermail_pi1%5Bcontroller%5D=Form&amp;cHash=d04d2b0ca83d82416013b5424394d35e#form1\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 4: \"powermail_field_courriel\" \"powermail_field_nom\" \"powermail_field_prenom\" \"powermail_hp_1\" \"tx_powermail_pi1[__referrer][@action]\" \"tx_powermail_pi1[__referrer][@controller]\" \"tx_powermail_pi1[__referrer][@extension]\" \"tx_powermail_pi1[__referrer][@request]\" \"tx_powermail_pi1[__referrer][arguments]\" \"tx_powermail_pi1[__trustedProperties]\" \"tx_powermail_pi1[mail][form]\" ]."
 						},
 						{
-							"id": "198",
-							"uri": "https://www.univ-evry.fr/toute-lactualite/actualites-vie-de-campus/rentree-2022/guide-de-letudiante-2022-23.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/toute-lactualite\/actualites-vie-de-campus\/rentree-2022\/guide-de-letudiante-2022-23.html",
+							"id": "208",
+							"uri": "https://www.univ-evry.fr/envoyer-a-un-ami.html?cHash=e176916fc0ab59a5e559a79c0b63100e&url=https%3A%2F%2Fwww.univ-evry.fr%2F404.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/envoyer-a-un-ami.html (cHash,url)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form id=\"postForm47690\" class=\"comment-form comment-form--hidden js-comment-post-form\" method=\"post\" data-url=\"https://www.univ-evry.fr/toute-lactualite/actualites-vie-de-campus/rentree-2022/guide-de-letudiante-2022-23?tx_arclikecomment_comments%5Baction%5D=ajaxComments&amp;tx_arclikecomment_comments%5Bcontroller%5D=Comments&amp;type=1122334488&amp;cHash=427af8c00a58354f5b4798ed77260fb2\" data-id=\"47690\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 5: \"pseudo\" ]."
+							"evidence": "<form noCacheHash=\"1\" method=\"post\" name=\"share\" id=\"formTipFriend\" action=\"/envoyer-a-un-ami.html?tx_arcform_friendform%5Baction%5D=submit&amp;tx_arcform_friendform%5Bcontroller%5D=FriendForm&amp;cHash=3ce9a5190f2ce2ed7a551cf27ac87cf0\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 4: \"email\" \"senderemail\" \"sendername\" \"tx_arcform_friendform[__referrer][@action]\" \"tx_arcform_friendform[__referrer][@controller]\" \"tx_arcform_friendform[__referrer][@extension]\" \"tx_arcform_friendform[__referrer][@request]\" \"tx_arcform_friendform[__referrer][arguments]\" \"tx_arcform_friendform[__trustedProperties]\" \"tx_arcform_friendform[share][]\" \"tx_arcform_friendform[submit]\" \"url\" ]."
 						},
 						{
-							"id": "86",
+							"id": "97",
 							"uri": "https://www.univ-evry.fr/typo3/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
@@ -165,7 +173,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"__RequestToken\" \"login_status\" \"loginRefresh\" \"redirect_url\" \"t3-field-userident\" \"t3-password\" \"t3-username\" ]."
 						},
 						{
-							"id": "143",
+							"id": "109",
 							"uri": "https://www.univ-evry.fr/typo3/login/password-reset/forget?loginProvider=1433416747",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login\/password-reset\/forget (loginProvider)",
 							"method": "GET",
@@ -175,7 +183,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"typo3-forget-password-email\" ]."
 						},
 						{
-							"id": "199",
+							"id": "200",
 							"uri": "https://www.univ-evry.fr/typo3/login?loginProvider=1433416747",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login (loginProvider)(__RequestToken,loginRefresh,login_status,p_field,redirect_url,userident,username)",
 							"method": "POST",
@@ -188,11 +196,11 @@
 					"count": "5",
 					"systemic": true,
 					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
-					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 4: \"pseudo\" ].</p>",
+					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 4: \"powermail_field_courriel\" \"powermail_field_nom\" \"powermail_field_prenom\" \"powermail_hp_1\" \"tx_powermail_pi1[__referrer][@action]\" \"tx_powermail_pi1[__referrer][@controller]\" \"tx_powermail_pi1[__referrer][@extension]\" \"tx_powermail_pi1[__referrer][@request]\" \"tx_powermail_pi1[__referrer][arguments]\" \"tx_powermail_pi1[__trustedProperties]\" \"tx_powermail_pi1[mail][form]\" ].</p>",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1926"
+					"sourceid": "2475"
 				},
 				{
 					"pluginid": "10038",
@@ -205,7 +213,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "11",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -215,7 +223,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "100",
+							"id": "95",
 							"uri": "https://www.univ-evry.fr/*?*tx_solr",
 							"nodeName": "https:\/\/www.univ-evry.fr\/* (*tx_solr)",
 							"method": "GET",
@@ -225,7 +233,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
+							"id": "105",
 							"uri": "https://www.univ-evry.fr/accueil.html",
 							"nodeName": "https:\/\/www.univ-evry.fr\/accueil.html",
 							"method": "GET",
@@ -235,7 +243,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "91",
 							"uri": "https://www.univ-evry.fr/typo3/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
@@ -245,7 +253,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "8",
 							"uri": "https://www.univ-evry.fr/typo3_src/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3_src\/",
 							"method": "GET",
@@ -275,7 +283,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "1",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -285,7 +293,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
+							"id": "155",
+							"uri": "https://www.univ-evry.fr/accessibilite.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/accessibilite.html",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "85",
 							"uri": "https://www.univ-evry.fr/accueil.html",
 							"nodeName": "https:\/\/www.univ-evry.fr\/accueil.html",
 							"method": "GET",
@@ -295,29 +313,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "156",
-							"uri": "https://www.univ-evry.fr/recherche/projets-de-recherche-nationaux-europeens-et-internationaux.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/recherche\/projets-de-recherche-nationaux-europeens-et-internationaux.html",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "162",
-							"uri": "https://www.univ-evry.fr/toute-lactualite/actualites-vie-de-campus/portraits-etudiants-et-alumnis/rencontre-alumni-paul-eyssautier-diplome-dun-master-en-traduction-a-luniversite-devry-revient-sur-son-parcours-et-ses-projets-a-venir.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/toute-lactualite\/actualites-vie-de-campus\/portraits-etudiants-et-alumnis\/rencontre-alumni-paul-eyssautier-diplome-dun-master-en-traduction-a-luniversite-devry-revient-sur-son-parcours-et-ses-projets-a-venir.html",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"id": "160",
-							"uri": "https://www.univ-evry.fr/toute-lactualite/actualites-vie-de-campus/portraits-etudiants-et-alumnis/rencontre-alumni-remy-sevestre-diplome-dune-licence-en-economie-gestion-a-luniversite-devry-revient-sur-son-parcours-ses-etudes-et-ses-projets.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/toute-lactualite\/actualites-vie-de-campus\/portraits-etudiants-et-alumnis\/rencontre-alumni-remy-sevestre-diplome-dune-licence-en-economie-gestion-a-luniversite-devry-revient-sur-son-parcours-ses-etudes-et-ses-projets.html",
+							"uri": "https://www.univ-evry.fr/numerique.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/numerique.html",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "163",
+							"uri": "https://www.univ-evry.fr/universite/luniversite-evry-paris-saclay.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/universite\/luniversite-evry-paris-saclay.html",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -345,7 +353,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "32",
+							"id": "30",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -355,7 +363,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "31",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -365,7 +373,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "33",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -375,7 +383,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "34",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -385,7 +393,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "32",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -415,7 +423,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "12",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -425,7 +433,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "13",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -435,7 +443,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "14",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -445,7 +453,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "16",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -455,7 +463,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "15",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -495,7 +503,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "127",
+							"id": "88",
 							"uri": "https://www.univ-evry.fr/_assets/081fa96a07de1dccb64a8a83e1567439/Css/webfonts.css?1741597271",
 							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/081fa96a07de1dccb64a8a83e1567439\/Css\/webfonts.css (1741597271)",
 							"method": "GET",
@@ -505,9 +513,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "130",
-							"uri": "https://www.univ-evry.fr/accueil/sitemap.xml",
-							"nodeName": "https:\/\/www.univ-evry.fr\/accueil\/sitemap.xml",
+							"id": "94",
+							"uri": "https://www.univ-evry.fr/_assets/081fa96a07de1dccb64a8a83e1567439/Icons/favicon.ico",
+							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/081fa96a07de1dccb64a8a83e1567439\/Icons\/favicon.ico",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -515,7 +523,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "24",
 							"uri": "https://www.univ-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.univ-evry.fr\/robots.txt",
 							"method": "GET",
@@ -525,7 +533,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "108",
+							"id": "117",
 							"uri": "https://www.univ-evry.fr/typo3/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
@@ -545,9 +553,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "131",
-							"uri": "https://www.univ-evry.fr/accueil/sitemap.xml",
-							"nodeName": "https:\/\/www.univ-evry.fr\/accueil\/sitemap.xml",
+							"id": "118",
+							"uri": "https://www.univ-evry.fr/typo3/",
+							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -555,9 +563,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "109",
-							"uri": "https://www.univ-evry.fr/typo3/",
-							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
+							"id": "142",
+							"uri": "https://www.univ-evry.fr/typo3/login/password-reset/forget?loginProvider=1433416747",
+							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login\/password-reset\/forget (loginProvider)",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -575,9 +583,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "132",
-							"uri": "https://www.univ-evry.fr/accueil/sitemap.xml",
-							"nodeName": "https:\/\/www.univ-evry.fr\/accueil\/sitemap.xml",
+							"id": "119",
+							"uri": "https://www.univ-evry.fr/typo3/",
+							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -585,9 +593,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "110",
-							"uri": "https://www.univ-evry.fr/typo3/",
-							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
+							"id": "144",
+							"uri": "https://www.univ-evry.fr/typo3/login/password-reset/forget?loginProvider=1433416747",
+							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login\/password-reset\/forget (loginProvider)",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -625,7 +633,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "147",
+							"id": "134",
 							"uri": "https://www.univ-evry.fr/*?*tx_solr",
 							"nodeName": "https:\/\/www.univ-evry.fr\/* (*tx_solr)",
 							"method": "GET",
@@ -635,17 +643,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "137",
-							"uri": "https://www.univ-evry.fr/accueil.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/accueil.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "107",
+							"id": "116",
 							"uri": "https://www.univ-evry.fr/typo3/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
@@ -655,7 +653,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "140",
+							"uri": "https://www.univ-evry.fr/typo3/login/password-reset/forget?loginProvider=1433416747",
+							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login\/password-reset\/forget (loginProvider)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "48",
 							"uri": "https://www.univ-evry.fr/typo3_src/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3_src\/",
 							"method": "GET",
@@ -685,7 +693,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "29",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -695,9 +703,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "111",
-							"uri": "https://www.univ-evry.fr/accueil/sitemap.xml",
-							"nodeName": "https:\/\/www.univ-evry.fr\/accueil\/sitemap.xml",
+							"id": "86",
+							"uri": "https://www.univ-evry.fr/_assets/081fa96a07de1dccb64a8a83e1567439/Css/webfonts.css?1741597271",
+							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/081fa96a07de1dccb64a8a83e1567439\/Css\/webfonts.css (1741597271)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -705,7 +713,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "1",
+							"id": "92",
+							"uri": "https://www.univ-evry.fr/_assets/081fa96a07de1dccb64a8a83e1567439/Icons/favicon.ico",
+							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/081fa96a07de1dccb64a8a83e1567439\/Icons\/favicon.ico",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "2",
 							"uri": "https://www.univ-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.univ-evry.fr\/robots.txt",
 							"method": "GET",
@@ -715,17 +733,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
-							"uri": "https://www.univ-evry.fr/typo3/",
-							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "27",
+							"id": "9",
 							"uri": "https://www.univ-evry.fr/typo3_src/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3_src\/",
 							"method": "GET",
@@ -755,7 +763,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "48",
+							"id": "46",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -765,7 +773,7 @@
 							"otherinfo": "1656685758, which evaluates to: 2022-07-01 14:29:18."
 						},
 						{
-							"id": "42",
+							"id": "40",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -775,7 +783,7 @@
 							"otherinfo": "1729577947, which evaluates to: 2024-10-22 06:19:07."
 						},
 						{
-							"id": "45",
+							"id": "43",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -785,7 +793,7 @@
 							"otherinfo": "1741597269, which evaluates to: 2025-03-10 09:01:09."
 						},
 						{
-							"id": "44",
+							"id": "42",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -795,7 +803,7 @@
 							"otherinfo": "1741597270, which evaluates to: 2025-03-10 09:01:10."
 						},
 						{
-							"id": "43",
+							"id": "41",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -825,7 +833,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "99",
+							"id": "83",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -835,7 +843,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
 						},
 						{
-							"id": "157",
+							"id": "156",
 							"uri": "https://www.univ-evry.fr/*?*tx_solr",
 							"nodeName": "https:\/\/www.univ-evry.fr\/* (*tx_solr)",
 							"method": "GET",
@@ -845,7 +853,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
 						},
 						{
-							"id": "168",
+							"id": "180",
 							"uri": "https://www.univ-evry.fr/_assets/081fa96a07de1dccb64a8a83e1567439/Css/backend.css?1767717572",
 							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/081fa96a07de1dccb64a8a83e1567439\/Css\/backend.css (1767717572)",
 							"method": "GET",
@@ -855,7 +863,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD~'\uFFFDw\uFFFD(\uFFFD\u05A2\uFFFD\uFFFD\uFFFD\uFFFDyb\uFFFD\uFA55\uFFFD\\x001e\\x001e\uFFFD]z"
 						},
 						{
-							"id": "128",
+							"id": "89",
 							"uri": "https://www.univ-evry.fr/_assets/081fa96a07de1dccb64a8a83e1567439/Css/webfonts.css?1741597271",
 							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/081fa96a07de1dccb64a8a83e1567439\/Css\/webfonts.css (1741597271)",
 							"method": "GET",
@@ -865,7 +873,17 @@
 							"otherinfo": "\uFFFDZ'\uFFFD\uFFFD\u04A2\uFFFD\uFFFDy&\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001eI\uFFFD\uFFFD\uFFFDQ~\"\u05A5\uFFFD"
 						},
 						{
-							"id": "152",
+							"id": "168",
+							"uri": "https://www.univ-evry.fr/accessibilite.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/accessibilite.html",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/_assets/948410ace0dfa9ad00627133d9ca8a23/Css/Basic",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
+						},
+						{
+							"id": "158",
 							"uri": "https://www.univ-evry.fr/accueil.html",
 							"nodeName": "https:\/\/www.univ-evry.fr\/accueil.html",
 							"method": "GET",
@@ -875,9 +893,9 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
 						},
 						{
-							"id": "171",
-							"uri": "https://www.univ-evry.fr/recherche/projets-de-recherche-nationaux-europeens-et-internationaux.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/recherche\/projets-de-recherche-nationaux-europeens-et-internationaux.html",
+							"id": "176",
+							"uri": "https://www.univ-evry.fr/numerique.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/numerique.html",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -885,47 +903,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
 						},
 						{
-							"id": "192",
-							"uri": "https://www.univ-evry.fr/toute-lactualite/actualites-universite/actualites-universite-paris-saclay/presidence-de-luniversite-paris-saclay-appel-a-candidatures.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/toute-lactualite\/actualites-universite\/actualites-universite-paris-saclay\/presidence-de-luniversite-paris-saclay-appel-a-candidatures.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/_assets/948410ace0dfa9ad00627133d9ca8a23/Css/Basic",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
-						},
-						{
-							"id": "190",
-							"uri": "https://www.univ-evry.fr/toute-lactualite/actualites-vie-de-campus/portraits-etudiants-et-alumnis/portrait-alumni-rencontre-avec-dandyguel-rappeur-et-diplome-dun-master-conduite-du-changement-des-organisations-du-travail.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/toute-lactualite\/actualites-vie-de-campus\/portraits-etudiants-et-alumnis\/portrait-alumni-rencontre-avec-dandyguel-rappeur-et-diplome-dun-master-conduite-du-changement-des-organisations-du-travail.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/_assets/948410ace0dfa9ad00627133d9ca8a23/Css/Basic",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
-						},
-						{
-							"id": "187",
-							"uri": "https://www.univ-evry.fr/toute-lactualite/actualites-vie-de-campus/portraits-etudiants-et-alumnis/rencontre-alumni-paul-eyssautier-diplome-dun-master-en-traduction-a-luniversite-devry-revient-sur-son-parcours-et-ses-projets-a-venir.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/toute-lactualite\/actualites-vie-de-campus\/portraits-etudiants-et-alumnis\/rencontre-alumni-paul-eyssautier-diplome-dun-master-en-traduction-a-luniversite-devry-revient-sur-son-parcours-et-ses-projets-a-venir.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/_assets/948410ace0dfa9ad00627133d9ca8a23/Css/Basic",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
-						},
-						{
-							"id": "181",
-							"uri": "https://www.univ-evry.fr/toute-lactualite/actualites-vie-de-campus/portraits-etudiants-et-alumnis/rencontre-alumni-remy-sevestre-diplome-dune-licence-en-economie-gestion-a-luniversite-devry-revient-sur-son-parcours-ses-etudes-et-ses-projets.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/toute-lactualite\/actualites-vie-de-campus\/portraits-etudiants-et-alumnis\/rencontre-alumni-remy-sevestre-diplome-dune-licence-en-economie-gestion-a-luniversite-devry-revient-sur-son-parcours-ses-etudes-et-ses-projets.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/_assets/948410ace0dfa9ad00627133d9ca8a23/Css/Basic",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
-						},
-						{
-							"id": "113",
+							"id": "138",
 							"uri": "https://www.univ-evry.fr/typo3/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
@@ -935,7 +913,7 @@
 							"otherinfo": "{\"typ\":\"JWT\",\"alg\":\"HS256\"}"
 						},
 						{
-							"id": "149",
+							"id": "150",
 							"uri": "https://www.univ-evry.fr/typo3/login/password-reset/forget?loginProvider=1433416747",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login\/password-reset\/forget (loginProvider)",
 							"method": "GET",
@@ -943,6 +921,36 @@
 							"attack": "",
 							"evidence": "/_assets/081fa96a07de1dccb64a8a83e1567439/Icons/favicon",
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFDO5}\uFFFDzkN\uFFFD{W\\q\uFFFD\uFFFDk\u01BC\uFFFD\uFFFDy\uFFFD7\uFFFD\uFFFD\\x001c\uFFFD{?}\uFFFD\uFFFDr\uFFFD"
+						},
+						{
+							"id": "179",
+							"uri": "https://www.univ-evry.fr/universite/luniversite-evry-paris-saclay.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/universite\/luniversite-evry-paris-saclay.html",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/_assets/948410ace0dfa9ad00627133d9ca8a23/Css/Basic",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
+						},
+						{
+							"id": "195",
+							"uri": "https://www.univ-evry.fr/universite/luniversite-evry-paris-saclay/membre-de-luniversite-paris-saclay.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/universite\/luniversite-evry-paris-saclay\/membre-de-luniversite-paris-saclay.html",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/_assets/948410ace0dfa9ad00627133d9ca8a23/Css/Basic",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
+						},
+						{
+							"id": "188",
+							"uri": "https://www.univ-evry.fr/universite/recrutement.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/universite\/recrutement.html",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/_assets/948410ace0dfa9ad00627133d9ca8a23/Css/Basic",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD<\uFFFD]\\x001aq\uFFFD\\x001d}\uFFFDZwM:\u06FDw\uFFFD\uFFFD\\k\u01B6\uFFFD\uFFFD\uFFFDZ\uFFFD'"
 						}
 					],
 					"count": "12",
@@ -965,7 +973,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "154",
+							"id": "148",
 							"uri": "https://www.univ-evry.fr/_assets/1ee1d3e909b58d32e30dcea666dd3224/JavaScript/Contrib/es-module-shims.js",
 							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/1ee1d3e909b58d32e30dcea666dd3224\/JavaScript\/Contrib\/es-module-shims.js",
 							"method": "GET",
@@ -975,7 +983,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//${location.host}${location.pathname.includes(\"/\")?location.pathname.slice(0,location.pathname.lastIndexOf(\"/\")+1):location.pat\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "150",
+							"id": "153",
 							"uri": "https://www.univ-evry.fr/_assets/1ee1d3e909b58d32e30dcea666dd3224/JavaScript/java-script-item-handler.js?1767717574",
 							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/1ee1d3e909b58d32e30dcea666dd3224\/JavaScript\/java-script-item-handler.js (1767717574)",
 							"method": "GET",
@@ -985,7 +993,7 @@
 							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"/*\n * This file is part of the TYPO3 CMS project.\n *\n * It is free software; you can redistribute it and/or modify it under\n * t\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "87",
+							"id": "99",
 							"uri": "https://www.univ-evry.fr/typo3/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
@@ -995,7 +1003,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"/* [{\"type\":\"globalAssignment\",\"payload\":{\"TYPO3\":{\"settings\":{\"ajaxUrls\":{\"core_requirejs\":\"\\/typo3\\/ajax\\/core\\/requirejs\",\"lo\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "200",
+							"id": "201",
 							"uri": "https://www.univ-evry.fr/typo3/login?loginProvider=1433416747",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login (loginProvider)(__RequestToken,loginRefresh,login_status,p_field,redirect_url,userident,username)",
 							"method": "POST",
@@ -1012,7 +1020,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "696"
+					"sourceid": "516"
 				},
 				{
 					"pluginid": "10109",
@@ -1025,7 +1033,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "17",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -1035,7 +1043,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "140",
+							"id": "121",
 							"uri": "https://www.univ-evry.fr/*?*tx_solr",
 							"nodeName": "https:\/\/www.univ-evry.fr\/* (*tx_solr)",
 							"method": "GET",
@@ -1045,7 +1053,17 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "112",
+							"id": "161",
+							"uri": "https://www.univ-evry.fr/accessibilite.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/accessibilite.html",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"/?type=168\" target=\"_self\" title=\"Rss - Ouverture dans une nouvelle fen\u00EAtre\"><i class=\"icon icon-rss\"></i></a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"id": "135",
 							"uri": "https://www.univ-evry.fr/accueil.html",
 							"nodeName": "https:\/\/www.univ-evry.fr\/accueil.html",
 							"method": "GET",
@@ -1055,17 +1073,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "161",
-							"uri": "https://www.univ-evry.fr/recherche/projets-de-recherche-nationaux-europeens-et-internationaux.html",
-							"nodeName": "https:\/\/www.univ-evry.fr\/recherche\/projets-de-recherche-nationaux-europeens-et-internationaux.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a href=\"/?type=168\" target=\"_self\" title=\"Rss - Ouverture dans une nouvelle fen\u00EAtre\"><i class=\"icon icon-rss\"></i></a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
-							"id": "88",
+							"id": "100",
 							"uri": "https://www.univ-evry.fr/typo3/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
@@ -1105,7 +1113,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "136",
+							"id": "146",
 							"uri": "https://www.univ-evry.fr/accueil.html",
 							"nodeName": "https:\/\/www.univ-evry.fr\/accueil.html",
 							"method": "GET",
@@ -1115,7 +1123,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "106",
+							"id": "115",
 							"uri": "https://www.univ-evry.fr/typo3/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
@@ -1125,7 +1133,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "136",
+							"uri": "https://www.univ-evry.fr/typo3/login/password-reset/forget?loginProvider=1433416747",
+							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login\/password-reset\/forget (loginProvider)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "no-store",
+							"otherinfo": ""
+						},
+						{
+							"id": "47",
 							"uri": "https://www.univ-evry.fr/typo3_src/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3_src\/",
 							"method": "GET",
@@ -1135,7 +1153,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": true,
 					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).</p>",
 					"otherinfo": "",
@@ -1155,7 +1173,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "10",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -1165,23 +1183,13 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "96",
 							"uri": "https://www.univ-evry.fr/accueil.html",
 							"nodeName": "https:\/\/www.univ-evry.fr\/accueil.html",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
 							"evidence": "private, no-store, max-age=0",
-							"otherinfo": ""
-						},
-						{
-							"id": "93",
-							"uri": "https://www.univ-evry.fr/accueil/sitemap.xml",
-							"nodeName": "https:\/\/www.univ-evry.fr\/accueil\/sitemap.xml",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "max-age=0",
 							"otherinfo": ""
 						},
 						{
@@ -1195,9 +1203,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "90",
 							"uri": "https://www.univ-evry.fr/typo3/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "no-cache, no-store",
+							"otherinfo": ""
+						},
+						{
+							"id": "98",
+							"uri": "https://www.univ-evry.fr/typo3/login/password-reset/forget?loginProvider=1433416747",
+							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login\/password-reset\/forget (loginProvider)",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1225,7 +1243,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "22",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -1235,7 +1253,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "27",
 							"uri": "https://www.univ-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.univ-evry.fr\/robots.txt",
 							"method": "GET",
@@ -1245,7 +1263,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "6",
 							"uri": "https://www.univ-evry.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.univ-evry.fr\/sitemap.xml",
 							"method": "GET",
@@ -1262,7 +1280,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -1275,7 +1293,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "20",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -1285,7 +1303,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
+							"id": "26",
 							"uri": "https://www.univ-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.univ-evry.fr\/robots.txt",
 							"method": "GET",
@@ -1295,7 +1313,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "5",
 							"uri": "https://www.univ-evry.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.univ-evry.fr\/sitemap.xml",
 							"method": "GET",
@@ -1312,7 +1330,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -1325,7 +1343,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "19",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -1335,7 +1353,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
+							"id": "25",
 							"uri": "https://www.univ-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.univ-evry.fr\/robots.txt",
 							"method": "GET",
@@ -1345,7 +1363,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "4",
 							"uri": "https://www.univ-evry.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.univ-evry.fr\/sitemap.xml",
 							"method": "GET",
@@ -1362,7 +1380,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -1375,7 +1393,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "23",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -1385,7 +1403,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "28",
 							"uri": "https://www.univ-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.univ-evry.fr\/robots.txt",
 							"method": "GET",
@@ -1395,7 +1413,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "7",
 							"uri": "https://www.univ-evry.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.univ-evry.fr\/sitemap.xml",
 							"method": "GET",
@@ -1412,7 +1430,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10112",
@@ -1425,34 +1443,34 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "92",
+							"id": "84",
 							"uri": "https://www.univ-evry.fr/typo3/",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/",
 							"method": "GET",
-							"param": "__Secure-typo3nonce_Edhjgs1aeXxgrQjcWFPtUA",
+							"param": "__Secure-typo3nonce_ffcMVcrmXgJRbc2JLLyI7A",
 							"attack": "",
-							"evidence": "__Secure-typo3nonce_Edhjgs1aeXxgrQjcWFPtUA",
-							"otherinfo": "cookie:__Secure-typo3nonce_Edhjgs1aeXxgrQjcWFPtUA"
+							"evidence": "__Secure-typo3nonce_ffcMVcrmXgJRbc2JLLyI7A",
+							"otherinfo": "cookie:__Secure-typo3nonce_ffcMVcrmXgJRbc2JLLyI7A"
 						},
 						{
-							"id": "207",
+							"id": "199",
 							"uri": "https://www.univ-evry.fr/typo3/login?loginProvider=1433416747",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login (loginProvider)(__RequestToken,loginRefresh,login_status,p_field,redirect_url,userident,username)",
 							"method": "POST",
-							"param": "__Secure-typo3nonce_M9lOrKl3CjHnOOfyRQ-0qg",
+							"param": "__Secure-typo3nonce_BwbSmvdSOxFe4zLsHcXDww",
 							"attack": "",
-							"evidence": "__Secure-typo3nonce_M9lOrKl3CjHnOOfyRQ-0qg",
-							"otherinfo": "cookie:__Secure-typo3nonce_M9lOrKl3CjHnOOfyRQ-0qg"
+							"evidence": "__Secure-typo3nonce_BwbSmvdSOxFe4zLsHcXDww",
+							"otherinfo": "cookie:__Secure-typo3nonce_BwbSmvdSOxFe4zLsHcXDww"
 						}
 					],
 					"count": "2",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
-					"otherinfo": "<p>cookie:__Secure-typo3nonce_Edhjgs1aeXxgrQjcWFPtUA</p>",
+					"otherinfo": "<p>cookie:__Secure-typo3nonce_ffcMVcrmXgJRbc2JLLyI7A</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "18"
+					"sourceid": "17"
 				},
 				{
 					"pluginid": "10049",
@@ -1465,7 +1483,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "146",
+							"id": "133",
 							"uri": "https://www.univ-evry.fr/*?*tx_solr",
 							"nodeName": "https:\/\/www.univ-evry.fr\/* (*tx_solr)",
 							"method": "GET",
@@ -1475,7 +1493,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "126",
+							"id": "87",
 							"uri": "https://www.univ-evry.fr/_assets/081fa96a07de1dccb64a8a83e1567439/Css/webfonts.css?1741597271",
 							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/081fa96a07de1dccb64a8a83e1567439\/Css\/webfonts.css (1741597271)",
 							"method": "GET",
@@ -1485,7 +1503,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "134",
+							"id": "93",
 							"uri": "https://www.univ-evry.fr/_assets/081fa96a07de1dccb64a8a83e1567439/Icons/favicon.ico",
 							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/081fa96a07de1dccb64a8a83e1567439\/Icons\/favicon.ico",
 							"method": "GET",
@@ -1495,7 +1513,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "139",
+							"id": "143",
 							"uri": "https://www.univ-evry.fr/_assets/a19a52d18aa5fcd2da308163624eb166/Styles/Backend/backend.css?1741597271",
 							"nodeName": "https:\/\/www.univ-evry.fr\/_assets\/a19a52d18aa5fcd2da308163624eb166\/Styles\/Backend\/backend.css (1741597271)",
 							"method": "GET",
@@ -1505,7 +1523,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
+							"id": "21",
 							"uri": "https://www.univ-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.univ-evry.fr\/robots.txt",
 							"method": "GET",
@@ -1522,7 +1540,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "75"
+					"sourceid": "21"
 				},
 				{
 					"pluginid": "10049",
@@ -1535,7 +1553,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "18",
 							"uri": "https://www.univ-evry.fr",
 							"nodeName": "https:\/\/www.univ-evry.fr",
 							"method": "GET",
@@ -1545,17 +1563,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "129",
-							"uri": "https://www.univ-evry.fr/accueil/sitemap.xml",
-							"nodeName": "https:\/\/www.univ-evry.fr\/accueil\/sitemap.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "max-age=0",
-							"otherinfo": ""
-						},
-						{
-							"id": "12",
+							"id": "3",
 							"uri": "https://www.univ-evry.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.univ-evry.fr\/sitemap.xml",
 							"method": "GET",
@@ -1565,14 +1573,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": true,
 					"solution": "",
 					"otherinfo": "",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10031",
@@ -1585,7 +1593,17 @@
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
 						{
-							"id": "201",
+							"id": "209",
+							"uri": "https://www.univ-evry.fr/envoyer-a-un-ami.html?cHash=e176916fc0ab59a5e559a79c0b63100e&url=https%3A%2F%2Fwww.univ-evry.fr%2F404.html",
+							"nodeName": "https:\/\/www.univ-evry.fr\/envoyer-a-un-ami.html (cHash,url)",
+							"method": "GET",
+							"param": "url",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.univ-evry.fr/envoyer-a-un-ami.html?cHash=e176916fc0ab59a5e559a79c0b63100e&url=https%3A%2F%2Fwww.univ-evry.fr%2F404.html\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nurl=https://www.univ-evry.fr/404.html\n\nThe user-controlled value was:\nhttps://www.univ-evry.fr/404.html"
+						},
+						{
+							"id": "202",
 							"uri": "https://www.univ-evry.fr/typo3/login?loginProvider=1433416747",
 							"nodeName": "https:\/\/www.univ-evry.fr\/typo3\/login (loginProvider)(__RequestToken,loginRefresh,login_status,p_field,redirect_url,userident,username)",
 							"method": "POST",
@@ -1595,14 +1613,14 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.univ-evry.fr/typo3/login?loginProvider=1433416747\n\nappears to include user input in:\na(n) [form] tag [name] attribute\n\nThe user input found was:\nlogin_status=login\n\nThe user-controlled value was:\nloginform"
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>",
-					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://www.univ-evry.fr/typo3/login?loginProvider=1433416747</p><p></p><p>appears to include user input in:</p><p>a(n) [form] tag [name] attribute</p><p></p><p>The user input found was:</p><p>login_status=login</p><p></p><p>The user-controlled value was:</p><p>loginform</p>",
+					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://www.univ-evry.fr/envoyer-a-un-ami.html?cHash=e176916fc0ab59a5e559a79c0b63100e&url=https%3A%2F%2Fwww.univ-evry.fr%2F404.html</p><p></p><p>appears to include user input in:</p><p>a(n) [input] tag [value] attribute</p><p></p><p>The user input found was:</p><p>url=https://www.univ-evry.fr/404.html</p><p></p><p>The user-controlled value was:</p><p>https://www.univ-evry.fr/404.html</p>",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "2175"
+					"sourceid": "2276"
 				}
 			]
 		}

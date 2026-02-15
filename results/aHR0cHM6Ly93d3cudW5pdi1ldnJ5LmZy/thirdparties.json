@@ -86,6 +86,14 @@
     },
     {
       "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs13Fv40pKlN4NNSeSASwcEWlWHYg.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/exo2/v26/7cHmv4okm5zmbtYoK-4.woff2",
       "details": {
         "id": "google fonts",
@@ -101,16 +109,8 @@
       }
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs13Fv40pKlN4NNSeSASwcEWlWHYg.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
       "type": "unknown",
-      "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=716090&h=2&m=1&s=31&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=8iZOvD&pf_net=0&pf_srv=270&pf_tfr=106&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22145.0.7632.46%22%7D%2C%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%2299.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
+      "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=432525&h=1&m=46&s=29&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=9SLTND&pf_net=0&pf_srv=286&pf_tfr=115&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22145.0.7632.67%22%7D%2C%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%2299.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
     },
     {
       "type": "cloudflare",
@@ -191,10 +191,10 @@
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
     "content-language": "fr-FR",
-    "content-length": "37493",
+    "content-length": "31094",
     "content-type": "text/html;charset=utf-8",
-    "date": "Sun, 08 Feb 2026 02:01:29 GMT",
-    "expires": "Sun, 08 Feb 2026 02:01:29 GMT",
+    "date": "Sun, 15 Feb 2026 01:46:28 GMT",
+    "expires": "Sun, 15 Feb 2026 01:46:28 GMT",
     "keep-alive": "timeout=5, max=99",
     "server": "Apache",
     "vary": "User-Agent,Accept-Encoding",
@@ -207,12 +207,9 @@
       "ip": "194.199.84.39",
       "geoip": {
         "city": {
-          "geoname_id": 2992536,
+          "geoname_id": 2974115,
           "names": {
-            "en": "Montgeron",
-            "ja": "モンジュロン",
-            "ru": "Монжероне",
-            "zh-CN": "蒙特热龙"
+            "en": "Soucy"
           }
         },
         "continent": {
@@ -245,13 +242,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 20,
-          "latitude": 48.7078,
-          "longitude": 2.4496,
+          "accuracy_radius": 100,
+          "latitude": 48.2481,
+          "longitude": 3.3284,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "91230"
+          "code": "89100"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -270,31 +267,30 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
+            "geoname_id": 11071619,
+            "iso_code": "BFC",
             "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
+              "de": "Bourgogne",
+              "en": "Bourgogne",
+              "es": "Bourgogne",
+              "fr": "Bourgogne",
+              "ja": "ブルゴーニュ＝フランシュ＝コンテ地域圏",
+              "pt-BR": "Borgonha-Franco-Condado",
+              "ru": "Бургундия — Франш-Конте"
             }
           },
           {
-            "geoname_id": 3019599,
-            "iso_code": "91",
+            "geoname_id": 2967222,
+            "iso_code": "89",
             "names": {
-              "de": "Essonne",
-              "en": "Essonne",
-              "es": "Essonne",
-              "fr": "Essonne",
-              "ja": "エソンヌ県",
-              "pt-BR": "Essonne",
-              "ru": "Эсон",
-              "zh-CN": "埃松省"
+              "de": "Yonne",
+              "en": "Yonne",
+              "es": "Yonne",
+              "fr": "Yonne",
+              "ja": "ヨンヌ県",
+              "pt-BR": "Yonne",
+              "ru": "Йонна",
+              "zh-CN": "约讷省"
             }
           }
         ]
@@ -302,7 +298,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -311,7 +307,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -322,7 +318,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.217.106",
+      "ip": "172.217.214.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -345,7 +341,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -365,7 +361,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -376,7 +372,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "151.101.194.137",
+      "ip": "151.101.2.137",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -399,7 +395,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -419,7 +415,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -433,12 +429,9 @@
       "ip": "194.199.84.119",
       "geoip": {
         "city": {
-          "geoname_id": 2992536,
+          "geoname_id": 2974115,
           "names": {
-            "en": "Montgeron",
-            "ja": "モンジュロン",
-            "ru": "Монжероне",
-            "zh-CN": "蒙特热龙"
+            "en": "Soucy"
           }
         },
         "continent": {
@@ -471,13 +464,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 20,
-          "latitude": 48.7078,
-          "longitude": 2.4496,
+          "accuracy_radius": 100,
+          "latitude": 48.2481,
+          "longitude": 3.3284,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "91230"
+          "code": "89100"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -496,31 +489,30 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
+            "geoname_id": 11071619,
+            "iso_code": "BFC",
             "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
+              "de": "Bourgogne",
+              "en": "Bourgogne",
+              "es": "Bourgogne",
+              "fr": "Bourgogne",
+              "ja": "ブルゴーニュ＝フランシュ＝コンテ地域圏",
+              "pt-BR": "Borgonha-Franco-Condado",
+              "ru": "Бургундия — Франш-Конте"
             }
           },
           {
-            "geoname_id": 3019599,
-            "iso_code": "91",
+            "geoname_id": 2967222,
+            "iso_code": "89",
             "names": {
-              "de": "Essonne",
-              "en": "Essonne",
-              "es": "Essonne",
-              "fr": "Essonne",
-              "ja": "エソンヌ県",
-              "pt-BR": "Essonne",
-              "ru": "Эсон",
-              "zh-CN": "埃松省"
+              "de": "Yonne",
+              "en": "Yonne",
+              "es": "Yonne",
+              "fr": "Yonne",
+              "ja": "ヨンヌ県",
+              "pt-BR": "Yonne",
+              "ru": "Йонна",
+              "zh-CN": "约讷省"
             }
           }
         ]
@@ -528,7 +520,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.190.131",
+      "ip": "108.177.121.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -551,7 +543,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -571,7 +563,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
