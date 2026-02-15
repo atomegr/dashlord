@@ -16,15 +16,15 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 08 Feb 2026 02:05:58 GMT",
+          "date": "Sun, 15 Feb 2026 01:50:45 GMT",
           "server": "Apache",
           "content-language": "fr-FR",
           "cache-control": "private, no-store, max-age=0",
           "vary": "User-Agent,Accept-Encoding",
-          "expires": "Sun, 08 Feb 2026 02:05:58 GMT",
+          "expires": "Sun, 15 Feb 2026 01:50:45 GMT",
           "x-ua-compatible": "IE=edge",
           "x-content-type-options": "nosniff",
-          "content-length": "37493",
+          "content-length": "31094",
           "connection": "close",
           "content-type": "text/html;charset=utf-8"
         }
@@ -491,7 +491,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "OK",
-        "finding": "333 >= 60 days"
+        "finding": "326 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -694,7 +694,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "1770516407"
+        "finding": "1771120306"
       },
       {
         "id": "HSTS",
@@ -1257,7 +1257,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "78"
+        "finding": "95"
       }
     ],
     "thirdparties": {
@@ -1348,6 +1348,14 @@
         },
         {
           "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs13Fv40pKlN4NNSeSASwcEWlWHYg.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
           "url": "https://fonts.gstatic.com/s/exo2/v26/7cHmv4okm5zmbtYoK-4.woff2",
           "details": {
             "id": "google fonts",
@@ -1363,16 +1371,8 @@
           }
         },
         {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs13Fv40pKlN4NNSeSASwcEWlWHYg.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
           "type": "unknown",
-          "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=716090&h=2&m=1&s=31&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=8iZOvD&pf_net=0&pf_srv=270&pf_tfr=106&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22145.0.7632.46%22%7D%2C%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%2299.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
+          "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=432525&h=1&m=46&s=29&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=9SLTND&pf_net=0&pf_srv=286&pf_tfr=115&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22145.0.7632.67%22%7D%2C%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%2299.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
         },
         {
           "type": "cloudflare",
@@ -1453,10 +1453,10 @@
         "connection": "Keep-Alive",
         "content-encoding": "gzip",
         "content-language": "fr-FR",
-        "content-length": "37493",
+        "content-length": "31094",
         "content-type": "text/html;charset=utf-8",
-        "date": "Sun, 08 Feb 2026 02:01:29 GMT",
-        "expires": "Sun, 08 Feb 2026 02:01:29 GMT",
+        "date": "Sun, 15 Feb 2026 01:46:28 GMT",
+        "expires": "Sun, 15 Feb 2026 01:46:28 GMT",
         "keep-alive": "timeout=5, max=99",
         "server": "Apache",
         "vary": "User-Agent,Accept-Encoding",
@@ -1469,12 +1469,9 @@
           "ip": "194.199.84.39",
           "geoip": {
             "city": {
-              "geoname_id": 2992536,
+              "geoname_id": 2974115,
               "names": {
-                "en": "Montgeron",
-                "ja": "モンジュロン",
-                "ru": "Монжероне",
-                "zh-CN": "蒙特热龙"
+                "en": "Soucy"
               }
             },
             "continent": {
@@ -1507,13 +1504,13 @@
               }
             },
             "location": {
-              "accuracy_radius": 20,
-              "latitude": 48.7078,
-              "longitude": 2.4496,
+              "accuracy_radius": 100,
+              "latitude": 48.2481,
+              "longitude": 3.3284,
               "time_zone": "Europe/Paris"
             },
             "postal": {
-              "code": "91230"
+              "code": "89100"
             },
             "registered_country": {
               "geoname_id": 3017382,
@@ -1532,31 +1529,30 @@
             },
             "subdivisions": [
               {
-                "geoname_id": 3012874,
-                "iso_code": "IDF",
+                "geoname_id": 11071619,
+                "iso_code": "BFC",
                 "names": {
-                  "de": "Île-de-France",
-                  "en": "Île-de-France",
-                  "es": "Isla de Francia",
-                  "fr": "Île-de-France",
-                  "ja": "イル・ド・フランス",
-                  "pt-BR": "Ilha de França",
-                  "ru": "Иль-де-Франс",
-                  "zh-CN": "法兰西岛"
+                  "de": "Bourgogne",
+                  "en": "Bourgogne",
+                  "es": "Bourgogne",
+                  "fr": "Bourgogne",
+                  "ja": "ブルゴーニュ＝フランシュ＝コンテ地域圏",
+                  "pt-BR": "Borgonha-Franco-Condado",
+                  "ru": "Бургундия — Франш-Конте"
                 }
               },
               {
-                "geoname_id": 3019599,
-                "iso_code": "91",
+                "geoname_id": 2967222,
+                "iso_code": "89",
                 "names": {
-                  "de": "Essonne",
-                  "en": "Essonne",
-                  "es": "Essonne",
-                  "fr": "Essonne",
-                  "ja": "エソンヌ県",
-                  "pt-BR": "Essonne",
-                  "ru": "Эсон",
-                  "zh-CN": "埃松省"
+                  "de": "Yonne",
+                  "en": "Yonne",
+                  "es": "Yonne",
+                  "fr": "Yonne",
+                  "ja": "ヨンヌ県",
+                  "pt-BR": "Yonne",
+                  "ru": "Йонна",
+                  "zh-CN": "约讷省"
                 }
               }
             ]
@@ -1564,7 +1560,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.24.14",
+          "ip": "104.17.25.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -1573,7 +1569,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -1584,7 +1580,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.250.217.106",
+          "ip": "172.217.214.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1607,7 +1603,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -1627,7 +1623,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -1638,7 +1634,7 @@
         },
         {
           "hostname": "code.jquery.com",
-          "ip": "151.101.194.137",
+          "ip": "151.101.2.137",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1661,7 +1657,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -1681,7 +1677,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -1695,12 +1691,9 @@
           "ip": "194.199.84.119",
           "geoip": {
             "city": {
-              "geoname_id": 2992536,
+              "geoname_id": 2974115,
               "names": {
-                "en": "Montgeron",
-                "ja": "モンジュロン",
-                "ru": "Монжероне",
-                "zh-CN": "蒙特热龙"
+                "en": "Soucy"
               }
             },
             "continent": {
@@ -1733,13 +1726,13 @@
               }
             },
             "location": {
-              "accuracy_radius": 20,
-              "latitude": 48.7078,
-              "longitude": 2.4496,
+              "accuracy_radius": 100,
+              "latitude": 48.2481,
+              "longitude": 3.3284,
               "time_zone": "Europe/Paris"
             },
             "postal": {
-              "code": "91230"
+              "code": "89100"
             },
             "registered_country": {
               "geoname_id": 3017382,
@@ -1758,31 +1751,30 @@
             },
             "subdivisions": [
               {
-                "geoname_id": 3012874,
-                "iso_code": "IDF",
+                "geoname_id": 11071619,
+                "iso_code": "BFC",
                 "names": {
-                  "de": "Île-de-France",
-                  "en": "Île-de-France",
-                  "es": "Isla de Francia",
-                  "fr": "Île-de-France",
-                  "ja": "イル・ド・フランス",
-                  "pt-BR": "Ilha de França",
-                  "ru": "Иль-де-Франс",
-                  "zh-CN": "法兰西岛"
+                  "de": "Bourgogne",
+                  "en": "Bourgogne",
+                  "es": "Bourgogne",
+                  "fr": "Bourgogne",
+                  "ja": "ブルゴーニュ＝フランシュ＝コンテ地域圏",
+                  "pt-BR": "Borgonha-Franco-Condado",
+                  "ru": "Бургундия — Франш-Конте"
                 }
               },
               {
-                "geoname_id": 3019599,
-                "iso_code": "91",
+                "geoname_id": 2967222,
+                "iso_code": "89",
                 "names": {
-                  "de": "Essonne",
-                  "en": "Essonne",
-                  "es": "Essonne",
-                  "fr": "Essonne",
-                  "ja": "エソンヌ県",
-                  "pt-BR": "Essonne",
-                  "ru": "Эсон",
-                  "zh-CN": "埃松省"
+                  "de": "Yonne",
+                  "en": "Yonne",
+                  "es": "Yonne",
+                  "fr": "Yonne",
+                  "ja": "ヨンヌ県",
+                  "pt-BR": "Yonne",
+                  "ru": "Йонна",
+                  "zh-CN": "约讷省"
                 }
               }
             ]
@@ -1790,7 +1782,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.190.131",
+          "ip": "108.177.121.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1813,7 +1805,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -1833,7 +1825,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -2343,16 +2335,24 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 8 Feb 2026 02:05:08",
-      "created": "2026-02-08T02:05:08.805028997Z",
+      "@generated": "Sun, 15 Feb 2026 01:49:57",
+      "created": "2026-02-15T01:49:57.073418039Z",
       "insights": [
+        {
+          "level": "Low",
+          "reason": "Warning",
+          "site": "",
+          "key": "insight.log.warn",
+          "description": "ZAP warnings logged - see the zap.log file for details",
+          "statistic": "6"
+        },
         {
           "level": "Info",
           "reason": "Informational",
           "site": "https://www.univ-evry.fr",
           "key": "insight.code.2xx",
           "description": "Percentage of responses with status code 2xx",
-          "statistic": "87"
+          "statistic": "98"
         },
         {
           "level": "Info",
@@ -2368,7 +2368,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.code.4xx",
           "description": "Percentage of responses with status code 4xx",
-          "statistic": "10"
+          "statistic": "1"
         },
         {
           "level": "Info",
@@ -2448,7 +2448,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.total",
           "description": "Count of total endpoints",
-          "statistic": "331"
+          "statistic": "395"
         },
         {
           "level": "Info",
@@ -2456,7 +2456,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.response.slow",
           "description": "Percentage of slow responses",
-          "statistic": "98"
+          "statistic": "99"
         }
       ],
       "site": [
@@ -2630,7 +2630,7 @@
       {
         "requestedUrl": "https://www.univ-evry.fr/",
         "finalUrl": "https://www.univ-evry.fr/accueil.html",
-        "fetchTime": "2026-02-08T02:05:23.350Z",
+        "fetchTime": "2026-02-15T01:50:13.171Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.univ-evry.fr/) was redirected to https://www.univ-evry.fr/accueil.html. Try testing the second URL directly."
         ],
@@ -2695,53 +2695,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 25367,
+            "numericValue": 28820,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4338,
-                  "firstMeaningfulPaint": 4754,
-                  "largestContentfulPaint": 11274,
-                  "interactive": 25367,
-                  "speedIndex": 14023,
-                  "totalBlockingTime": 119,
-                  "maxPotentialFID": 116,
-                  "cumulativeLayoutShift": 0.09450325181749132,
-                  "cumulativeLayoutShiftMainFrame": 0.09450325181749132,
-                  "totalCumulativeLayoutShift": 0.09450325181749132,
+                  "firstContentfulPaint": 4477,
+                  "firstMeaningfulPaint": 6889,
+                  "largestContentfulPaint": 17317,
+                  "interactive": 28820,
+                  "speedIndex": 18482,
+                  "totalBlockingTime": 58,
+                  "maxPotentialFID": 104,
+                  "cumulativeLayoutShift": 0.0939473876953125,
+                  "cumulativeLayoutShiftMainFrame": 0.0939473876953125,
+                  "totalCumulativeLayoutShift": 0.0939473876953125,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 324876879,
+                  "observedTimeOriginTs": 312692578,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 324876879,
-                  "observedFirstPaint": 1918,
-                  "observedFirstPaintTs": 326794682,
-                  "observedFirstContentfulPaint": 2004,
-                  "observedFirstContentfulPaintTs": 326880622,
-                  "observedFirstContentfulPaintAllFrames": 2004,
-                  "observedFirstContentfulPaintAllFramesTs": 326880622,
-                  "observedFirstMeaningfulPaint": 2047,
-                  "observedFirstMeaningfulPaintTs": 326923937,
-                  "observedLargestContentfulPaint": 2430,
-                  "observedLargestContentfulPaintTs": 327307120,
-                  "observedLargestContentfulPaintAllFrames": 2430,
-                  "observedLargestContentfulPaintAllFramesTs": 327307120,
-                  "observedTraceEnd": 6412,
-                  "observedTraceEndTs": 331288585,
-                  "observedLoad": 3586,
-                  "observedLoadTs": 328463156,
-                  "observedDomContentLoaded": 3548,
-                  "observedDomContentLoadedTs": 328425346,
-                  "observedCumulativeLayoutShift": 0.09450325181749132,
-                  "observedCumulativeLayoutShiftMainFrame": 0.09450325181749132,
-                  "observedTotalCumulativeLayoutShift": 0.09450325181749132,
-                  "observedFirstVisualChange": 2003,
-                  "observedFirstVisualChangeTs": 326879879,
-                  "observedLastVisualChange": 3690,
-                  "observedLastVisualChangeTs": 328566879,
-                  "observedSpeedIndex": 2892,
-                  "observedSpeedIndexTs": 327769339
+                  "observedNavigationStartTs": 312692578,
+                  "observedFirstPaint": 1386,
+                  "observedFirstPaintTs": 314078479,
+                  "observedFirstContentfulPaint": 1386,
+                  "observedFirstContentfulPaintTs": 314078479,
+                  "observedFirstContentfulPaintAllFrames": 1386,
+                  "observedFirstContentfulPaintAllFramesTs": 314078479,
+                  "observedFirstMeaningfulPaint": 1731,
+                  "observedFirstMeaningfulPaintTs": 314423738,
+                  "observedLargestContentfulPaint": 2035,
+                  "observedLargestContentfulPaintTs": 314727243,
+                  "observedLargestContentfulPaintAllFrames": 2035,
+                  "observedLargestContentfulPaintAllFramesTs": 314727243,
+                  "observedTraceEnd": 6034,
+                  "observedTraceEndTs": 318726743,
+                  "observedLoad": 3170,
+                  "observedLoadTs": 315862139,
+                  "observedDomContentLoaded": 3106,
+                  "observedDomContentLoadedTs": 315798545,
+                  "observedCumulativeLayoutShift": 0.0939473876953125,
+                  "observedCumulativeLayoutShiftMainFrame": 0.0939473876953125,
+                  "observedTotalCumulativeLayoutShift": 0.0939473876953125,
+                  "observedFirstVisualChange": 1386,
+                  "observedFirstVisualChangeTs": 314078578,
+                  "observedLastVisualChange": 3286,
+                  "observedLastVisualChangeTs": 315978578,
+                  "observedSpeedIndex": 2365,
+                  "observedSpeedIndexTs": 315057422
                 },
                 {
                   "lcpInvalidated": false
@@ -2759,23 +2759,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 111,
+                  "numRequests": 109,
                   "numScripts": 34,
                   "numStylesheets": 13,
                   "numFonts": 9,
-                  "numTasks": 2187,
-                  "numTasksOver10ms": 15,
-                  "numTasksOver25ms": 6,
-                  "numTasksOver50ms": 3,
+                  "numTasks": 2331,
+                  "numTasksOver10ms": 12,
+                  "numTasksOver25ms": 3,
+                  "numTasksOver50ms": 2,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 40096324.04260737,
-                  "maxRtt": 106.609,
-                  "maxServerLatency": 215.29999999999998,
-                  "totalByteWeight": 9709597,
-                  "totalTaskTime": 645.2369999999954,
-                  "mainDocumentTransferSize": 37924
+                  "throughput": 44964466.144744165,
+                  "maxRtt": 115.733,
+                  "maxServerLatency": 233.97500000000002,
+                  "totalByteWeight": 10546301,
+                  "totalTaskTime": 553.885999999996,
+                  "mainDocumentTransferSize": 31525
                 }
               ]
             }
@@ -2798,15 +2798,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.univ-evry.fr",
-        "size": 10401.257,
-        "nodes": 3194,
-        "requests": 114,
+        "size": 11155.629,
+        "nodes": 2603,
+        "requests": 112,
         "grade": "F",
         "score": 14,
         "ges": 2.72,
         "water": 4.08,
         "ecoindex_version": "5.4.2",
-        "date": "2026-02-08 02:02:32.277980",
+        "date": "2026-02-15 01:47:25.743409",
         "page_type": null
       }
     ],
@@ -2857,7 +2857,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 08 Feb 2026 02:05:54 GMT",
+          "date": "Sun, 15 Feb 2026 01:51:00 GMT",
           "content-type": "text/html; charset=UTF-8",
           "transfer-encoding": "chunked",
           "connection": "close",
@@ -3171,7 +3171,7 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "not supported"
+        "finding": "supported"
       },
       {
         "id": "TLS_timestamp",
@@ -3310,8 +3310,8 @@
         "id": "cert_expirationStatus",
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
-        "severity": "OK",
-        "finding": "33 >= 30 days"
+        "severity": "MEDIUM",
+        "finding": "expires < 30 days (26)"
       },
       {
         "id": "cert_notBefore",
@@ -3324,7 +3324,7 @@
         "id": "cert_notAfter",
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
-        "severity": "OK",
+        "severity": "MEDIUM",
         "finding": "2026-03-13 21:25"
       },
       {
@@ -3465,14 +3465,14 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "1770516385"
+        "finding": "1771120299"
       },
       {
         "id": "HSTS",
@@ -4021,7 +4021,7 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "56"
+        "finding": "71"
       }
     ],
     "thirdparties": {
@@ -4152,7 +4152,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i531093&2i361474&2e1&3u12&4m2&1u528&2u600&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&8e1&client=google-maps-embed&token=92656",
+          "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i531093&2i361474&2e1&3u12&4m2&1u528&2u600&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&8e1&client=google-maps-embed&token=102943",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4179,7 +4179,7 @@
       "headers": {
         "content-encoding": "gzip",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 08 Feb 2026 02:01:23 GMT",
+        "date": "Sun, 15 Feb 2026 01:46:23 GMT",
         "link": "<https://www.iut-evry.fr/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.iut-evry.fr/wp-json/wp/v2/pages/2775>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://www.iut-evry.fr/>; rel=shortlink",
         "server": "OVHcloud",
         "vary": "Accept-Encoding",
@@ -4244,7 +4244,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.251.167.95",
+          "ip": "142.251.41.138",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4267,7 +4267,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4287,7 +4287,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4298,7 +4298,7 @@
         },
         {
           "hostname": "www.google.com",
-          "ip": "172.253.63.106",
+          "ip": "142.250.177.68",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4321,7 +4321,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4341,7 +4341,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4352,7 +4352,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.251.111.94",
+          "ip": "142.251.32.3",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4375,7 +4375,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4395,7 +4395,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4442,7 +4442,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4466,7 +4466,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4493,7 +4493,7 @@
         },
         {
           "hostname": "maps.gstatic.com",
-          "ip": "142.251.163.120",
+          "ip": "142.250.177.67",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4516,7 +4516,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4536,7 +4536,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4547,7 +4547,7 @@
         },
         {
           "hostname": "maps.googleapis.com",
-          "ip": "172.253.62.95",
+          "ip": "172.217.1.106",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4570,7 +4570,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4590,7 +4590,7 @@
                 "de": "USA",
                 "en": "United States",
                 "es": "Estados Unidos",
-                "fr": "États Unis",
+                "fr": "États-Unis",
                 "ja": "アメリカ",
                 "pt-BR": "EUA",
                 "ru": "США",
@@ -4667,6 +4667,24 @@
           "rootPath": true
         },
         {
+          "slug": "openlayers",
+          "name": "OpenLayers",
+          "description": "OpenLayers is an open-source JavaScript library for displaying map data in web browser.",
+          "confidence": 100,
+          "version": "2.13.1",
+          "icon": "OpenLayers.svg",
+          "website": "https://openlayers.org",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 35,
+              "slug": "maps",
+              "name": "Maps"
+            }
+          ],
+          "rootPath": true
+        },
+        {
           "slug": "google-maps",
           "name": "Google Maps",
           "description": "Google Maps is a web mapping service. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air, or public transportation.",
@@ -4689,7 +4707,7 @@
           "name": "Kadence WP Kadence",
           "description": "Kadence WP Kadence is a multipurpose WordPress theme that is available for free download and also offers a pro version.",
           "confidence": 100,
-          "version": "1.4.3",
+          "version": "1.4.4",
           "icon": "Kadence WP.svg",
           "website": "https://www.kadencewp.com/kadence-theme",
           "cpe": null,
@@ -4734,6 +4752,29 @@
               "id": 87,
               "slug": "wordpress-plugins",
               "name": "WordPress plugins"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "gutenberg",
+          "name": "Gutenberg",
+          "description": "Gutenberg is the code name for the new block based editor introduced in WordPress 5.",
+          "confidence": 100,
+          "version": "22.5.3",
+          "icon": "Gutenberg.png",
+          "website": "https://github.com/WordPress/gutenberg",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 87,
+              "slug": "wordpress-plugins",
+              "name": "WordPress plugins"
+            },
+            {
+              "id": 20,
+              "slug": "editors",
+              "name": "Editors"
             }
           ],
           "rootPath": true
@@ -4789,7 +4830,7 @@
           "name": "Site Kit",
           "description": "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.",
           "confidence": 100,
-          "version": "1.171.0",
+          "version": "1.172.0",
           "icon": "Google.svg",
           "website": "https://sitekit.withgoogle.com/",
           "cpe": null,
@@ -4966,8 +5007,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 8 Feb 2026 02:03:40",
-      "created": "2026-02-08T02:03:40.466901994Z",
+      "@generated": "Sun, 15 Feb 2026 01:48:52",
+      "created": "2026-02-15T01:48:52.206410050Z",
       "insights": [
         {
           "level": "Info",
@@ -5168,7 +5209,7 @@
       {
         "requestedUrl": "https://www.iut-evry.fr/",
         "finalUrl": "https://www.iut-evry.fr/",
-        "fetchTime": "2026-02-08T02:03:56.575Z",
+        "fetchTime": "2026-02-15T01:49:08.073Z",
         "runWarnings": [
           "The page loaded too slowly to finish within the time limit. Results may be incomplete."
         ],
@@ -5181,7 +5222,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.65
+            "score": 0.57
           },
           "accessibility": {
             "title": "Accessibility",
@@ -5202,7 +5243,7 @@
               "snapshot"
             ],
             "id": "best-practices",
-            "score": 0.92
+            "score": 0.83
           },
           "seo": {
             "title": "SEO",
@@ -5233,53 +5274,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 3614,
+            "numericValue": 6600,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 3029,
-                  "firstMeaningfulPaint": 3029,
-                  "largestContentfulPaint": 5086,
-                  "interactive": 3614,
-                  "speedIndex": 16478,
-                  "totalBlockingTime": 18,
-                  "maxPotentialFID": 85,
+                  "firstContentfulPaint": 4383,
+                  "firstMeaningfulPaint": 4383,
+                  "largestContentfulPaint": 5585,
+                  "interactive": 6600,
+                  "speedIndex": 18200,
+                  "totalBlockingTime": 92,
+                  "maxPotentialFID": 198,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 297339690,
+                  "observedTimeOriginTs": 305930117,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 297339690,
-                  "observedFirstPaint": 1222,
-                  "observedFirstPaintTs": 298562117,
-                  "observedFirstContentfulPaint": 1222,
-                  "observedFirstContentfulPaintTs": 298562117,
-                  "observedFirstContentfulPaintAllFrames": 1222,
-                  "observedFirstContentfulPaintAllFramesTs": 298562117,
-                  "observedFirstMeaningfulPaint": 1222,
-                  "observedFirstMeaningfulPaintTs": 298562117,
-                  "observedLargestContentfulPaint": 1512,
-                  "observedLargestContentfulPaintTs": 298851198,
-                  "observedLargestContentfulPaintAllFrames": 1512,
-                  "observedLargestContentfulPaintAllFramesTs": 298851198,
+                  "observedNavigationStartTs": 305930117,
+                  "observedFirstPaint": 1440,
+                  "observedFirstPaintTs": 307370350,
+                  "observedFirstContentfulPaint": 1440,
+                  "observedFirstContentfulPaintTs": 307370350,
+                  "observedFirstContentfulPaintAllFrames": 1440,
+                  "observedFirstContentfulPaintAllFramesTs": 307370350,
+                  "observedFirstMeaningfulPaint": 1440,
+                  "observedFirstMeaningfulPaintTs": 307370350,
+                  "observedLargestContentfulPaint": 1727,
+                  "observedLargestContentfulPaintTs": 307656950,
+                  "observedLargestContentfulPaintAllFrames": 1727,
+                  "observedLargestContentfulPaintAllFramesTs": 307656950,
                   "observedTraceEnd": 45009,
-                  "observedTraceEndTs": 342349086,
-                  "observedLoad": 1815,
-                  "observedLoadTs": 299154619,
-                  "observedDomContentLoaded": 1264,
-                  "observedDomContentLoadedTs": 298603505,
+                  "observedTraceEndTs": 350939364,
+                  "observedLoad": 1984,
+                  "observedLoadTs": 307913872,
+                  "observedDomContentLoaded": 1497,
+                  "observedDomContentLoadedTs": 307426928,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1222,
-                  "observedFirstVisualChangeTs": 298561690,
-                  "observedLastVisualChange": 18434,
-                  "observedLastVisualChangeTs": 315773690,
-                  "observedSpeedIndex": 6937,
-                  "observedSpeedIndexTs": 304276326
+                  "observedFirstVisualChange": 1440,
+                  "observedFirstVisualChangeTs": 307370117,
+                  "observedLastVisualChange": 18592,
+                  "observedLastVisualChangeTs": 324522117,
+                  "observedSpeedIndex": 7139,
+                  "observedSpeedIndexTs": 313069358
                 },
                 {
                   "lcpInvalidated": false
@@ -5297,23 +5338,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 67,
-                  "numScripts": 27,
-                  "numStylesheets": 24,
+                  "numRequests": 81,
+                  "numScripts": 37,
+                  "numStylesheets": 28,
                   "numFonts": 2,
-                  "numTasks": 7022,
+                  "numTasks": 7200,
                   "numTasksOver10ms": 4,
-                  "numTasksOver25ms": 1,
+                  "numTasksOver25ms": 2,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 81754219.87758234,
-                  "maxRtt": 84.132,
-                  "maxServerLatency": 68.69999999999999,
-                  "totalByteWeight": 4587272,
-                  "totalTaskTime": 1117.3260000000066,
-                  "mainDocumentTransferSize": 36315
+                  "throughput": 53989142.35223788,
+                  "maxRtt": 99.266,
+                  "maxServerLatency": 18.445999999999998,
+                  "totalByteWeight": 4825204,
+                  "totalTaskTime": 979.4819999999735,
+                  "mainDocumentTransferSize": 37452
                 }
               ]
             }
@@ -5335,15 +5376,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.iut-evry.fr/",
-        "size": 5126.839,
-        "nodes": 1047,
-        "requests": 51,
+        "size": 5420.584,
+        "nodes": 1063,
+        "requests": 65,
         "grade": "E",
-        "score": 38,
-        "ges": 2.24,
-        "water": 3.36,
+        "score": 34,
+        "ges": 2.32,
+        "water": 3.48,
         "ecoindex_version": "5.4.2",
-        "date": "2026-02-08 02:02:19.567595",
+        "date": "2026-02-15 01:47:34.304497",
         "page_type": "website"
       }
     ],
@@ -5353,7 +5394,7 @@
     },
     "summary": {
       "httpGrade": "D",
-      "testsslExpireSoon": false,
+      "testsslExpireSoon": true,
       "testsslExpireDate": "2026-03-13T21:25:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "A",
@@ -5362,12 +5403,12 @@
       "trackersCount": 20,
       "zapCount": 9,
       "zapGrade": "D",
-      "lighthouse_performance": 0.65,
+      "lighthouse_performance": 0.57,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
-      "lighthouse_best-practices": 0.92,
-      "lighthouse_best-practicesGrade": "A",
+      "lighthouse_best-practices": 0.83,
+      "lighthouse_best-practicesGrade": "B",
       "lighthouse_seo": 0.83,
       "lighthouse_seoGrade": "B",
       "lighthouse_pwa": 0.4,
