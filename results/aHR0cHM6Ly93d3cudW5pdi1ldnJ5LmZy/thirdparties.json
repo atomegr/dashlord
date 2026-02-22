@@ -110,7 +110,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=432525&h=1&m=46&s=29&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=9SLTND&pf_net=0&pf_srv=286&pf_tfr=115&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22145.0.7632.67%22%7D%2C%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%2299.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
+      "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=861238&h=1&m=42&s=4&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=0Lgcld&pf_net=0&pf_srv=287&pf_tfr=126&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22145.0.7632.77%22%7D%2C%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%2299.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
     },
     {
       "type": "cloudflare",
@@ -191,10 +191,10 @@
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
     "content-language": "fr-FR",
-    "content-length": "31094",
+    "content-length": "31210",
     "content-type": "text/html;charset=utf-8",
-    "date": "Sun, 15 Feb 2026 01:46:28 GMT",
-    "expires": "Sun, 15 Feb 2026 01:46:28 GMT",
+    "date": "Sun, 22 Feb 2026 01:42:02 GMT",
+    "expires": "Sun, 22 Feb 2026 01:42:02 GMT",
     "keep-alive": "timeout=5, max=99",
     "server": "Apache",
     "vary": "User-Agent,Accept-Encoding",
@@ -318,7 +318,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.214.95",
+      "ip": "142.251.121.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -372,7 +372,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "151.101.2.137",
+      "ip": "151.101.194.137",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -520,7 +520,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "108.177.121.94",
+      "ip": "142.251.121.94",
       "geoip": {
         "continent": {
           "code": "NA",
