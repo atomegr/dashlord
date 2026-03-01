@@ -9,15 +9,15 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 22 Feb 2026 01:46:27 GMT",
+      "date": "Sun, 01 Mar 2026 01:52:01 GMT",
       "server": "Apache",
       "content-language": "fr-FR",
       "cache-control": "private, no-store, max-age=0",
       "vary": "User-Agent,Accept-Encoding",
-      "expires": "Sun, 22 Feb 2026 01:46:27 GMT",
+      "expires": "Sun, 01 Mar 2026 01:52:01 GMT",
       "x-ua-compatible": "IE=edge",
       "x-content-type-options": "nosniff",
-      "content-length": "31210",
+      "content-length": "31245",
       "connection": "close",
       "content-type": "text/html;charset=utf-8"
     }
