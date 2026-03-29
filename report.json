@@ -16,15 +16,15 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 22 Mar 2026 01:49:29 GMT",
+          "date": "Sun, 29 Mar 2026 01:58:19 GMT",
           "server": "Apache",
           "content-language": "fr-FR",
           "cache-control": "private, no-store, max-age=0",
           "vary": "User-Agent,Accept-Encoding",
-          "expires": "Sun, 22 Mar 2026 01:49:29 GMT",
+          "expires": "Sun, 29 Mar 2026 01:58:19 GMT",
           "x-ua-compatible": "IE=edge",
           "x-content-type-options": "nosniff",
-          "content-length": "30679",
+          "content-length": "30356",
           "connection": "close",
           "content-type": "text/html;charset=utf-8"
         }
@@ -491,7 +491,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "OK",
-        "finding": "291 >= 60 days"
+        "finding": "284 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -694,7 +694,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "1774144207"
+        "finding": "1774749566"
       },
       {
         "id": "HSTS",
@@ -1257,7 +1257,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "68"
+        "finding": "105"
       }
     ],
     "thirdparties": {
@@ -1372,7 +1372,7 @@
         },
         {
           "type": "unknown",
-          "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=925532&h=1&m=45&s=1&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=iIUTXF&pf_net=0&pf_srv=265&pf_tfr=104&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Not-A.Brand%22%2C%22version%22%3A%2224.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22146.0.7680.153%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
+          "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=818530&h=1&m=53&s=40&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=zifM6U&pf_net=0&pf_srv=305&pf_tfr=150&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Not-A.Brand%22%2C%22version%22%3A%2224.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22146.0.7680.153%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
         },
         {
           "type": "cloudflare",
@@ -1453,10 +1453,10 @@
         "connection": "Keep-Alive",
         "content-encoding": "gzip",
         "content-language": "fr-FR",
-        "content-length": "30679",
+        "content-length": "30356",
         "content-type": "text/html;charset=utf-8",
-        "date": "Sun, 22 Mar 2026 01:45:00 GMT",
-        "expires": "Sun, 22 Mar 2026 01:45:00 GMT",
+        "date": "Sun, 29 Mar 2026 01:53:38 GMT",
+        "expires": "Sun, 29 Mar 2026 01:53:38 GMT",
         "keep-alive": "timeout=5, max=99",
         "server": "Apache",
         "vary": "User-Agent,Accept-Encoding",
@@ -1560,7 +1560,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.25.14",
+          "ip": "104.17.24.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -1580,7 +1580,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.250.189.138",
+          "ip": "142.251.218.74",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1634,7 +1634,7 @@
         },
         {
           "hostname": "code.jquery.com",
-          "ip": "151.101.66.137",
+          "ip": "151.101.130.137",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1782,7 +1782,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.177.227",
+          "ip": "142.251.214.35",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2335,16 +2335,24 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 22 Mar 2026 01:48:42",
-      "created": "2026-03-22T01:48:42.763748241Z",
+      "@generated": "Sun, 29 Mar 2026 01:57:33",
+      "created": "2026-03-29T01:57:33.733247554Z",
       "insights": [
+        {
+          "level": "Low",
+          "reason": "Warning",
+          "site": "",
+          "key": "insight.log.error",
+          "description": "ZAP errors logged - see the zap.log file for details",
+          "statistic": "1"
+        },
         {
           "level": "Low",
           "reason": "Warning",
           "site": "",
           "key": "insight.log.warn",
           "description": "ZAP warnings logged - see the zap.log file for details",
-          "statistic": "6"
+          "statistic": "5"
         },
         {
           "level": "Info",
@@ -2376,7 +2384,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.ctype.application/javascript",
           "description": "Percentage of endpoints with content type application/javascript",
-          "statistic": "1"
+          "statistic": "7"
         },
         {
           "level": "Info",
@@ -2390,9 +2398,25 @@
           "level": "Info",
           "reason": "Informational",
           "site": "https://www.univ-evry.fr",
+          "key": "insight.endpoint.ctype.image/jpeg",
+          "description": "Percentage of endpoints with content type image/jpeg",
+          "statistic": "2"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.univ-evry.fr",
+          "key": "insight.endpoint.ctype.image/png",
+          "description": "Percentage of endpoints with content type image/png",
+          "statistic": "5"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.ctype.text/css",
           "description": "Percentage of endpoints with content type text/css",
-          "statistic": "1"
+          "statistic": "2"
         },
         {
           "level": "Info",
@@ -2400,7 +2424,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.ctype.text/html",
           "description": "Percentage of endpoints with content type text/html",
-          "statistic": "96"
+          "statistic": "79"
         },
         {
           "level": "Info",
@@ -2416,7 +2440,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.method.GET",
           "description": "Percentage of endpoints with method GET",
-          "statistic": "100"
+          "statistic": "99"
         },
         {
           "level": "Info",
@@ -2424,7 +2448,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.total",
           "description": "Count of total endpoints",
-          "statistic": "416"
+          "statistic": "442"
         },
         {
           "level": "Info",
@@ -2432,7 +2456,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.response.slow",
           "description": "Percentage of slow responses",
-          "statistic": "99"
+          "statistic": "100"
         }
       ],
       "site": [
@@ -2469,6 +2493,13 @@
               "confidence": "3",
               "riskdesc": "Medium (High)",
               "desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>"
+            },
+            {
+              "name": "Vulnerable JS Library",
+              "riskcode": "2",
+              "confidence": "2",
+              "riskdesc": "Medium (Medium)",
+              "desc": "<p>The identified library appears to be vulnerable.</p>"
             },
             {
               "name": "Cross-Domain JavaScript Source File Inclusion",
@@ -2620,7 +2651,7 @@
       {
         "requestedUrl": "https://www.univ-evry.fr/",
         "finalUrl": "https://www.univ-evry.fr/accueil.html",
-        "fetchTime": "2026-03-22T01:49:00.749Z",
+        "fetchTime": "2026-03-29T01:57:49.739Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.univ-evry.fr/) was redirected to https://www.univ-evry.fr/accueil.html. Try testing the second URL directly."
         ],
@@ -2633,7 +2664,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.45
+            "score": 0.31
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2685,53 +2716,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 22352,
+            "numericValue": 20496,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4281,
-                  "firstMeaningfulPaint": 6957,
-                  "largestContentfulPaint": 14503,
-                  "interactive": 22352,
-                  "speedIndex": 13715,
-                  "totalBlockingTime": 73,
-                  "maxPotentialFID": 111,
-                  "cumulativeLayoutShift": 0.108349609375,
-                  "cumulativeLayoutShiftMainFrame": 0.108349609375,
-                  "totalCumulativeLayoutShift": 0.108349609375,
+                  "firstContentfulPaint": 5007,
+                  "firstMeaningfulPaint": 7125,
+                  "largestContentfulPaint": 27671,
+                  "interactive": 20496,
+                  "speedIndex": 14306,
+                  "totalBlockingTime": 7,
+                  "maxPotentialFID": 57,
+                  "cumulativeLayoutShift": 1.816705,
+                  "cumulativeLayoutShiftMainFrame": 1.816705,
+                  "totalCumulativeLayoutShift": 1.816705,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 509768875,
+                  "observedTimeOriginTs": 340854508,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 509768875,
-                  "observedFirstPaint": 1320,
-                  "observedFirstPaintTs": 511089177,
-                  "observedFirstContentfulPaint": 1320,
-                  "observedFirstContentfulPaintTs": 511089177,
-                  "observedFirstContentfulPaintAllFrames": 1320,
-                  "observedFirstContentfulPaintAllFramesTs": 511089177,
-                  "observedFirstMeaningfulPaint": 1799,
-                  "observedFirstMeaningfulPaintTs": 511567412,
-                  "observedLargestContentfulPaint": 1829,
-                  "observedLargestContentfulPaintTs": 511597930,
-                  "observedLargestContentfulPaintAllFrames": 1829,
-                  "observedLargestContentfulPaintAllFramesTs": 511597930,
-                  "observedTraceEnd": 5676,
-                  "observedTraceEndTs": 515445057,
-                  "observedLoad": 2844,
-                  "observedLoadTs": 512613029,
-                  "observedDomContentLoaded": 2806,
-                  "observedDomContentLoadedTs": 512574983,
-                  "observedCumulativeLayoutShift": 0.108349609375,
-                  "observedCumulativeLayoutShiftMainFrame": 0.108349609375,
-                  "observedTotalCumulativeLayoutShift": 0.108349609375,
-                  "observedFirstVisualChange": 1320,
-                  "observedFirstVisualChangeTs": 511088875,
-                  "observedLastVisualChange": 2933,
-                  "observedLastVisualChangeTs": 512701875,
-                  "observedSpeedIndex": 2212,
-                  "observedSpeedIndexTs": 511980786
+                  "observedNavigationStartTs": 340854508,
+                  "observedFirstPaint": 1558,
+                  "observedFirstPaintTs": 342412123,
+                  "observedFirstContentfulPaint": 1558,
+                  "observedFirstContentfulPaintTs": 342412123,
+                  "observedFirstContentfulPaintAllFrames": 1558,
+                  "observedFirstContentfulPaintAllFramesTs": 342412123,
+                  "observedFirstMeaningfulPaint": 2036,
+                  "observedFirstMeaningfulPaintTs": 342890259,
+                  "observedLargestContentfulPaint": 3329,
+                  "observedLargestContentfulPaintTs": 344183335,
+                  "observedLargestContentfulPaintAllFrames": 3329,
+                  "observedLargestContentfulPaintAllFramesTs": 344183335,
+                  "observedTraceEnd": 7215,
+                  "observedTraceEndTs": 348069575,
+                  "observedLoad": 4171,
+                  "observedLoadTs": 345025692,
+                  "observedDomContentLoaded": 0,
+                  "observedDomContentLoadedTs": 340854867,
+                  "observedCumulativeLayoutShift": 1.816705,
+                  "observedCumulativeLayoutShiftMainFrame": 1.816705,
+                  "observedTotalCumulativeLayoutShift": 1.816705,
+                  "observedFirstVisualChange": 1557,
+                  "observedFirstVisualChangeTs": 342411508,
+                  "observedLastVisualChange": 4235,
+                  "observedLastVisualChangeTs": 345089508,
+                  "observedSpeedIndex": 3353,
+                  "observedSpeedIndexTs": 344207713
                 },
                 {
                   "lcpInvalidated": false
@@ -2749,23 +2780,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 108,
+                  "numRequests": 107,
                   "numScripts": 34,
                   "numStylesheets": 13,
                   "numFonts": 9,
-                  "numTasks": 2175,
-                  "numTasksOver10ms": 13,
-                  "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 2,
+                  "numTasks": 2533,
+                  "numTasksOver10ms": 15,
+                  "numTasksOver25ms": 3,
+                  "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 40067068.42306689,
-                  "maxRtt": 106.6,
-                  "maxServerLatency": 204.442,
-                  "totalByteWeight": 8208350,
-                  "totalTaskTime": 579.4149999999967,
-                  "mainDocumentTransferSize": 31110
+                  "throughput": 20925545.08118224,
+                  "maxRtt": 150.384,
+                  "maxServerLatency": 291.78700000000003,
+                  "totalByteWeight": 8044449,
+                  "totalTaskTime": 596.3289999999972,
+                  "mainDocumentTransferSize": 30787
                 }
               ]
             }
@@ -2788,15 +2819,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.univ-evry.fr",
-        "size": 8808.615,
-        "nodes": 2538,
-        "requests": 111,
+        "size": 8643.676,
+        "nodes": 2525,
+        "requests": 110,
         "grade": "F",
         "score": 14,
         "ges": 2.72,
         "water": 4.08,
         "ecoindex_version": "5.4.2",
-        "date": "2026-03-22 01:46:02.391673",
+        "date": "2026-03-29 01:54:43.188109",
         "page_type": null
       }
     ],
@@ -2813,10 +2844,10 @@
       "cookiesCount": 0,
       "trackersGrade": "F",
       "trackersCount": 30,
-      "zapCount": 11,
+      "zapCount": 12,
       "zapGrade": "D",
-      "lighthouse_performance": 0.45,
-      "lighthouse_performanceGrade": "D",
+      "lighthouse_performance": 0.31,
+      "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.84,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
@@ -2847,7 +2878,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 22 Mar 2026 01:50:14 GMT",
+          "date": "Sun, 29 Mar 2026 01:58:38 GMT",
           "content-type": "text/html; charset=UTF-8",
           "transfer-encoding": "chunked",
           "connection": "close",
@@ -3301,7 +3332,7 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "OK",
-        "finding": "61 >= 30 days"
+        "finding": "54 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3455,14 +3486,14 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "-2 seconds from localtime"
+        "finding": "+2 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "1774144279"
+        "finding": "1774749584"
       },
       {
         "id": "HSTS",
@@ -4011,7 +4042,7 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "107"
+        "finding": "101"
       }
     ],
     "thirdparties": {
@@ -4057,8 +4088,20 @@
           }
         },
         {
+          "type": "unknown",
+          "url": "https://s.w.org/images/core/emoji/17.0.2/svg/1f501.svg"
+        },
+        {
+          "type": "unknown",
+          "url": "https://s.w.org/images/core/emoji/17.0.2/svg/1f4c5.svg"
+        },
+        {
+          "type": "unknown",
+          "url": "https://s.w.org/images/core/emoji/17.0.2/svg/1f3af.svg"
+        },
+        {
           "type": "google maps",
-          "url": "https://maps.gstatic.com/maps-api-v3/embed/js/64/5d/intl/fr_ALL/init_embed.js",
+          "url": "https://maps.gstatic.com/maps-api-v3/embed/js/64/6d/intl/fr_ALL/init_embed.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4074,7 +4117,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/5d/intl/fr_ALL/search.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/6d/intl/fr_ALL/geometry.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4082,7 +4125,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/5d/intl/fr_ALL/geometry.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/6d/intl/fr_ALL/search.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4090,7 +4133,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/5d/intl/fr_ALL/main.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/6d/intl/fr_ALL/main.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4106,7 +4149,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/5d/intl/fr_ALL/common.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/6d/intl/fr_ALL/common.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4114,7 +4157,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/5d/intl/fr_ALL/util.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/6d/intl/fr_ALL/util.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4122,7 +4165,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/5d/intl/fr_ALL/map.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/6d/intl/fr_ALL/map.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4130,7 +4173,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/5d/intl/fr_ALL/places.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/6d/intl/fr_ALL/places.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4138,7 +4181,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i531093&2i361474&2e1&3u12&4m2&1u528&2u600&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&8e1&key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&token=49407",
+          "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i531093&2i361474&2e1&3u12&4m2&1u528&2u600&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&8e1&key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&token=34109",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4146,7 +4189,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/5d/intl/fr_ALL/onion.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/6d/intl/fr_ALL/onion.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4154,7 +4197,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/5d/intl/fr_ALL/search_impl.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/6d/intl/fr_ALL/search_impl.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4175,25 +4218,13 @@
             "id": "google fonts",
             "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
           }
-        },
-        {
-          "type": "unknown",
-          "url": "https://s.w.org/images/core/emoji/17.0.2/svg/1f501.svg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://s.w.org/images/core/emoji/17.0.2/svg/1f4c5.svg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://s.w.org/images/core/emoji/17.0.2/svg/1f3af.svg"
         }
       ],
       "cookies": [],
       "headers": {
         "content-encoding": "gzip",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 22 Mar 2026 01:45:10 GMT",
+        "date": "Sun, 29 Mar 2026 01:53:43 GMT",
         "link": "<https://www.iut-evry.fr/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.iut-evry.fr/wp-json/wp/v2/pages/2775>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://www.iut-evry.fr/>; rel=shortlink",
         "server": "OVHcloud",
         "vary": "Accept-Encoding",
@@ -4258,7 +4289,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.251.41.10",
+          "ip": "192.178.142.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4312,7 +4343,7 @@
         },
         {
           "hostname": "www.google.com",
-          "ip": "142.250.72.228",
+          "ip": "142.251.153.119",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4366,115 +4397,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.251.210.131",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "maps.gstatic.com",
-          "ip": "142.251.40.99",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "maps.googleapis.com",
-          "ip": "142.251.41.10",
+          "ip": "142.251.121.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4611,6 +4534,114 @@
                 }
               }
             ]
+          }
+        },
+        {
+          "hostname": "maps.gstatic.com",
+          "ip": "142.251.108.94",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États-Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États-Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "maps.googleapis.com",
+          "ip": "142.251.108.95",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États-Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États-Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
           }
         }
       ]
@@ -4775,7 +4806,7 @@
           "name": "Gutenberg",
           "description": "Gutenberg is the code name for the new block based editor introduced in WordPress 5.",
           "confidence": 100,
-          "version": "22.7.1",
+          "version": "22.8.1",
           "icon": "Gutenberg.png",
           "website": "https://github.com/WordPress/gutenberg",
           "cpe": null,
@@ -5021,8 +5052,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 22 Mar 2026 01:48:02",
-      "created": "2026-03-22T01:48:02.259190333Z",
+      "@generated": "Sun, 29 Mar 2026 01:56:22",
+      "created": "2026-03-29T01:56:22.444619822Z",
       "insights": [
         {
           "level": "Low",
@@ -5245,7 +5276,7 @@
       {
         "requestedUrl": "https://www.iut-evry.fr/",
         "finalUrl": "https://www.iut-evry.fr/",
-        "fetchTime": "2026-03-22T01:48:18.619Z",
+        "fetchTime": "2026-03-29T01:56:42.354Z",
         "runWarnings": [
           "The page loaded too slowly to finish within the time limit. Results may be incomplete."
         ],
@@ -5310,53 +5341,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 7797,
+            "numericValue": 7625,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5185,
-                  "firstMeaningfulPaint": 5185,
-                  "largestContentfulPaint": 7407,
-                  "interactive": 7797,
-                  "speedIndex": 16058,
-                  "totalBlockingTime": 56,
-                  "maxPotentialFID": 112,
+                  "firstContentfulPaint": 4916,
+                  "firstMeaningfulPaint": 4916,
+                  "largestContentfulPaint": 8787,
+                  "interactive": 7625,
+                  "speedIndex": 16228,
+                  "totalBlockingTime": 36,
+                  "maxPotentialFID": 87,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 342936402,
+                  "observedTimeOriginTs": 271663040,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 342936402,
-                  "observedFirstPaint": 2446,
-                  "observedFirstPaintTs": 345382867,
-                  "observedFirstContentfulPaint": 2446,
-                  "observedFirstContentfulPaintTs": 345382867,
-                  "observedFirstContentfulPaintAllFrames": 2446,
-                  "observedFirstContentfulPaintAllFramesTs": 345382867,
-                  "observedFirstMeaningfulPaint": 2446,
-                  "observedFirstMeaningfulPaintTs": 345382867,
-                  "observedLargestContentfulPaint": 2836,
-                  "observedLargestContentfulPaintTs": 345772742,
-                  "observedLargestContentfulPaintAllFrames": 2836,
-                  "observedLargestContentfulPaintAllFramesTs": 345772742,
-                  "observedTraceEnd": 45010,
-                  "observedTraceEndTs": 387946843,
-                  "observedLoad": 3201,
-                  "observedLoadTs": 346137895,
-                  "observedDomContentLoaded": 2539,
-                  "observedDomContentLoadedTs": 345474982,
+                  "observedNavigationStartTs": 271663040,
+                  "observedFirstPaint": 2532,
+                  "observedFirstPaintTs": 274195040,
+                  "observedFirstContentfulPaint": 2532,
+                  "observedFirstContentfulPaintTs": 274195040,
+                  "observedFirstContentfulPaintAllFrames": 2532,
+                  "observedFirstContentfulPaintAllFramesTs": 274195040,
+                  "observedFirstMeaningfulPaint": 2532,
+                  "observedFirstMeaningfulPaintTs": 274195040,
+                  "observedLargestContentfulPaint": 3179,
+                  "observedLargestContentfulPaintTs": 274842463,
+                  "observedLargestContentfulPaintAllFrames": 3179,
+                  "observedLargestContentfulPaintAllFramesTs": 274842463,
+                  "observedTraceEnd": 45008,
+                  "observedTraceEndTs": 316670938,
+                  "observedLoad": 3687,
+                  "observedLoadTs": 275349935,
+                  "observedDomContentLoaded": 0,
+                  "observedDomContentLoadedTs": 271663135,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 2446,
-                  "observedFirstVisualChangeTs": 345382402,
-                  "observedLastVisualChange": 19819,
-                  "observedLastVisualChangeTs": 362755402,
-                  "observedSpeedIndex": 8227,
-                  "observedSpeedIndexTs": 351163865
+                  "observedFirstVisualChange": 2532,
+                  "observedFirstVisualChangeTs": 274195040,
+                  "observedLastVisualChange": 20294,
+                  "observedLastVisualChangeTs": 291957040,
+                  "observedSpeedIndex": 8436,
+                  "observedSpeedIndexTs": 280099443
                 },
                 {
                   "lcpInvalidated": false
@@ -5378,19 +5409,19 @@
                   "numScripts": 38,
                   "numStylesheets": 28,
                   "numFonts": 2,
-                  "numTasks": 7885,
-                  "numTasksOver10ms": 5,
+                  "numTasks": 8025,
+                  "numTasksOver10ms": 6,
                   "numTasksOver25ms": 2,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 45217064.87132467,
-                  "maxRtt": 140.243,
-                  "maxServerLatency": 140.716,
-                  "totalByteWeight": 4961484,
-                  "totalTaskTime": 1190.2889999999916,
-                  "mainDocumentTransferSize": 37517
+                  "throughput": 24800556.43540894,
+                  "maxRtt": 127.62399999999998,
+                  "maxServerLatency": 32.300000000000004,
+                  "totalByteWeight": 4961155,
+                  "totalTaskTime": 1068.6969999999847,
+                  "mainDocumentTransferSize": 37619
                 }
               ]
             }
@@ -5412,15 +5443,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.iut-evry.fr/",
-        "size": 5423.869,
-        "nodes": 1063,
+        "size": 5424.557,
+        "nodes": 1064,
         "requests": 65,
         "grade": "E",
         "score": 34,
         "ges": 2.32,
         "water": 3.48,
         "ecoindex_version": "5.4.2",
-        "date": "2026-03-22 01:46:12.805671",
+        "date": "2026-03-29 01:54:43.626572",
         "page_type": "website"
       }
     ],
