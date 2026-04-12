@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.univ-evry.fr",
-        "size": 7615.258,
-        "nodes": 2536,
+        "size": 7114.885,
+        "nodes": 2535,
         "requests": 111,
         "grade": "F",
         "score": 14.0,
         "ges": 2.72,
         "water": 4.08,
         "ecoindex_version": "5.4.2",
-        "date": "2026-04-05 01:55:54.594297",
+        "date": "2026-04-12 02:00:31.101806",
         "page_type": null
     }
 ]
