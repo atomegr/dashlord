@@ -110,7 +110,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=183404&h=1&m=59&s=31&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=pWE00Q&pf_net=0&pf_srv=256&pf_tfr=88&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Not-A.Brand%22%2C%22version%22%3A%2224.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22146.0.7680.153%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
+      "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=094591&h=2&m=4&s=3&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=cs1dMK&pf_net=0&pf_srv=266&pf_tfr=109&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22147.0.7727.56%22%7D%2C%7B%22brand%22%3A%22Not.A%2FBrand%22%2C%22version%22%3A%228.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
     },
     {
       "type": "cloudflare",
@@ -191,10 +191,10 @@
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
     "content-language": "fr-FR",
-    "content-length": "30435",
+    "content-length": "29884",
     "content-type": "text/html;charset=utf-8",
-    "date": "Sun, 12 Apr 2026 01:59:30 GMT",
-    "expires": "Sun, 12 Apr 2026 01:59:30 GMT",
+    "date": "Sun, 19 Apr 2026 02:04:01 GMT",
+    "expires": "Sun, 19 Apr 2026 02:04:01 GMT",
     "keep-alive": "timeout=5, max=99",
     "server": "Apache",
     "vary": "User-Agent,Accept-Encoding",
@@ -300,7 +300,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -320,7 +320,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.115.95",
+      "ip": "142.251.210.106",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -374,7 +374,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "151.101.2.137",
+      "ip": "151.101.194.137",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -524,7 +524,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "64.233.180.94",
+      "ip": "142.250.177.67",
       "geoip": {
         "continent": {
           "code": "NA",
