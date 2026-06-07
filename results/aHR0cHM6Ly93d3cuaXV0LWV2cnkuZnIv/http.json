@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 31 May 2026 02:52:47 GMT",
+      "date": "Sun, 07 Jun 2026 02:57:00 GMT",
       "content-type": "text/html; charset=UTF-8",
       "transfer-encoding": "chunked",
       "connection": "close",
-      "server": "OVHcloud",
+      "server": "Apache",
       "x-powered-by": "PHP/8.2",
       "link": "<https://www.iut-evry.fr/wp-json/>; rel=\"https://api.w.org/\", <https://www.iut-evry.fr/wp-json/wp/v2/pages/2775>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://www.iut-evry.fr/>; rel=shortlink",
       "vary": "Accept-Encoding"
