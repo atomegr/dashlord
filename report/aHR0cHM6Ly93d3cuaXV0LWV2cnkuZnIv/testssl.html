@@ -10,7 +10,7 @@
 <pre>
 <span style="font-weight:bold;">
 #####################################################################</span>
-  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2.3</span> from <a href="https://testssl.sh/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/</a>
+  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2.4</span> from <a href="https://testssl.sh/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/</a>
 <span style="font-weight:bold;">
   This program is free software. Distribution and modification under
   GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!</span>
@@ -19,9 +19,9 @@
 <span style="font-weight:bold;">#####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad (Mar 28 2025)</i>  [~183 ciphers]
-  on runnervm5mmn9:/home/testssl/bin/openssl.Linux.x86_64
+  on runnervm3jd5f:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2026-07-12 02:08:35        --&gt;&gt; 213.186.33.24:443 (www.iut-evry.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2026-07-19 02:07:06        --&gt;&gt; 213.186.33.24:443 (www.iut-evry.fr) &lt;&lt;--</span>
 
  Further IP addresses:   2001:41d0:1:1b00:213:186:33:24 
  rDNS (213.186.33.24):   cluster013.ovh.net.
@@ -89,7 +89,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               &quot;renegotiation info/#65281&quot;
 <span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>no -- no lifetime advertised
 <span style="font-weight:bold;"> SSL Session ID support       </span>yes
-<span style="font-weight:bold;"> Session Resumption           </span>Tickets no, ID: no
+<span style="font-weight:bold;"> Session Resumption           </span>Tickets no, ID: yes
 <span style="font-weight:bold;"> TLS clock skew</span>               Random values, no fingerprinting possible 
 <span style="font-weight:bold;"> Certificate Compression      </span>none
 <span style="font-weight:bold;"> Client Authentication        </span>none
@@ -97,25 +97,27 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>EC <span style="color:#008817;">256</span> bits (curve P-256)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
-<span style="font-weight:bold;"> Serial                       </span>05EDE8138AD637E9DE68A996225357A17C2B (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 9EE6973F342507A786CD5C95F65394DEC8EF48FA
-                              SHA256 8BD8082E4C5890D55243317B0AC3E0E90551D792F468BA51AB5E560CF0A1039F
+<span style="font-weight:bold;"> Serial                       </span>058AAC6CAB793D933A74137A2C5248C11651 (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 9428366807614BE83DC7D9162D8A35F30961A155
+                              SHA256 332553E3E4462AEF54930D7B2F41FBFCAB5975D594BE0F32CBB48D2EC595D172
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>www.iut-evry.fr </i> (CN in response to request w/o SNI: <i>cluster113.hosting.ovh.net </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>www.iut-evry.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#c05600;">expires &lt; 30 days (18)</span> (2026-05-01 04:49 --&gt; 2026-07-30 04:49)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">83 &gt;= 30 days</span> (2026-07-12 05:53 --&gt; 2026-10-10 05:53)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-<span style="font-weight:bold;"> Certificate Revocation List  </span>http://e7.c.lencr.org/44.crl
+<span style="font-weight:bold;"> Certificate Revocation List  </span>http://ye2.c.lencr.org/82.crl
 <span style="font-weight:bold;"> OCSP URI                     </span>--
 <span style="font-weight:bold;"> OCSP stapling                </span>not offered
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
 <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Certificate Transparency     </span><span style="color:#008817;">yes</span> (certificate extension)
-<span style="font-weight:bold;"> Certificates provided</span>        2
-<span style="font-weight:bold;"> Issuer                       </span><i>E7</i> (<i>Let&apos;s Encrypt</i> from <i>US</i>)
-<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2027-03-12 23:59). <i>E7</i> &lt;-- <i>ISRG Root X1</i>
+<span style="font-weight:bold;"> Certificates provided</span>        4
+<span style="font-weight:bold;"> Issuer                       </span><i>YE2</i> (<i>Let&apos;s Encrypt</i> from <i>US</i>)
+<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2028-09-02 23:59). <i>YE2</i> &lt;-- <i>Root YE</i>
+                              #2: <span style="color:#008817;">ok &gt; 40 days</span> (2032-09-02 23:59). <i>Root YE</i> &lt;-- <i>ISRG Root X2</i>
+                              #3: <span style="color:#008817;">ok &gt; 40 days</span> (2032-09-02 23:59). <i>ISRG Root X2</i> &lt;-- <i>ISRG Root X1</i>
 <span style="font-weight:bold;"> Intermediate Bad OCSP</span> (exp.) <span style="color:#008817;">Ok</span>
 
 
@@ -166,11 +168,11 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
  Android 10.0 (native)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Android 11/12 (native)       TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Android 13/14 (native)       TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- Android 15 (native)          TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Android 15 (native)          TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">X25519MLKEM768</span>
  Chrome 101 (Win 10)          TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- Chromium 137 (Win 11)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Chromium 137 (Win 11)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">X25519MLKEM768</span>
  Firefox 100 (Win 10)         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- Firefox 137 (Win 11)         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Firefox 137 (Win 11)         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">X25519MLKEM768</span>
  IE 8 Win 7                   No connection
  IE 11 Win 7                  TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     <span style="color:#008817;">256 bit ECDH (P-256)</span>
  IE 11 Win 8.1                TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     <span style="color:#008817;">256 bit ECDH (P-256)</span>
@@ -178,7 +180,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
  IE 11 Win 10                 TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     <span style="color:#008817;">256 bit ECDH (P-256)</span>
  Edge 15 Win 10               TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Edge 101 Win 10 21H2         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- Edge 133 Win 11 23H2         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Edge 133 Win 11 23H2         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">X25519MLKEM768</span>
  Safari 18.4 (iOS 18.4)       TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Safari 15.4 (macOS 12.3.1)   TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Safari 18.4 (macOS 15.4)     TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
@@ -192,7 +194,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
  OpenSSL 1.0.2e               TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     <span style="color:#008817;">256 bit ECDH (P-256)</span>
  OpenSSL 1.1.1d (Debian)      TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  OpenSSL 3.0.15 (Debian)      TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
- OpenSSL 3.5.0 (git)          TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ OpenSSL 3.5.0 (git)          TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">X25519MLKEM768</span>
  Apple Mail (16.0)            TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     <span style="color:#008817;">256 bit ECDH (P-256)</span>
  Thunderbird (91.9)           TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
 
@@ -207,7 +209,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>84
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2026-07-12 02:10:17 [ 104s] --&gt;&gt; 213.186.33.24:443 (www.iut-evry.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-07-19 02:08:57 [ 113s] --&gt;&gt; 213.186.33.24:443 (www.iut-evry.fr) &lt;&lt;--</span>
 
 
 </pre>
