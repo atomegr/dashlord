@@ -1,9 +1,17 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 26 Jul 2026 02:10:06",
-	"created": "2026-07-26T02:10:06.114839926Z",
+	"@generated": "Sun, 2 Aug 2026 02:08:57",
+	"created": "2026-08-02T02:08:57.658763518Z",
 	"insights":[
+		{
+			"level": "Low",
+			"reason": "Warning",
+			"site": "",
+			"key": "insight.log.error",
+			"description": "ZAP errors logged - see the zap.log file for details",
+			"statistic": "1"
+		},
 		{
 			"level": "Info",
 			"reason": "Informational",
@@ -81,7 +89,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
+							"id": "20",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.iut-evry.fr\/robots.txt",
 							"method": "GET",
@@ -91,7 +99,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "19",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.iut-evry.fr\/sitemap.xml",
 							"method": "GET",
@@ -311,7 +319,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "3",
 							"uri": "https://www.iut-evry.fr/",
 							"nodeName": "https:\/\/www.iut-evry.fr\/",
 							"method": "GET",
@@ -321,7 +329,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "4",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.iut-evry.fr\/robots.txt",
 							"method": "GET",
@@ -331,7 +339,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "5",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.iut-evry.fr\/sitemap.xml",
 							"method": "GET",
@@ -401,7 +409,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "22",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.iut-evry.fr\/robots.txt",
 							"method": "GET",
@@ -411,7 +419,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "23",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.iut-evry.fr\/sitemap.xml",
 							"method": "GET",
@@ -477,8 +485,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1785031802",
-							"otherinfo": "1785031802, which evaluates to: 2026-07-26 02:10:02."
+							"evidence": "1785636534",
+							"otherinfo": "1785636534, which evaluates to: 2026-08-02 02:08:54."
 						}
 					],
 					"count": "4",
@@ -591,7 +599,17 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "1",
+							"id": "2",
+							"uri": "https://www.iut-evry.fr/",
+							"nodeName": "https:\/\/www.iut-evry.fr\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "403",
+							"otherinfo": ""
+						},
+						{
+							"id": "0",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.iut-evry.fr\/robots.txt",
 							"method": "GET",
@@ -601,7 +619,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "1",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.iut-evry.fr\/sitemap.xml",
 							"method": "GET",
@@ -611,14 +629,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10015",
@@ -661,7 +679,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "11",
 							"uri": "https://www.iut-evry.fr/",
 							"nodeName": "https:\/\/www.iut-evry.fr\/",
 							"method": "GET",
@@ -671,7 +689,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "15",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.iut-evry.fr\/robots.txt",
 							"method": "GET",
@@ -681,7 +699,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "13",
 							"uri": "https://www.iut-evry.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.iut-evry.fr\/sitemap.xml",
 							"method": "GET",
@@ -711,7 +729,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "9",
 							"uri": "https://www.iut-evry.fr/",
 							"nodeName": "https:\/\/www.iut-evry.fr\/",
 							"method": "GET",
@@ -721,7 +739,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "14",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.iut-evry.fr\/robots.txt",
 							"method": "GET",
@@ -761,7 +779,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "6",
 							"uri": "https://www.iut-evry.fr/",
 							"nodeName": "https:\/\/www.iut-evry.fr\/",
 							"method": "GET",
@@ -771,7 +789,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "7",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.iut-evry.fr\/robots.txt",
 							"method": "GET",
@@ -811,7 +829,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "12",
 							"uri": "https://www.iut-evry.fr/",
 							"nodeName": "https:\/\/www.iut-evry.fr\/",
 							"method": "GET",
@@ -821,7 +839,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "16",
 							"uri": "https://www.iut-evry.fr/robots.txt",
 							"nodeName": "https:\/\/www.iut-evry.fr\/robots.txt",
 							"method": "GET",
