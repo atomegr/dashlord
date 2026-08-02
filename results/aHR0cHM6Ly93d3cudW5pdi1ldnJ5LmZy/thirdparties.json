@@ -110,7 +110,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=660784&h=2&m=7&s=39&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=wx3G6n&pf_net=0&pf_srv=278&pf_tfr=118&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Not%2FA)Brand%22%2C%22version%22%3A%2299.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22148.0.7778.97%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
+      "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=786356&h=2&m=6&s=43&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=jts1cl&pf_net=0&pf_srv=293&pf_tfr=144&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Not%2FA)Brand%22%2C%22version%22%3A%2299.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22148.0.7778.97%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
     },
     {
       "type": "cloudflare",
@@ -193,8 +193,8 @@
     "content-language": "fr-FR",
     "content-length": "29465",
     "content-type": "text/html;charset=utf-8",
-    "date": "Sun, 26 Jul 2026 02:07:38 GMT",
-    "expires": "Sun, 26 Jul 2026 02:07:38 GMT",
+    "date": "Sun, 02 Aug 2026 02:06:41 GMT",
+    "expires": "Sun, 02 Aug 2026 02:06:41 GMT",
     "keep-alive": "timeout=5, max=99",
     "server": "Apache",
     "vary": "User-Agent,Accept-Encoding",
@@ -251,6 +251,9 @@
           "longitude": 2.4397,
           "time_zone": "Europe/Paris"
         },
+        "postal": {
+          "code": "91000"
+        },
         "registered_country": {
           "geoname_id": 3017382,
           "is_in_european_union": true,
@@ -300,7 +303,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.25.14",
+      "ip": "104.17.24.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -320,7 +323,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.155.95",
+      "ip": "142.251.219.42",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -374,7 +377,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "151.101.193.155",
+      "ip": "151.101.129.155",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -475,6 +478,9 @@
           "longitude": 2.4397,
           "time_zone": "Europe/Paris"
         },
+        "postal": {
+          "code": "91000"
+        },
         "registered_country": {
           "geoname_id": 3017382,
           "is_in_european_union": true,
@@ -524,7 +530,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "173.194.193.94",
+      "ip": "142.251.218.227",
       "geoip": {
         "continent": {
           "code": "NA",
