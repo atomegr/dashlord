@@ -8,6 +8,8 @@
 </head>
 <body>
 <pre>
+
+<span style="color:#cd00cd;">&apos;--fast&apos; can have some undesired side effects thus it is not recommended to use anymore</span>
 <span style="font-weight:bold;">
 #####################################################################</span>
   <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2.4</span> from <a href="https://testssl.sh/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/</a>
@@ -21,7 +23,7 @@
   Using <i>OpenSSL 1.0.2-bad (Mar 28 2025)</i>  [~183 ciphers]
   on runnervmlun5p:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2026-09-13 02:38:01        --&gt;&gt; 194.199.84.39:443 (www.univ-evry.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2026-09-20 02:54:08        --&gt;&gt; 194.199.84.39:443 (www.univ-evry.fr) &lt;&lt;--</span>
 
  rDNS (194.199.84.39):   typo3.univ-evry.fr.
  Service detected:       HTTP
@@ -93,39 +95,39 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>EC <span style="color:#008817;">256</span> bits (curve P-256)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Client Authentication, TLS Web Server Authentication
-<span style="font-weight:bold;"> Serial                       </span>1D640D390E7C95DB31A3BCE10DFA13B1 (OK: length 16)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 8E4B9ED14B1FBAE2A55FBB2B7A0F2167B4BE836F
-                              SHA256 63AF308EC839E9291F7C143D1F443F2C8BFE9083483A39F0EE354AA820D2CFC4
+<span style="font-weight:bold;"> Serial                       </span>16071BD34A47809FD8B5A17B18D96B0C (OK: length 16)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 1DBC1B1ED90C6723B3C6EBB1E904199518DA7C93
+                              SHA256 6A703FC1F33EDCCAC272AFA5D513CAAA542D9C727B44E02750CDD42CE8F3D0AE
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>www.univ-evry.fr </i> (CN in response to request w/o SNI: <i>infra-typo3-12 </i>)
-<span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>www.univ-evry.fr www.ufr-shs.univ-evry.fr
-                              cmqas.univ-evry.fr numerique.univ-evry.fr
-                              tempete1930.univ-evry.fr www.sat4.univ-evry.fr
-                              musique.univ-evry.fr biologie.univ-evry.fr
-                              intranet.univ-evry.fr campus-market.univ-evry.fr
+<span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>www.univ-evry.fr rasm.univ-evry.fr
+                              lppatrimoine.univ-evry.fr tepp2020.univ-evry.fr
                               wwww.sat7.univ-evry.fr lea.univ-evry.fr
-                              scienceouverte.univ-evry.fr tepp2020.univ-evry.fr
-                              www.genhotel.univ-evry.fr rasm.univ-evry.fr
-                              www.sat3.univ-evry.fr www.ectu.univ-evry.fr
-                              www.litem.univ-evry.fr international.univ-evry.fr
-                              www.master-controle-pilotage.univ-evry.fr
-                              lppatrimoine.univ-evry.fr
-                              services-numeriques.univ-evry.fr
-                              www.lmee.univ-evry.fr
-                              dept-informatique.univ-evry.fr
-                              centre-innovation.univ-evry.fr slam.univ-evry.fr
-                              etudiants.univ-evry.fr
                               www.ecouteenjeux.univ-evry.fr
+                              evrycolor.univ-evry.fr cmqas.univ-evry.fr
+                              centre-innovation.univ-evry.fr
+                              fondation.univ-evry.fr www.litem.univ-evry.fr
+                              www.lambe.univ-evry.fr www.lmee.univ-evry.fr
+                              www.ufr-shs.univ-evry.fr tempete1930.univ-evry.fr
                               www.scienceouverte.univ-evry.fr
-                              www.sat1.univ-evry.fr evrycolor.univ-evry.fr
-                              fondation.univ-evry.fr www.lambe.univ-evry.fr </i>
+                              dept-informatique.univ-evry.fr
+                              campus-market.univ-evry.fr
+                              services-numeriques.univ-evry.fr
+                              www.master-controle-pilotage.univ-evry.fr
+                              slam.univ-evry.fr www.sat4.univ-evry.fr
+                              scienceouverte.univ-evry.fr
+                              www.genhotel.univ-evry.fr biologie.univ-evry.fr
+                              www.sat3.univ-evry.fr intranet.univ-evry.fr
+                              numerique.univ-evry.fr www.ectu.univ-evry.fr
+                              www.sat1.univ-evry.fr musique.univ-evry.fr
+                              international.univ-evry.fr etudiants.univ-evry.fr</i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">116 &gt;= 60 days</span> (2026-01-07 11:47 --&gt; 2027-01-07 11:47)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">194 &gt;= 60 days</span> (2026-09-15 21:54 --&gt; 2027-04-02 21:54)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.harica.gr/HARICA-GEANT-TLS-E1.crl
-<span style="font-weight:bold;"> OCSP URI                     </span>http://ocsp-tls.harica.gr
-<span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#a86437;">not offered</span>
+<span style="font-weight:bold;"> OCSP URI                     </span>--
+<span style="font-weight:bold;"> OCSP stapling                </span>not offered
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
 <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#008817;">available</span> - please check for match with &quot;Issuer&quot; below
                               <i>issue=harica.gr, issue=letsencrypt.org,
@@ -227,7 +229,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>84
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2026-09-13 02:38:54 [  56s] --&gt;&gt; 194.199.84.39:443 (www.univ-evry.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-09-20 02:55:42 [  95s] --&gt;&gt; 194.199.84.39:443 (www.univ-evry.fr) &lt;&lt;--</span>
 
 
 </pre>
