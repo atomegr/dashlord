@@ -1,5 +1,12 @@
 [
          {
+              "id"           : "cmdline_fast_depreciation",
+              "ip"           : "www.iut-evry.fr/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "'--fast' can have some undesired side effects thus it is not recommended to use anymore"
+          }
+,         {
               "id"           : "service",
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
@@ -206,7 +213,7 @@
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -346,7 +353,7 @@
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 30 days (27)"
+              "finding"      : "expires < 30 days (20)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -584,14 +591,14 @@
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1789267045"
+              "finding"      : "1789872806"
           }
 ,         {
               "id"           : "HSTS",
@@ -1140,6 +1147,6 @@
               "ip"           : "www.iut-evry.fr/213.186.33.24",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "65"
+              "finding"      : "67"
           }
 ]

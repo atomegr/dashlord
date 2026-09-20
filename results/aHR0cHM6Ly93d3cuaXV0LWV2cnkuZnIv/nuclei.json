@@ -1,0 +1,232 @@
+[
+  [
+    {
+      "template": "http/technologies/openresty-detect.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/openresty-detect",
+      "template-id": "openresty-detect",
+      "template-path": "/home/runner/nuclei-templates/http/technologies/openresty-detect.yaml",
+      "info": {
+        "name": "OpenResty detection",
+        "author": [
+          "jcockhren"
+        ],
+        "tags": [
+          "tech",
+          "openresty",
+          "discovery"
+        ],
+        "description": "Some deployments of OpenResty spill their version numbers.",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1,
+          "shodan-query": "product:\"OpenResty\""
+        }
+      },
+      "type": "http",
+      "host": "www.iut-evry.fr",
+      "port": "443",
+      "scheme": "https",
+      "url": "https://www.iut-evry.fr/",
+      "path": "/",
+      "matched-at": "https://www.iut-evry.fr/",
+      "request": "GET / HTTP/1.1\r\nHost: www.iut-evry.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nTransfer-Encoding: chunked\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nConnection: keep-alive\r\nContent-Type: text/html; charset=utf8\r\nDate: Sun, 20 Sep 2026 02:55:20 GMT\r\nPragma: no-cache\r\nServer: openresty\r\nX-Ovh-Webhosting-Id: eba46ff13fdcd349bf6795a2df6d847f\r\n\r\n<html xml:lang=\"en-EN\" lang=\"en-EN\">\n    <head>\n        <title>Your IP has been banned - OVHcloud</title>\n        <meta name=\"viewport\" content=\"width=device-width\">\n        <meta http-equiv=\"refresh\" content=\"90\">\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n        <meta http-equiv=\"Content-Language\" content=\"en-EN\">\n        <meta name=\"robots\" content=\"noindex, nofollow\">\n        <meta name=\"description\"  qtlid=\"\" content=\"Your IP has been banned\">\n        <meta http-equiv=\"cache-control\" content=\"no-cache\">\n        <meta http-equiv=\"pragma\" content=\"no-cache\">\n        <link rel=\"icon\" type=\"image/x-icon\" href=\"/__ovhp/common/img/favicon.ico\"/>\n        <link rel=\"stylesheet\" href=\"/__ovhp/common/css/style.css\">\n    </head>\n\n    <body>\n    <div class=\"header\"><div class=\"wrapper\">\n        <a href=\"https://www.ovhcloud.com/\"><img src=\"/__ovhp/common/img/logo-white.png\" style=\"max-width: 250px; margin-left: 10px;\"></a>\n    </div></div>\n        <div class=\"wrapper\">\n            <div class=\"content\">\n\n                <div id=\"serverinfo\">\n                    <h1 qtlid=\"\">Your IP has been <b>banned</b> </h1>\n\n                    <p>\n                        <span  qtlid=\"\">Request blocked due to suspicious activity.</span>\n                        \n                        <br>\n                        <span  qtlid=\"\">Please try again later.</span>\n                    </p>\n\n                    <img src=\"/__ovhp/common/img/schema-denied.png\"  style=\"margin: 15px 0;\" >\n                    <table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n                        <tr>\n                            <td width=\"22%\">\n                                <h3 qtlid=\"74100\" >You</h3>\n                                <span qtlid=\"74113\" >Internet browser</span>\n                            </td>\n                            <td width=\"15%\"></td>\n                            <td width=\"22%\">\n                                <h3 qtlid=\"74126\" >Web host</h3>\n                                <span>OVHcloud</span>\n                            </td>\n                            <td width=\"15%\"></td>\n                            <td width=\"24%\">\n                                <h3 qtlid=\"74035\">Website</h3>\n                                <span qtlid=\"74139\" >Site access</span>\n                            </td>\n                            <td width=\"24%\"></td>\n                        </tr>\n                    </table>\n\n                </div>\n\n                <div id=\"userinfo\">\n                    \n                      <p>IP address : 64.236.200.229</p>\n                      <p>Date : <span id=\"time\"></span> </p>\n                      <p>Request ID: eba46ff13fdcd349bf6795a2df6d847f</p>\n                    \n                </div>\n\n                <div id=\"footer\">\n                    \n                    <img style=\"max-width: 605px;\"  src=\"/__ovhp/common/img/shadow.png\">\n\n                    <p>Do you need assistance or information?</p>\n                    <br>\n                    \n                    <div class=\"item\">\n                        <a href=\"https://docs.ovh.com/gb/en\" qtlid=\"74256\" qtlid_title=\"74256\" title=\"Guides\" target=\"_blank\">\n                        <img src=\"/__ovhp/common/img/icon-book.png\"> Guides </a>\n                    </div>\n                    \n                    \n                    <div class=\"item\">\n                        <a href=\"https://community.ovh.com/en/c/web-hosting/web-hosting\" qtlid=\"28406\" qtlid_title=\"28406\" title=\"Forum\" target=\"_blank\">\n                            <img src=\"/__ovhp/common/img/icon-speech-bubble.png\"> Forum </a>\n                    </div>\n                    \n                    \n                    <div class=\"item\">\n                        <a href=\"https://help.ovhcloud.com/\" qtlid=\"74334\" qtlid_title=\"74334\" title=\"Contact\" target=\"_blank\">\n                        <img src=\"/__ovhp/common/img/icon-user-support.png\"> Contact </a>\n                    </div>\n                    \n                    \n                    <div class=\"item\">\n                        <a href=\"https://www.ovh.com/manager/\" title=\"Control Panel\" qtlid=\"68351\" qtlid_title=\"68351\" target=\"_blank\">\n                        <img src=\"/__ovhp/common/img/icon-app-gear.png\"> Control Panel </a>\n                    </div>\n                    \n                    \n                </div>\n            </div>\n        </div>\n\n    </body>\n    <div class=\"footer\"><div class=\"wrapper\">\n            &copy; Copyright 1999<script>new Date().getFullYear()>document.write(\"-\"+new Date().getFullYear());</script> <a href=\"https://www.ovhcloud.com/\" qtlid=\"29339\"> OVHcloud</a>\n    </div></div>\n</html>\n",
+      "ip": "213.186.33.24",
+      "timestamp": "2026-09-20T02:55:20.231129512Z",
+      "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.iut-evry.fr/'",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/mx-fingerprint.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/mx-fingerprint",
+      "template-id": "mx-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/mx-fingerprint.yaml",
+      "info": {
+        "name": "MX Record Detection",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "dns",
+          "mx",
+          "discovery"
+        ],
+        "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
+        "reference": [
+          "https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/",
+          "https://mxtoolbox.com/"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "type": "dns",
+      "host": "www.iut-evry.fr",
+      "matched-at": "www.iut-evry.fr",
+      "extracted-results": [
+        "10 smtp.univ-evry.fr."
+      ],
+      "request": ";; opcode: QUERY, status: NOERROR, id: 15849\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.iut-evry.fr.\tIN\t MX\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 15849\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;www.iut-evry.fr.\tIN\t MX\n\n;; ANSWER SECTION:\nwww.iut-evry.fr.\t21600\tIN\tMX\t10 smtp.univ-evry.fr.\n",
+      "timestamp": "2026-09-20T02:55:38.145201308Z",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/txt-fingerprint.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/txt-fingerprint",
+      "template-id": "txt-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/txt-fingerprint.yaml",
+      "info": {
+        "name": "DNS TXT Record Detected",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "dns",
+          "txt",
+          "discovery"
+        ],
+        "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server.",
+        "reference": [
+          "https://www.netspi.com/blog/technical/network-penetration-testing/analyzing-dns-txt-records-to-fingerprint-service-providers/"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "type": "dns",
+      "host": "www.iut-evry.fr",
+      "matched-at": "www.iut-evry.fr",
+      "extracted-results": [
+        "\"t|IUT d'Evry Val d4eesonne\"",
+        "\"d|Site web de l'IUT d'Evry Val d'Essonne\"",
+        "\"k|IUT Insitut Universitaire Evry Essonne\""
+      ],
+      "request": ";; opcode: QUERY, status: NOERROR, id: 33814\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.iut-evry.fr.\tIN\t TXT\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 33814\n;; flags: qr rd ra ad; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;www.iut-evry.fr.\tIN\t TXT\n\n;; ANSWER SECTION:\nwww.iut-evry.fr.\t500\tIN\tTXT\t\"t|IUT d'Evry Val d4eesonne\"\nwww.iut-evry.fr.\t500\tIN\tTXT\t\"d|Site web de l'IUT d'Evry Val d'Essonne\"\nwww.iut-evry.fr.\t500\tIN\tTXT\t\"k|IUT Insitut Universitaire Evry Essonne\"\n",
+      "timestamp": "2026-09-20T02:55:38.165219273Z",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/aaaa-fingerprint.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/aaaa-fingerprint",
+      "template-id": "aaaa-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/aaaa-fingerprint.yaml",
+      "info": {
+        "name": "AAAA Record - IPv6 Detection",
+        "author": [
+          "rxerium"
+        ],
+        "tags": [
+          "dns",
+          "aaaa",
+          "ipv6",
+          "discovery"
+        ],
+        "description": "An AAAA record was detected. AAAA records are used to map domain names to IPv6 addresses.\n",
+        "reference": [
+          "https://www.cloudflare.com/learning/dns/dns-records/dns-aaaa-record/",
+          "https://en.wikipedia.org/wiki/IPv6_address"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "type": "dns",
+      "host": "www.iut-evry.fr",
+      "matched-at": "www.iut-evry.fr",
+      "extracted-results": [
+        "2001:41d0:1:1b00:213:186:33:24"
+      ],
+      "request": ";; opcode: QUERY, status: NOERROR, id: 47763\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;www.iut-evry.fr.\tIN\t AAAA\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 47763\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;www.iut-evry.fr.\tIN\t AAAA\n\n;; ANSWER SECTION:\nwww.iut-evry.fr.\t21600\tIN\tAAAA\t2001:41d0:1:1b00:213:186:33:24\n",
+      "timestamp": "2026-09-20T02:55:38.200614945Z",
+      "matcher-status": true
+    },
+    {
+      "template": "ssl/detect-ssl-issuer.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/ssl-issuer",
+      "template-id": "ssl-issuer",
+      "template-path": "/home/runner/nuclei-templates/ssl/detect-ssl-issuer.yaml",
+      "info": {
+        "name": "Detect SSL Certificate Issuer",
+        "author": [
+          "lingtren"
+        ],
+        "tags": [
+          "ssl",
+          "tls",
+          "discovery"
+        ],
+        "description": "Extract the issuer's organization from the target's certificate. Issuers are entities which sign and distribute certificates.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "ssl",
+      "host": "www.iut-evry.fr",
+      "port": "443",
+      "matched-at": "www.iut-evry.fr:443",
+      "extracted-results": [
+        "Let's Encrypt"
+      ],
+      "ip": "213.186.33.24",
+      "timestamp": "2026-09-20T02:55:38.329241879Z",
+      "matcher-status": true
+    },
+    {
+      "template": "ssl/ssl-dns-names.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/ssl-dns-names",
+      "template-id": "ssl-dns-names",
+      "template-path": "/home/runner/nuclei-templates/ssl/ssl-dns-names.yaml",
+      "info": {
+        "name": "SSL DNS Names",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "ssl",
+          "tls",
+          "vuln"
+        ],
+        "description": "Extract the Subject Alternative Name (SAN) from the target's certificate. SAN facilitates the usage of additional hostnames with the same certificate.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "ssl",
+      "host": "www.iut-evry.fr",
+      "port": "443",
+      "matched-at": "www.iut-evry.fr:443",
+      "extracted-results": [
+        "www.iut-evry.fr"
+      ],
+      "ip": "213.186.33.24",
+      "timestamp": "2026-09-20T02:55:38.329399143Z",
+      "matcher-status": true
+    }
+  ]
+]
