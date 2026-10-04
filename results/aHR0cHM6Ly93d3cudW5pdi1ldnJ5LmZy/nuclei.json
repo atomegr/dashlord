@@ -32,9 +32,9 @@
       "url": "https://www.univ-evry.fr",
       "matched-at": "https://www.univ-evry.fr",
       "request": "TRACE / HTTP/1.1\r\nHost: www.univ-evry.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nTransfer-Encoding: chunked\r\nContent-Type: message/http\r\nDate: Sun, 27 Sep 2026 03:09:27 GMT\r\nServer: Apache\r\n\r\nTRACE / HTTP/1.1\r\nHost: www.univ-evry.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nTransfer-Encoding: chunked\r\nContent-Type: message/http\r\nDate: Sun, 04 Oct 2026 03:53:01 GMT\r\nServer: Apache\r\n\r\nTRACE / HTTP/1.1\r\nHost: www.univ-evry.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
       "ip": "194.199.84.39",
-      "timestamp": "2026-09-27T03:09:27.850545003Z",
+      "timestamp": "2026-10-04T03:53:01.834248296Z",
       "curl-command": "curl -X 'TRACE' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr'",
       "matcher-status": true
     },
@@ -79,9 +79,9 @@
       "url": "https://www.univ-evry.fr",
       "matched-at": "https://www.univ-evry.fr",
       "request": "POST / HTTP/1.1\r\nHost: www.univ-evry.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nContent-Length: 27\r\nContent-Type: application/x-www-form-urlencoded\r\nAccept-Encoding: gzip\r\n\r\n_=<script>alert(1)</script>",
-      "response": "HTTP/1.1 307 Temporary Redirect\r\nContent-Length: 0\r\nCache-Control: max-age=0\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 27 Sep 2026 03:10:38 GMT\r\nExpires: Sun, 27 Sep 2026 03:10:38 GMT\r\nLocation: https://www.univ-evry.fr/accueil.html\r\nServer: Apache\r\nVary: User-Agent\r\nX-Content-Type-Options: nosniff\r\nX-Ua-Compatible: IE=edge\r\n\r\n",
+      "response": "HTTP/1.1 307 Temporary Redirect\r\nContent-Length: 0\r\nCache-Control: max-age=0\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 04 Oct 2026 03:54:04 GMT\r\nExpires: Sun, 04 Oct 2026 03:54:04 GMT\r\nLocation: https://www.univ-evry.fr/accueil.html\r\nServer: Apache\r\nVary: User-Agent\r\nX-Content-Type-Options: nosniff\r\nX-Ua-Compatible: IE=edge\r\n\r\n",
       "ip": "194.199.84.39",
-      "timestamp": "2026-09-27T03:10:42.622191993Z",
+      "timestamp": "2026-10-04T03:54:08.759923392Z",
       "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr'",
       "matcher-status": true
     }
