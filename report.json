@@ -16,15 +16,15 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 04 Oct 2026 03:48:39 GMT",
+          "date": "Sun, 11 Oct 2026 03:25:11 GMT",
           "server": "Apache",
           "content-language": "fr-FR",
           "cache-control": "private, no-store, max-age=0",
           "vary": "User-Agent,Accept-Encoding",
-          "expires": "Sun, 04 Oct 2026 03:48:39 GMT",
+          "expires": "Sun, 11 Oct 2026 03:25:11 GMT",
           "x-ua-compatible": "IE=edge",
           "x-content-type-options": "nosniff",
-          "content-length": "30707",
+          "content-length": "30998",
           "connection": "close",
           "content-type": "text/html;charset=utf-8"
         }
@@ -505,7 +505,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "OK",
-        "finding": "180 >= 60 days"
+        "finding": "173 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -701,14 +701,14 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "1791085775"
+        "finding": "1791689172"
       },
       {
         "id": "HSTS",
@@ -1271,7 +1271,7 @@
         "ip": "www.univ-evry.fr/194.199.84.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "86"
+        "finding": "95"
       }
     ],
     "thirdparties": {
@@ -1386,7 +1386,7 @@
         },
         {
           "type": "unknown",
-          "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=100680&h=3&m=44&s=49&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=3wPYyj&pf_net=0&pf_srv=242&pf_tfr=155&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Not%2FA)Brand%22%2C%22version%22%3A%2299.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22148.0.7778.97%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
+          "url": "https://web-analytics.univ-evry.fr/matomo.php?action_name=Universit%C3%A9%20%C3%89vry%20Paris-Saclay&idsite=1&rec=1&r=505551&h=3&m=20&s=47&url=https%3A%2F%2Fwww.univ-evry.fr%2Faccueil.html&_id=&_idn=1&send_image=0&_refts=0&pv_id=LQOGzw&pf_net=0&pf_srv=257&pf_tfr=118&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Not%2FA)Brand%22%2C%22version%22%3A%2299.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22148.0.7778.97%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600"
         },
         {
           "type": "cloudflare",
@@ -1467,10 +1467,10 @@
         "connection": "Keep-Alive",
         "content-encoding": "gzip",
         "content-language": "fr-FR",
-        "content-length": "30707",
+        "content-length": "30998",
         "content-type": "text/html;charset=utf-8",
-        "date": "Sun, 04 Oct 2026 03:44:48 GMT",
-        "expires": "Sun, 04 Oct 2026 03:44:48 GMT",
+        "date": "Sun, 11 Oct 2026 03:20:46 GMT",
+        "expires": "Sun, 11 Oct 2026 03:20:46 GMT",
         "keep-alive": "timeout=5, max=99",
         "server": "Apache",
         "vary": "User-Agent,Accept-Encoding",
@@ -1483,13 +1483,13 @@
           "ip": "194.199.84.39",
           "geoip": {
             "city": {
-              "geoname_id": 6454878,
+              "geoname_id": 3025055,
               "names": {
-                "en": "Évry-Courcouronnes",
-                "fr": "Évry-Courcouronnes",
-                "ja": "エヴリー",
-                "ru": "Эври",
-                "zh-CN": "埃夫里"
+                "en": "Choisy-le-Roi",
+                "fr": "Choisy-le-Roi",
+                "ja": "ショワジー＝ル＝ロワ",
+                "ru": "Шуази-ле-Руа",
+                "zh-CN": "舒瓦西勒鲁瓦"
               }
             },
             "continent": {
@@ -1523,12 +1523,12 @@
             },
             "location": {
               "accuracy_radius": 10,
-              "latitude": 48.6312,
-              "longitude": 2.4397,
+              "latitude": 48.7709,
+              "longitude": 2.4156,
               "time_zone": "Europe/Paris"
             },
             "postal": {
-              "code": "91000"
+              "code": "94600"
             },
             "registered_country": {
               "geoname_id": 3017382,
@@ -1561,17 +1561,17 @@
                 }
               },
               {
-                "geoname_id": 3019599,
-                "iso_code": "91",
+                "geoname_id": 2971090,
+                "iso_code": "94",
                 "names": {
-                  "de": "Essonne",
-                  "en": "Essonne",
-                  "es": "Essonne",
-                  "fr": "Essonne",
-                  "ja": "エソンヌ県",
-                  "pt-BR": "Essonne",
-                  "ru": "Эсон",
-                  "zh-CN": "埃松省"
+                  "de": "Val-de-Marne",
+                  "en": "Val-de-Marne",
+                  "es": "Valle de Marne",
+                  "fr": "Val-de-Marne",
+                  "ja": "ヴァル＝ド＝マルヌ県",
+                  "pt-BR": "Val-de-Marne",
+                  "ru": "Валь-де-Марн",
+                  "zh-CN": "马恩河谷省"
                 }
               }
             ]
@@ -1599,7 +1599,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.251.184.95",
+          "ip": "74.125.132.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1653,7 +1653,7 @@
         },
         {
           "hostname": "code.jquery.com",
-          "ip": "151.101.1.155",
+          "ip": "151.101.193.155",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1710,13 +1710,13 @@
           "ip": "194.199.84.119",
           "geoip": {
             "city": {
-              "geoname_id": 6454878,
+              "geoname_id": 3025055,
               "names": {
-                "en": "Évry-Courcouronnes",
-                "fr": "Évry-Courcouronnes",
-                "ja": "エヴリー",
-                "ru": "Эври",
-                "zh-CN": "埃夫里"
+                "en": "Choisy-le-Roi",
+                "fr": "Choisy-le-Roi",
+                "ja": "ショワジー＝ル＝ロワ",
+                "ru": "Шуази-ле-Руа",
+                "zh-CN": "舒瓦西勒鲁瓦"
               }
             },
             "continent": {
@@ -1750,12 +1750,12 @@
             },
             "location": {
               "accuracy_radius": 10,
-              "latitude": 48.6312,
-              "longitude": 2.4397,
+              "latitude": 48.7709,
+              "longitude": 2.4156,
               "time_zone": "Europe/Paris"
             },
             "postal": {
-              "code": "91000"
+              "code": "94600"
             },
             "registered_country": {
               "geoname_id": 3017382,
@@ -1788,17 +1788,17 @@
                 }
               },
               {
-                "geoname_id": 3019599,
-                "iso_code": "91",
+                "geoname_id": 2971090,
+                "iso_code": "94",
                 "names": {
-                  "de": "Essonne",
-                  "en": "Essonne",
-                  "es": "Essonne",
-                  "fr": "Essonne",
-                  "ja": "エソンヌ県",
-                  "pt-BR": "Essonne",
-                  "ru": "Эсон",
-                  "zh-CN": "埃松省"
+                  "de": "Val-de-Marne",
+                  "en": "Val-de-Marne",
+                  "es": "Valle de Marne",
+                  "fr": "Val-de-Marne",
+                  "ja": "ヴァル＝ド＝マルヌ県",
+                  "pt-BR": "Val-de-Marne",
+                  "ru": "Валь-де-Марн",
+                  "zh-CN": "马恩河谷省"
                 }
               }
             ]
@@ -1806,7 +1806,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "108.177.121.94",
+          "ip": "142.251.183.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2359,8 +2359,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 4 Oct 2026 03:48:01",
-      "created": "2026-10-04T03:48:01.432875895Z",
+      "@generated": "Sun, 11 Oct 2026 03:24:17",
+      "created": "2026-10-11T03:24:17.215537097Z",
       "insights": [
         {
           "level": "Low",
@@ -2376,7 +2376,7 @@
           "site": "",
           "key": "insight.log.warn",
           "description": "ZAP warnings logged - see the zap.log file for details",
-          "statistic": "7"
+          "statistic": "5"
         },
         {
           "level": "Info",
@@ -2424,7 +2424,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.ctype.image/jpeg",
           "description": "Percentage of endpoints with content type image/jpeg",
-          "statistic": "4"
+          "statistic": "2"
         },
         {
           "level": "Info",
@@ -2432,7 +2432,23 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.ctype.image/png",
           "description": "Percentage of endpoints with content type image/png",
-          "statistic": "4"
+          "statistic": "5"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.univ-evry.fr",
+          "key": "insight.endpoint.ctype.image/svg+xml",
+          "description": "Percentage of endpoints with content type image/svg+xml",
+          "statistic": "1"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.univ-evry.fr",
+          "key": "insight.endpoint.ctype.image/x-icon",
+          "description": "Percentage of endpoints with content type image/x-icon",
+          "statistic": "1"
         },
         {
           "level": "Info",
@@ -2440,7 +2456,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.ctype.text/css",
           "description": "Percentage of endpoints with content type text/css",
-          "statistic": "1"
+          "statistic": "2"
         },
         {
           "level": "Info",
@@ -2472,7 +2488,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.endpoint.total",
           "description": "Count of total endpoints",
-          "statistic": "595"
+          "statistic": "539"
         },
         {
           "level": "Info",
@@ -2480,7 +2496,7 @@
           "site": "https://www.univ-evry.fr",
           "key": "insight.response.slow",
           "description": "Percentage of slow responses",
-          "statistic": "91"
+          "statistic": "94"
         }
       ],
       "site": [
@@ -2703,7 +2719,7 @@
         "url": "https://www.univ-evry.fr",
         "matched-at": "https://www.univ-evry.fr",
         "ip": "194.199.84.39",
-        "timestamp": "2026-10-04T03:53:01.834248296Z",
+        "timestamp": "2026-10-11T03:29:43.170589956Z",
         "curl-command": "curl -X 'TRACE' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr'",
         "matcher-status": true
       },
@@ -2748,8 +2764,1505 @@
         "url": "https://www.univ-evry.fr",
         "matched-at": "https://www.univ-evry.fr",
         "ip": "194.199.84.39",
-        "timestamp": "2026-10-04T03:54:08.759923392Z",
+        "timestamp": "2026-10-11T03:30:45.118404978Z",
         "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "ssl/tls-version.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/tls-version",
+        "template-id": "tls-version",
+        "template-path": "/home/runner/nuclei-templates/ssl/tls-version.yaml",
+        "info": {
+          "name": "TLS Version - Detect",
+          "author": [
+            "pdteam",
+            "pussycat0x"
+          ],
+          "tags": [
+            "ssl",
+            "tls",
+            "discovery"
+          ],
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 4
+          }
+        },
+        "type": "ssl",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "matched-at": "www.univ-evry.fr:443",
+        "extracted-results": [
+          "tls12"
+        ],
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:33:16.154227392Z",
+        "matcher-status": true
+      },
+      {
+        "template": "ssl/tls-version.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/tls-version",
+        "template-id": "tls-version",
+        "template-path": "/home/runner/nuclei-templates/ssl/tls-version.yaml",
+        "info": {
+          "name": "TLS Version - Detect",
+          "author": [
+            "pdteam",
+            "pussycat0x"
+          ],
+          "tags": [
+            "ssl",
+            "tls",
+            "discovery"
+          ],
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 4
+          }
+        },
+        "type": "ssl",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "matched-at": "www.univ-evry.fr:443",
+        "extracted-results": [
+          "tls13"
+        ],
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:33:16.643247152Z",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/missing-sri.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/missing-sri",
+        "template-id": "missing-sri",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/missing-sri.yaml",
+        "info": {
+          "name": "Missing Subresource Integrity",
+          "author": [
+            "lucky0x0d",
+            "pulsesecurity.co.nz",
+            "sullo amarsct"
+          ],
+          "tags": [
+            "compliance",
+            "js",
+            "css",
+            "sri",
+            "misconfig",
+            "vuln"
+          ],
+          "description": "Checks if external script and stylesheet tags in the HTML response are missing the Subresource Integrity (SRI) attribute.\n",
+          "reference": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html#subresource-integrity",
+            "https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-353"
+            ]
+          }
+        },
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "extracted-results": [
+          "https://cdnjs.cloudflare.com/ajax/libs/tarteaucitronjs/1.11.0/tarteaucitron.min.js",
+          "https://code.jquery.com/jquery-3.1.0.min.js",
+          "https://code.jquery.com/jquery-migrate-1.4.1.min.js",
+          "https://web-analytics.univ-evry.fr/matomo.js",
+          "https://code.jquery.com/ui/1.12.0/jquery-ui.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css",
+          "https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700",
+          "https://fonts.googleapis.com/css?family=Raleway:700",
+          "https://fonts.googleapis.com/css?family=Oswald:300,400",
+          "https://fonts.googleapis.com/css?family=PT+Serif:700"
+        ],
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:33:54.401921617Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr/' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/technologies/metatag-cms.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/metatag-cms",
+        "template-id": "metatag-cms",
+        "template-path": "/home/runner/nuclei-templates/http/technologies/metatag-cms.yaml",
+        "info": {
+          "name": "Metatag CMS Detection",
+          "author": [
+            "dadevel"
+          ],
+          "tags": [
+            "tech",
+            "cms",
+            "discovery"
+          ],
+          "description": "Generic CMS Detection using html meta generator tag",
+          "reference": [
+            "https://www.w3schools.com/tags/att_meta_name.asp"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "extracted-results": [
+          "TYPO3 CMS"
+        ],
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:33:56.558444198Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/technologies/tech-detect.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/tech-detect",
+        "template-id": "tech-detect",
+        "template-path": "/home/runner/nuclei-templates/http/technologies/tech-detect.yaml",
+        "info": {
+          "name": "Wappalyzer Technology Detection",
+          "author": [
+            "hakluke",
+            "righettod",
+            "matejsmycka"
+          ],
+          "tags": [
+            "tech",
+            "discovery"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "typo3-cms",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:33:57.298570226Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/technologies/tech-detect.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/tech-detect",
+        "template-id": "tech-detect",
+        "template-path": "/home/runner/nuclei-templates/http/technologies/tech-detect.yaml",
+        "info": {
+          "name": "Wappalyzer Technology Detection",
+          "author": [
+            "hakluke",
+            "righettod",
+            "matejsmycka"
+          ],
+          "tags": [
+            "tech",
+            "discovery"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "google-font-api",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:33:57.329139722Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/technologies/typo3-detect.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/typo3-detect",
+        "template-id": "typo3-detect",
+        "template-path": "/home/runner/nuclei-templates/http/technologies/typo3-detect.yaml",
+        "info": {
+          "name": "TYPO3 Detection",
+          "author": [
+            "dadevel"
+          ],
+          "tags": [
+            "tech",
+            "typo3",
+            "discovery"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "product": "typo3",
+            "shodan-query": "http.component:\"TYPO3\"",
+            "vendor": "typo3"
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": null,
+            "cpe": "cpe:2.3:a:typo3:typo3:*:*:*:*:*:*:*:*"
+          }
+        },
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:33:57.358232121Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/exposed-panels/typo3-login.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/typo3-login",
+        "template-id": "typo3-login",
+        "template-path": "/home/runner/nuclei-templates/http/exposed-panels/typo3-login.yaml",
+        "info": {
+          "name": "TYPO3 Login Panel - Detect",
+          "author": [
+            "dadevel"
+          ],
+          "tags": [
+            "panel",
+            "typo3",
+            "discovery"
+          ],
+          "description": "TYPO3 login panel was detected.",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "product": "typo3",
+            "shodan-query": "cpe:\"cpe:2.3:a:typo3:typo3\"",
+            "vendor": "typo3"
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N",
+            "cpe": "cpe:2.3:a:typo3:typo3:*:*:*:*:*:*:*:*"
+          }
+        },
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/typo3/",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:01.515697292Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/typo3/'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/robots-txt.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/robots-txt",
+        "template-id": "robots-txt",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/robots-txt.yaml",
+        "info": {
+          "name": "robots.txt file",
+          "author": [
+            "caspergn",
+            "thezakman"
+          ],
+          "tags": [
+            "miscellaneous",
+            "misc",
+            "generic",
+            "vuln"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 2
+          }
+        },
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/robots.txt",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:29.815480402Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/robots.txt'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/form-detection.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/form-detection",
+        "template-id": "form-detection",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/form-detection.yaml",
+        "info": {
+          "name": "Form Detection",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "form",
+            "misc",
+            "miscellaneous",
+            "vuln"
+          ],
+          "description": "A template to detect HTML Forms in page response.\n",
+          "reference": [
+            "https://github.com/dirtycoder0124/formcrawler"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:41.831595311Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "strict-transport-security",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.625399256Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "content-security-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.654487298Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "permissions-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.68337826Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "cross-origin-opener-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.71199005Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "x-frame-options",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.740620494Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "x-permitted-cross-domain-policies",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.769135332Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "referrer-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.797832342Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "cross-origin-embedder-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.826587449Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "cross-origin-resource-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.855477871Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "cross-origin-opener-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.877718722Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "cross-origin-resource-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.878026558Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "x-frame-options",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.87824123Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "strict-transport-security",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.878442938Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "content-security-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.878643613Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "permissions-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.87883944Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "x-permitted-cross-domain-policies",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.879063069Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "referrer-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.87926151Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "cross-origin-embedder-policy",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:34:55.879458319Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/robots-txt-endpoint.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/robots-txt-endpoint",
+        "template-id": "robots-txt-endpoint",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/robots-txt-endpoint.yaml",
+        "info": {
+          "name": "robots.txt endpoint prober",
+          "author": [
+            "caspergn",
+            "pdteam",
+            "thezakman"
+          ],
+          "tags": [
+            "miscellaneous",
+            "misc",
+            "generic",
+            "discovery"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          }
+        },
+        "extractor-name": "endpoints",
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/robots.txt",
+        "extracted-results": [
+          "/typo3/",
+          "/typo3_src/"
+        ],
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:35:23.910497662Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/robots.txt'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/technologies/matomo-rum-detect.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/matomo-rum-detect",
+        "template-id": "matomo-rum-detect",
+        "template-path": "/home/runner/nuclei-templates/http/technologies/matomo-rum-detect.yaml",
+        "info": {
+          "name": "Matomo (Piwik) RUM - Tech Detect",
+          "author": [
+            "shivam kamboj"
+          ],
+          "tags": [
+            "tech",
+            "discovery",
+            "rum",
+            "matomo",
+            "piwik",
+            "analytics"
+          ],
+          "description": "Detects Matomo (formerly Piwik) Web Analytics & RUM artifacts. Identifies Standard Tracking, Image Tracking, Tag Manager, and Cloud instances using strict matching.\n",
+          "reference": [
+            "https://matomo.org/",
+            "https://developer.matomo.org/guides/tracking-javascript-guide",
+            "https://developer.matomo.org/api-reference/tracking-javascript",
+            "https://matomo.org/faq/on-premise/installing-matomo/",
+            "https://matomo.org/matomo-cloud/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "shodan-query": "http.html:\"matomo.js\"",
+            "verified": true
+          }
+        },
+        "type": "http",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "scheme": "https",
+        "url": "https://www.univ-evry.fr",
+        "matched-at": "https://www.univ-evry.fr/accueil.html",
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:35:43.773100321Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'Referer: https://www.univ-evry.fr/' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.univ-evry.fr/accueil.html'",
+        "matcher-status": true
+      },
+      {
+        "template": "dns/dns-saas-service-detection.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/dns-saas-service-detection",
+        "template-id": "dns-saas-service-detection",
+        "template-path": "/home/runner/nuclei-templates/dns/dns-saas-service-detection.yaml",
+        "info": {
+          "name": "DNS SaaS Service Detection",
+          "author": [
+            "noah @thesubtlety",
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "service",
+            "discovery"
+          ],
+          "description": "A CNAME DNS record was discovered",
+          "reference": [
+            "https://ns1.com/resources/cname",
+            "https://www.theregister.com/2021/02/24/dns_cname_tracking/",
+            "https://www.ionos.com/digitalguide/hosting/technical-matters/cname-record/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "type": "dns",
+        "host": "www.univ-evry.fr",
+        "matched-at": "www.univ-evry.fr",
+        "extracted-results": [
+          "typo3.univ-evry.fr"
+        ],
+        "timestamp": "2026-10-11T03:36:03.186214125Z",
+        "matcher-status": true
+      },
+      {
+        "template": "ssl/detect-ssl-issuer.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/ssl-issuer",
+        "template-id": "ssl-issuer",
+        "template-path": "/home/runner/nuclei-templates/ssl/detect-ssl-issuer.yaml",
+        "info": {
+          "name": "Detect SSL Certificate Issuer",
+          "author": [
+            "lingtren"
+          ],
+          "tags": [
+            "ssl",
+            "tls",
+            "discovery"
+          ],
+          "description": "Extract the issuer's organization from the target's certificate. Issuers are entities which sign and distribute certificates.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "type": "ssl",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "matched-at": "www.univ-evry.fr:443",
+        "extracted-results": [
+          "Hellenic Academic and Research Institutions CA"
+        ],
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:36:03.649483485Z",
+        "matcher-status": true
+      },
+      {
+        "template": "ssl/ssl-dns-names.yaml",
+        "template-url": "https://cloud.projectdiscovery.io/public/ssl-dns-names",
+        "template-id": "ssl-dns-names",
+        "template-path": "/home/runner/nuclei-templates/ssl/ssl-dns-names.yaml",
+        "info": {
+          "name": "SSL DNS Names",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "ssl",
+            "tls",
+            "vuln"
+          ],
+          "description": "Extract the Subject Alternative Name (SAN) from the target's certificate. SAN facilitates the usage of additional hostnames with the same certificate.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "type": "ssl",
+        "host": "www.univ-evry.fr",
+        "port": "443",
+        "matched-at": "www.univ-evry.fr:443",
+        "extracted-results": [
+          "services-numeriques.univ-evry.fr",
+          "intranet.univ-evry.fr",
+          "lppatrimoine.univ-evry.fr",
+          "fondation.univ-evry.fr",
+          "www.sat4.univ-evry.fr",
+          "www.genhotel.univ-evry.fr",
+          "www.sat3.univ-evry.fr",
+          "www.ectu.univ-evry.fr",
+          "international.univ-evry.fr",
+          "biologie.univ-evry.fr",
+          "rasm.univ-evry.fr",
+          "tepp2020.univ-evry.fr",
+          "www.ecouteenjeux.univ-evry.fr",
+          "cmqas.univ-evry.fr",
+          "www.lambe.univ-evry.fr",
+          "www.scienceouverte.univ-evry.fr",
+          "numerique.univ-evry.fr",
+          "lea.univ-evry.fr",
+          "campus-market.univ-evry.fr",
+          "etudiants.univ-evry.fr",
+          "evrycolor.univ-evry.fr",
+          "www.ufr-shs.univ-evry.fr",
+          "slam.univ-evry.fr",
+          "www.master-controle-pilotage.univ-evry.fr",
+          "scienceouverte.univ-evry.fr",
+          "www.lmee.univ-evry.fr",
+          "www.litem.univ-evry.fr",
+          "wwww.sat7.univ-evry.fr",
+          "centre-innovation.univ-evry.fr",
+          "www.sat1.univ-evry.fr",
+          "musique.univ-evry.fr",
+          "www.univ-evry.fr",
+          "tempete1930.univ-evry.fr",
+          "dept-informatique.univ-evry.fr"
+        ],
+        "ip": "194.199.84.39",
+        "timestamp": "2026-10-11T03:36:03.649753801Z",
         "matcher-status": true
       }
     ],
@@ -2757,7 +4270,7 @@
       {
         "requestedUrl": "https://www.univ-evry.fr/",
         "finalUrl": "https://www.univ-evry.fr/accueil.html",
-        "fetchTime": "2026-10-04T03:48:13.432Z",
+        "fetchTime": "2026-10-11T03:24:33.207Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.univ-evry.fr/) was redirected to https://www.univ-evry.fr/accueil.html. Try testing the second URL directly."
         ],
@@ -2822,53 +4335,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 21988,
+            "numericValue": 34701,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4296,
-                  "firstMeaningfulPaint": 6989,
-                  "largestContentfulPaint": 13645,
-                  "interactive": 21988,
-                  "speedIndex": 19373,
-                  "totalBlockingTime": 59,
-                  "maxPotentialFID": 167,
-                  "cumulativeLayoutShift": 0.10580017344156901,
-                  "cumulativeLayoutShiftMainFrame": 0.10580017344156901,
-                  "totalCumulativeLayoutShift": 0.10580017344156901,
+                  "firstContentfulPaint": 4343,
+                  "firstMeaningfulPaint": 7209,
+                  "largestContentfulPaint": 11374,
+                  "interactive": 34701,
+                  "speedIndex": 14535,
+                  "totalBlockingTime": 27,
+                  "maxPotentialFID": 83,
+                  "cumulativeLayoutShift": 0.09398060735066732,
+                  "cumulativeLayoutShiftMainFrame": 0.09398060735066732,
+                  "totalCumulativeLayoutShift": 0.09398060735066732,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 274591579,
+                  "observedTimeOriginTs": 315683724,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 274591579,
-                  "observedFirstPaint": 1125,
-                  "observedFirstPaintTs": 275716499,
-                  "observedFirstContentfulPaint": 1125,
-                  "observedFirstContentfulPaintTs": 275716499,
-                  "observedFirstContentfulPaintAllFrames": 1125,
-                  "observedFirstContentfulPaintAllFramesTs": 275716499,
-                  "observedFirstMeaningfulPaint": 1525,
-                  "observedFirstMeaningfulPaintTs": 276116211,
-                  "observedLargestContentfulPaint": 1832,
-                  "observedLargestContentfulPaintTs": 276424038,
-                  "observedLargestContentfulPaintAllFrames": 1832,
-                  "observedLargestContentfulPaintAllFramesTs": 276424038,
-                  "observedTraceEnd": 5828,
-                  "observedTraceEndTs": 280419182,
-                  "observedLoad": 2958,
-                  "observedLoadTs": 277549310,
+                  "observedNavigationStartTs": 315683724,
+                  "observedFirstPaint": 1209,
+                  "observedFirstPaintTs": 316892293,
+                  "observedFirstContentfulPaint": 1209,
+                  "observedFirstContentfulPaintTs": 316892293,
+                  "observedFirstContentfulPaintAllFrames": 1209,
+                  "observedFirstContentfulPaintAllFramesTs": 316892293,
+                  "observedFirstMeaningfulPaint": 1657,
+                  "observedFirstMeaningfulPaintTs": 317340277,
+                  "observedLargestContentfulPaint": 1765,
+                  "observedLargestContentfulPaintTs": 317448915,
+                  "observedLargestContentfulPaintAllFrames": 1765,
+                  "observedLargestContentfulPaintAllFramesTs": 317448915,
+                  "observedTraceEnd": 5996,
+                  "observedTraceEndTs": 321679232,
+                  "observedLoad": 3136,
+                  "observedLoadTs": 318820116,
                   "observedDomContentLoaded": 0,
-                  "observedDomContentLoadedTs": 274591927,
-                  "observedCumulativeLayoutShift": 0.10580017344156901,
-                  "observedCumulativeLayoutShiftMainFrame": 0.10580017344156901,
-                  "observedTotalCumulativeLayoutShift": 0.10580017344156901,
-                  "observedFirstVisualChange": 1125,
-                  "observedFirstVisualChangeTs": 275716579,
-                  "observedLastVisualChange": 3092,
-                  "observedLastVisualChangeTs": 277683579,
-                  "observedSpeedIndex": 2213,
-                  "observedSpeedIndexTs": 276805042
+                  "observedDomContentLoadedTs": 315683950,
+                  "observedCumulativeLayoutShift": 0.09398060735066732,
+                  "observedCumulativeLayoutShiftMainFrame": 0.09398060735066732,
+                  "observedTotalCumulativeLayoutShift": 0.09398060735066732,
+                  "observedFirstVisualChange": 1208,
+                  "observedFirstVisualChangeTs": 316891724,
+                  "observedLastVisualChange": 3259,
+                  "observedLastVisualChangeTs": 318942724,
+                  "observedSpeedIndex": 2261,
+                  "observedSpeedIndexTs": 317945142
                 },
                 {
                   "lcpInvalidated": false
@@ -2886,23 +4399,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 107,
+                  "numRequests": 108,
                   "numScripts": 34,
                   "numStylesheets": 13,
                   "numFonts": 9,
-                  "numTasks": 2694,
-                  "numTasksOver10ms": 7,
-                  "numTasksOver25ms": 2,
-                  "numTasksOver50ms": 1,
+                  "numTasks": 2409,
+                  "numTasksOver10ms": 20,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 35330667.431287356,
-                  "maxRtt": 118.53899999999999,
-                  "maxServerLatency": 226.83,
-                  "totalByteWeight": 8595032,
-                  "totalTaskTime": 429.7439999999982,
-                  "mainDocumentTransferSize": 31138
+                  "throughput": 36211940.81497293,
+                  "maxRtt": 112.02000000000001,
+                  "maxServerLatency": 111.476,
+                  "totalByteWeight": 8660310,
+                  "totalTaskTime": 645.1569999999961,
+                  "mainDocumentTransferSize": 31429
                 }
               ]
             }
@@ -2925,15 +4438,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.univ-evry.fr",
-        "size": 9194.787,
-        "nodes": 2542,
-        "requests": 110,
+        "size": 9262.531,
+        "nodes": 2563,
+        "requests": 111,
         "grade": "F",
         "score": 14,
         "ges": 2.72,
         "water": 4.08,
         "ecoindex_version": "5.4.2",
-        "date": "2026-10-04 03:45:52.945473",
+        "date": "2026-10-11 03:21:49.059782",
         "page_type": null
       }
     ],
@@ -2984,7 +4497,7 @@
         "testsPassed": 5,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 04 Oct 2026 03:47:48 GMT",
+          "date": "Sun, 11 Oct 2026 03:23:43 GMT",
           "content-type": "text/html; charset=UTF-8",
           "transfer-encoding": "chunked",
           "connection": "close",
@@ -3457,7 +4970,7 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "OK",
-        "finding": "77 >= 30 days"
+        "finding": "70 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3702,7 +5215,7 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "1791085705"
+        "finding": "1791689095"
       },
       {
         "id": "HSTS",
@@ -4251,7 +5764,7 @@
         "ip": "www.iut-evry.fr/213.186.33.24",
         "port": "443",
         "severity": "INFO",
-        "finding": "66"
+        "finding": "109"
       }
     ],
     "thirdparties": {
@@ -4281,6 +5794,22 @@
           }
         },
         {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
           "type": "google",
           "url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sIUT+d%27Evry+Val+d%27Essonne!6i12!3m1!1sfr-FR!5m1!1sfr-FR",
           "details": {
@@ -4289,24 +5818,8 @@
           }
         },
         {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0NGP055HR3&gtm=45Pe69u2v9248109464za200zd9248109464xf1&_p=1791085491309&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&gdid=dZTNiMT&are=1&cid=444089799.1791085492&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=800x600&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.97&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1791085491&sct=1&seg=0&dl=https%3A%2F%2Fwww.iut-evry.fr%2F&dt=Accueil%20-%20IUT%20d%27%C3%89vry%20Val%20d%27Essonne&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.googlesitekit_post_type=page&tfd=2123",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0NGP055HR3&gtm=45Pe6a72v9248109464za208zd9248109464xf1&_p=1791688843529&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&gdid=dZTNiMT&are=1&cid=1990771207.1791688844&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=800x600&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.97&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791688843&sct=1&seg=0&dl=https%3A%2F%2Fwww.iut-evry.fr%2F&dt=Accueil%20-%20IUT%20d%27%C3%89vry%20Val%20d%27Essonne&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.googlesitekit_post_type=page&tfd=2657",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -4314,7 +5827,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.gstatic.com/maps-api-v3/embed/js/66/7/intl/fr_ALL/init_embed.js",
+          "url": "https://maps.gstatic.com/maps-api-v3/embed/js/66/8b/intl/fr_ALL/init_embed.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4330,7 +5843,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/geometry.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/geometry.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4338,7 +5851,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/search.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/search.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4346,7 +5859,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/main.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/main.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4362,7 +5875,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/common.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/common.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4370,7 +5883,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/util.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/util.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4378,7 +5891,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/map.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/map.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4386,7 +5899,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/controls.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/controls.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4394,7 +5907,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/places_impl.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/places_impl.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4402,7 +5915,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/places.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/places.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4410,7 +5923,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i531093&2i361474&2e1&3u12&4m2&1u528&2u600&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&8e1&key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&token=121075",
+          "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i531093&2i361474&2e1&3u12&4m2&1u528&2u600&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&8e1&key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&token=59301",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4418,7 +5931,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/onion.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/onion.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4426,7 +5939,7 @@
         },
         {
           "type": "google maps",
-          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/7/intl/fr_ALL/search_impl.js",
+          "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/fr_ALL/search_impl.js",
           "details": {
             "id": "google maps",
             "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -4447,15 +5960,23 @@
             "id": "google fonts",
             "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
           }
+        },
+        {
+          "type": "google analytics",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0NGP055HR3&gtm=45Pe6a72v9248109464za200zd9248109464xf1&_p=1791688843529&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAAAQ&are=1&cid=1990771207.1791688844&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=800x600&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.97&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791688843&sct=1&seg=0&dl=https%3A%2F%2Fwww.iut-evry.fr%2F&dt=Accueil%20-%20IUT%20d%27%C3%89vry%20Val%20d%27Essonne&en=user_engagement&ep.googlesitekit_post_type=page&_et=5276&tfd=7934",
+          "details": {
+            "id": "google analytics",
+            "message": "Use hosted Matomo instance"
+          }
         }
       ],
       "cookies": [
         {
           "name": "_ga_0NGP055HR3",
-          "value": "GS2.1.s1791085491$o1$g0$t1791085491$j60$l0$h0",
+          "value": "GS2.1.s1791688843$o1$g0$t1791688843$j60$l0$h0",
           "domain": ".iut-evry.fr",
           "path": "/",
-          "expires": 1825645491.562074,
+          "expires": 1826248843.713887,
           "size": 59,
           "httpOnly": false,
           "secure": false,
@@ -4466,11 +5987,11 @@
         },
         {
           "name": "_ga",
-          "value": "GA1.1.444089799.1791085492",
+          "value": "GA1.1.1990771207.1791688844",
           "domain": ".iut-evry.fr",
           "path": "/",
-          "expires": 1825645491.562618,
-          "size": 29,
+          "expires": 1826248843.714519,
+          "size": 30,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -4482,7 +6003,7 @@
       "headers": {
         "content-encoding": "gzip",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 04 Oct 2026 03:44:50 GMT",
+        "date": "Sun, 11 Oct 2026 03:20:42 GMT",
         "link": "<https://www.iut-evry.fr/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.iut-evry.fr/wp-json/wp/v2/pages/2775>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://www.iut-evry.fr/>; rel=shortlink",
         "server": "Apache",
         "vary": "Accept-Encoding",
@@ -4547,7 +6068,7 @@
         },
         {
           "hostname": "fonts.googleapis.com",
-          "ip": "142.251.179.95",
+          "ip": "142.251.181.95",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4601,7 +6122,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "173.194.45.97",
+          "ip": "142.251.215.200",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4655,7 +6176,7 @@
         },
         {
           "hostname": "www.google.com",
-          "ip": "142.251.150.119",
+          "ip": "142.251.154.119",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4709,7 +6230,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "172.253.63.94",
+          "ip": "142.251.45.3",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4763,7 +6284,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "142.250.31.102",
+          "ip": "142.251.41.14",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4817,7 +6338,7 @@
         },
         {
           "hostname": "maps.gstatic.com",
-          "ip": "172.253.63.120",
+          "ip": "142.251.215.195",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4871,7 +6392,7 @@
         },
         {
           "hostname": "maps.googleapis.com",
-          "ip": "172.217.118.4",
+          "ip": "172.217.113.4",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -5331,8 +6852,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 4 Oct 2026 03:47:02",
-      "created": "2026-10-04T03:47:02.969156603Z",
+      "@generated": "Sun, 11 Oct 2026 03:23:01",
+      "created": "2026-10-11T03:23:01.344583333Z",
       "insights": [
         {
           "level": "Info",
@@ -5547,7 +7068,7 @@
       {
         "requestedUrl": "https://www.iut-evry.fr/",
         "finalUrl": "https://www.iut-evry.fr/",
-        "fetchTime": "2026-10-04T03:47:19.301Z",
+        "fetchTime": "2026-10-11T03:23:15.866Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -5558,7 +7079,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.53
+            "score": 0.55
           },
           "accessibility": {
             "title": "Accessibility",
@@ -5610,53 +7131,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 6264,
+            "numericValue": 6484,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 3764,
-                  "firstMeaningfulPaint": 3764,
-                  "largestContentfulPaint": 7448,
-                  "interactive": 6264,
-                  "speedIndex": 6768,
-                  "totalBlockingTime": 280,
-                  "maxPotentialFID": 290,
+                  "firstContentfulPaint": 3871,
+                  "firstMeaningfulPaint": 3871,
+                  "largestContentfulPaint": 8440,
+                  "interactive": 6484,
+                  "speedIndex": 8750,
+                  "totalBlockingTime": 102,
+                  "maxPotentialFID": 196,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 229882160,
+                  "observedTimeOriginTs": 261647528,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 229882160,
-                  "observedFirstPaint": 1966,
-                  "observedFirstPaintTs": 231847766,
-                  "observedFirstContentfulPaint": 1966,
-                  "observedFirstContentfulPaintTs": 231847766,
-                  "observedFirstContentfulPaintAllFrames": 1966,
-                  "observedFirstContentfulPaintAllFramesTs": 231847766,
-                  "observedFirstMeaningfulPaint": 1966,
-                  "observedFirstMeaningfulPaintTs": 231847766,
-                  "observedLargestContentfulPaint": 2362,
-                  "observedLargestContentfulPaintTs": 232244618,
-                  "observedLargestContentfulPaintAllFrames": 2362,
-                  "observedLargestContentfulPaintAllFramesTs": 232244618,
-                  "observedTraceEnd": 5015,
-                  "observedTraceEndTs": 234896899,
-                  "observedLoad": 2608,
-                  "observedLoadTs": 232490597,
+                  "observedNavigationStartTs": 261647528,
+                  "observedFirstPaint": 2228,
+                  "observedFirstPaintTs": 263875349,
+                  "observedFirstContentfulPaint": 2228,
+                  "observedFirstContentfulPaintTs": 263875349,
+                  "observedFirstContentfulPaintAllFrames": 2228,
+                  "observedFirstContentfulPaintAllFramesTs": 263875349,
+                  "observedFirstMeaningfulPaint": 2228,
+                  "observedFirstMeaningfulPaintTs": 263875349,
+                  "observedLargestContentfulPaint": 2647,
+                  "observedLargestContentfulPaintTs": 264294444,
+                  "observedLargestContentfulPaintAllFrames": 2647,
+                  "observedLargestContentfulPaintAllFramesTs": 264294444,
+                  "observedTraceEnd": 5499,
+                  "observedTraceEndTs": 267146032,
+                  "observedLoad": 3045,
+                  "observedLoadTs": 264692325,
                   "observedDomContentLoaded": 0,
-                  "observedDomContentLoadedTs": 229882421,
+                  "observedDomContentLoadedTs": 261647636,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1966,
-                  "observedFirstVisualChangeTs": 231848160,
-                  "observedLastVisualChange": 3077,
-                  "observedLastVisualChangeTs": 232959160,
-                  "observedSpeedIndex": 2349,
-                  "observedSpeedIndexTs": 232230747
+                  "observedFirstVisualChange": 2228,
+                  "observedFirstVisualChangeTs": 263875528,
+                  "observedLastVisualChange": 3494,
+                  "observedLastVisualChangeTs": 265141528,
+                  "observedSpeedIndex": 2643,
+                  "observedSpeedIndexTs": 264290267
                 },
                 {
                   "lcpInvalidated": false
@@ -5678,19 +7199,19 @@
                   "numScripts": 35,
                   "numStylesheets": 26,
                   "numFonts": 2,
-                  "numTasks": 1504,
-                  "numTasksOver10ms": 6,
-                  "numTasksOver25ms": 3,
-                  "numTasksOver50ms": 2,
+                  "numTasks": 1522,
+                  "numTasksOver10ms": 5,
+                  "numTasksOver25ms": 2,
+                  "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
                   "rtt": 0,
-                  "throughput": 22206617.99793895,
-                  "maxRtt": 84.407,
-                  "maxServerLatency": 75.551,
-                  "totalByteWeight": 2106472,
-                  "totalTaskTime": 454.0669999999974,
-                  "mainDocumentTransferSize": 39706
+                  "throughput": 18421597.159097634,
+                  "maxRtt": 140.101,
+                  "maxServerLatency": 32.852999999999994,
+                  "totalByteWeight": 2113355,
+                  "totalTaskTime": 335.0129999999965,
+                  "mainDocumentTransferSize": 39780
                 }
               ]
             }
@@ -5712,7 +7233,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.iut-evry.fr/",
-        "size": 2098.309,
+        "size": 2101.826,
         "nodes": 1097,
         "requests": 57,
         "grade": "E",
@@ -5720,7 +7241,7 @@
         "ges": 2.2,
         "water": 3.3,
         "ecoindex_version": "5.4.2",
-        "date": "2026-10-04 03:45:48.434756",
+        "date": "2026-10-11 03:21:48.039238",
         "page_type": "website"
       }
     ],
@@ -5736,10 +7257,10 @@
       "cookiesGrade": "B",
       "cookiesCount": 2,
       "trackersGrade": "F",
-      "trackersCount": 24,
+      "trackersCount": 25,
       "zapCount": 12,
       "zapGrade": "D",
-      "lighthouse_performance": 0.53,
+      "lighthouse_performance": 0.55,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
