@@ -218,7 +218,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 18 Oct 2026 02:34:08
+		Generated on Sun, 25 Oct 2026 02:43:53
 	</h3>
 
 	<h3>
@@ -243,7 +243,7 @@ td {
 					<div>High</div>
 				</td>
 				<td align="center">
-					<div>0</div>
+					<div>1</div>
 				</td>
 			</tr>
 			<tr>
@@ -430,6 +430,14 @@ td {
 					align="center">Number of Instances</th>
 			</tr>
 			<tr>
+				<td><a href="#20020">PHP Version with Known Vulnerabilities</a></td>
+				<td align="center" class="risk-3">High</td>
+				
+				
+				<td align="center">1</td>
+				
+			</tr>
+			<tr>
 				<td><a href="#10038">Content Security Policy (CSP) Header Not Set</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				
@@ -562,7 +570,7 @@ td {
 				<td align="center" class="risk-0">Informational</td>
 				
 				
-				<td align="center">2</td>
+				<td align="center">3</td>
 				
 			</tr>
 			<tr>
@@ -570,7 +578,7 @@ td {
 				<td align="center" class="risk-0">Informational</td>
 				
 				
-				<td align="center">2</td>
+				<td align="center">3</td>
 				
 			</tr>
 			<tr>
@@ -586,7 +594,7 @@ td {
 				<td align="center" class="risk-0">Informational</td>
 				
 				
-				<td align="center">2</td>
+				<td align="center">3</td>
 				
 			</tr>
 			<tr>
@@ -603,6 +611,296 @@ td {
 
 	
 		<h3>Alert Detail</h3>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-3"><a
+						id="20020"></a>
+						<div>High</div></th>
+					<th class="risk-3">PHP Version with Known Vulnerabilities</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>The server disclosed the version of a server side technology it is running via an HTTP response header, and that version is affected by known vulnerabilities. The version, header and vulnerabilities, listed by severity, are given in the other info. See the references for the details of each.</div>
+							<br />
+						
+							<div>Note that some distributions backport security fixes without changing the version number, so check whether the fixes have actually been applied before reporting these as confirmed.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.iut-evry.fr/">https://www.iut-evry.fr/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">https://www.iut-evry.fr/</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">PHP/8.2</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The server disclosed that it is running PHP version 8.2 via the &quot;X-Powered-By&quot; HTTP response header.</div>
+							<br />
+						
+							<div>58 known vulnerabilities: 3 critical, 11 high, 35 medium, 9 low.</div>
+							<br />
+						
+							<div>Critical: CVE-2024-1874, CVE-2026-109618, CVE-2026-109619</div>
+							<br />
+						
+							<div>High: CVE-2023-0662, CVE-2024-2757, CVE-2024-4577, CVE-2024-8929, CVE-2025-14179, CVE-2026-12184, CVE-2026-17543, CVE-2026-17544, CVE-2026-6722, CVE-2026-7263, CVE-2026-91765</div>
+							<br />
+						
+							<div>Medium: CVE-2024-11233, CVE-2024-11234, CVE-2024-11235, CVE-2024-11236, CVE-2024-2756, CVE-2024-5458, CVE-2024-8926, CVE-2024-8927, CVE-2024-8932, CVE-2025-1217, CVE-2025-1219, CVE-2025-14177, CVE-2025-14178, CVE-2025-14180, CVE-2025-14181, CVE-2025-1734, CVE-2025-1735, CVE-2025-1736, CVE-2025-1861, CVE-2025-6491, CVE-2026-14355, CVE-2026-17545, CVE-2026-6103, CVE-2026-6104, CVE-2026-6735, CVE-2026-7258, CVE-2026-7260, CVE-2026-7261, CVE-2026-7262, CVE-2026-91766, CVE-2026-91767, CVE-2026-91768, CVE-2026-91769, CVE-2026-92842, CVE-2026-93682</div>
+							<br />
+						
+							<div>Low: CVE-2023-0567, CVE-2023-3247, CVE-2024-3096, CVE-2024-8925, CVE-2024-9026, CVE-2025-1218, CVE-2025-1220, CVE-2026-7259, CVE-2026-7568</div>
+							
+						</td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					
+					
+					<td width="80%">1</td>
+					
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Upgrade PHP to a supported version which includes fixes for the listed vulnerabilities. Also configure the server not to disclose the PHP version, e.g. by setting &quot;expose_php = Off&quot; in php.ini and suppressing version details in the &quot;Server&quot; header.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://www.php.net/supported-versions.php">https://www.php.net/supported-versions.php</a>
+							<br />
+						
+							<a href="https://github.com/php/php-src/security/advisories">https://github.com/php/php-src/security/advisories</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-1874">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-1874</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-109618">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-109618</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-109619">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-109619</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2023-0662">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2023-0662</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-2757">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-2757</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-4577">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-4577</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-8929">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-8929</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-14179">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-14179</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-12184">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-12184</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-17543">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-17543</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-17544">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-17544</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-6722">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-6722</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7263">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7263</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-91765">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-91765</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-11233">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-11233</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-11234">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-11234</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-11235">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-11235</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-11236">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-11236</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-2756">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-2756</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-5458">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-5458</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-8926">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-8926</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-8927">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-8927</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-8932">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-8932</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1217">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1217</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1219">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1219</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-14177">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-14177</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-14178">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-14178</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-14180">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-14180</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-14181">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-14181</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1734">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1734</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1735">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1735</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1736">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1736</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1861">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1861</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-6491">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-6491</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-14355">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-14355</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-17545">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-17545</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-6103">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-6103</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-6104">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-6104</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-6735">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-6735</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7258">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7258</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7260">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7260</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7261">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7261</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7262">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7262</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-91766">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-91766</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-91767">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-91767</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-91768">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-91768</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-91769">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-91769</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-92842">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-92842</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-93682">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-93682</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2023-0567">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2023-0567</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2023-3247">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2023-3247</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-3096">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-3096</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-8925">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-8925</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-9026">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2024-9026</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1218">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1218</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1220">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2025-1220</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7259">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7259</a>
+							<br />
+						
+							<a href="https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7568">https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/php-known-vulnerabilities/#cve-2026-7568</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/1395.html">1395</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">13</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/20020/">20020</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
 		
 			<table class="results">
 				<tr height="24">
@@ -2002,13 +2300,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1792290843</td>
+						<td width="80%">1792896228</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">
-							<div>1792290843, which evaluates to: 2026-10-18 02:34:03.</div>
+							<div>1792896228, which evaluates to: 2026-10-25 02:43:48.</div>
 							
 						</td>
 					</tr>
@@ -2733,11 +3031,47 @@ td {
 						<td width="80%"></td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.iut-evry.fr/sitemap.xml">https://www.iut-evry.fr/sitemap.xml</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">https://www.iut-evry.fr/sitemap.xml</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Sec-Fetch-Dest</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
 					
 					
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 					
 				</tr>
 				<tr>
@@ -2861,11 +3195,47 @@ td {
 						<td width="80%"></td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.iut-evry.fr/sitemap.xml">https://www.iut-evry.fr/sitemap.xml</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">https://www.iut-evry.fr/sitemap.xml</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Sec-Fetch-Mode</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
 					
 					
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 					
 				</tr>
 				<tr>
@@ -2920,12 +3290,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.iut-evry.fr/">https://www.iut-evry.fr/</a></td>
+						<td width="80%"><a href="https://www.iut-evry.fr/robots.txt">https://www.iut-evry.fr/robots.txt</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">https://www.iut-evry.fr/</td>
+						<td width="80%">https://www.iut-evry.fr/robots.txt</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2956,12 +3326,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.iut-evry.fr/robots.txt">https://www.iut-evry.fr/robots.txt</a></td>
+						<td width="80%"><a href="https://www.iut-evry.fr/sitemap.xml">https://www.iut-evry.fr/sitemap.xml</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">https://www.iut-evry.fr/robots.txt</td>
+						<td width="80%">https://www.iut-evry.fr/sitemap.xml</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3117,11 +3487,47 @@ td {
 						<td width="80%"></td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.iut-evry.fr/sitemap.xml">https://www.iut-evry.fr/sitemap.xml</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">https://www.iut-evry.fr/sitemap.xml</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Sec-Fetch-User</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
 					
 					
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 					
 				</tr>
 				<tr>
